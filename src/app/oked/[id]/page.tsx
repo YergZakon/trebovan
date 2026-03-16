@@ -37,7 +37,7 @@ type OkedData = {
     individual: number;
     farming: number;
   } | null;
-  bySphere: { name: string; count: number; auths: string[] }[];
+  bySphere: { id: number; name: string; count: number; auths: string[] }[];
   byLoadType: { name: string; count: number }[];
   byAuthority: { name: string; count: number }[];
 };
@@ -55,7 +55,9 @@ export default async function OkedPage({
     .filter((s) => s.count > 0)
     .sort((a, b) => b.count - a.count)
     .map((s) => ({
+      id: s.id,
       name: s.name.length > 50 ? s.name.slice(0, 50) + "..." : s.name,
+      fullName: s.name,
       value: s.count,
     }));
 

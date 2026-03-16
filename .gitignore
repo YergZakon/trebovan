@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# generated sphere files (built by prepare-data, too large for git)
+/public/api/spheres/

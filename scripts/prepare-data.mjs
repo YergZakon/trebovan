@@ -76,6 +76,13 @@ function writeJSONPretty(path, data) {
   writeFileSync(fullPath, JSON.stringify(data, null, 2));
 }
 
+const PUBLIC = join(__dirname, '..', 'public', 'api');
+function writePublicJSON(path, data) {
+  const fullPath = join(PUBLIC, path);
+  mkdirSync(dirname(fullPath), { recursive: true });
+  writeFileSync(fullPath, JSON.stringify(data));
+}
+
 // ─── OKED Section Mapping ───────────────────────────────
 const SECTION_RANGES = [
   [6, 107, 'A'], [112, 175, 'B'], [180, 923, 'C'],
@@ -397,6 +404,11 @@ writeJSONPretty('duplicates.json', {
   crossPairs: crossPairsData,
 });
 
+// Build sphere name -> id index (for linking to sphere detail files)
+const sphereNames = Object.keys(sphereReqs).sort();
+const sphereIndex = {}; // name -> id
+sphereNames.forEach((name, i) => { sphereIndex[name] = i; });
+
 // 6. Per-OKED detail files
 let okedCount = 0;
 for (const o of okedDetails) {
@@ -425,6 +437,7 @@ for (const o of okedDetails) {
       farming: parseInt(bizSection.farming || 0),
     } : null,
     bySphere: o.by_sphere.map(s => ({
+      id: sphereIndex[s.name] ?? -1,
       name: s.name,
       count: s.count,
       auths: s.authorities,
@@ -438,4 +451,38 @@ for (const o of okedDetails) {
 }
 
 console.log(`  Generated ${okedCount} OKED detail files`);
+
+// 7. Per-sphere requirement files (for drill-down), paginated
+const PAGE_SIZE = 100;
+let sphereCount = 0;
+for (const [name, reqs] of Object.entries(sphereReqs)) {
+  const id = sphereIndex[name];
+  const totalPages = Math.ceil(reqs.length / PAGE_SIZE);
+  for (let page = 0; page < totalPages; page++) {
+    const slice = reqs.slice(page * PAGE_SIZE, (page + 1) * PAGE_SIZE);
+    writePublicJSON(`spheres/${id}_${page}.json`, {
+      id,
+      name,
+      total: reqs.length,
+      page,
+      totalPages,
+      requirements: slice.map(r => ({
+        c: r.code,
+        t: r.requirement_ru,
+        a: r.authority_ru,
+        l: r.load_type_primary_ru,
+      })),
+    });
+  }
+  sphereCount++;
+}
+
+// Write sphere index (name -> id mapping)
+writePublicJSON('sphere_index.json', sphereNames.map((name, i) => ({
+  id: i,
+  name,
+  count: (sphereReqs[name] || []).length,
+})));
+
+console.log(`  Generated ${sphereCount} sphere detail files`);
 console.log('Done!');
