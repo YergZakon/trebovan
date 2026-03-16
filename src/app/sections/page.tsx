@@ -46,8 +46,9 @@ export default function SectionsPage() {
                 <th className="px-3 py-2">Название</th>
                 <th className="px-3 py-2 text-right">ОКЭД</th>
                 <th className="px-3 py-2 text-right">Бизнес</th>
-                <th className="px-3 py-2 text-right">Всего треб.</th>
+                <th className="px-3 py-2 text-right">Работники (тыс.)</th>
                 <th className="px-3 py-2 text-right">Средн. треб.</th>
+                <th className="px-3 py-2 text-right">На 1000 раб.</th>
                 <th className="px-3 py-2 text-right">Средн. сфер</th>
                 <th className="px-3 py-2 text-right">ИРК средн.</th>
                 <th className="px-3 py-2 text-right">ИРК макс.</th>
@@ -70,10 +71,13 @@ export default function SectionsPage() {
                     {formatNumber(s.businesses.total)}
                   </td>
                   <td className="px-3 py-2 text-right">
-                    {formatNumber(s.totalReqs)}
+                    {s.workers ? formatNumber(Math.round(s.workers)) : "—"}
                   </td>
                   <td className="px-3 py-2 text-right">
                     {formatNumber(s.avgReqs)}
+                  </td>
+                  <td className="px-3 py-2 text-right font-bold text-orange-600 dark:text-orange-400">
+                    {s.reqsPer1000Workers || "—"}
                   </td>
                   <td className="px-3 py-2 text-right">{s.avgSpheres}</td>
                   <td className="px-3 py-2 text-right">

@@ -14,6 +14,7 @@ type OkedRow = {
   irk: number;
   rank: number;
   section: string | null;
+  reqsPer1000W: number;
 };
 
 export default function OverviewCharts({
@@ -27,7 +28,7 @@ export default function OverviewCharts({
 }) {
   const router = useRouter();
   const [search, setSearch] = useState("");
-  const [sortKey, setSortKey] = useState<"rank" | "reqs" | "irk" | "spheres">("rank");
+  const [sortKey, setSortKey] = useState<"rank" | "reqs" | "irk" | "spheres" | "reqsPer1000W">("rank");
   const [sortAsc, setSortAsc] = useState(true);
 
   const filtered = useMemo(() => {
@@ -121,6 +122,9 @@ export default function OverviewCharts({
                 <th className="cursor-pointer px-3 py-2 text-right" onClick={() => handleSort("irk")}>
                   ИРК <SortIcon col="irk" />
                 </th>
+                <th className="cursor-pointer px-3 py-2 text-right" onClick={() => handleSort("reqsPer1000W")}>
+                  На 1000 раб. <SortIcon col="reqsPer1000W" />
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -146,6 +150,9 @@ export default function OverviewCharts({
                   <td className="px-3 py-2 text-right">{o.spheres}</td>
                   <td className="px-3 py-2 text-right">
                     {formatNumber(o.irk)}
+                  </td>
+                  <td className="px-3 py-2 text-right text-orange-600 dark:text-orange-400">
+                    {o.reqsPer1000W > 0 ? o.reqsPer1000W : "—"}
                   </td>
                 </tr>
               ))}

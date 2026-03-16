@@ -27,6 +27,8 @@ type OkedData = {
   rank: number;
   irkRank: number;
   section: string;
+  workers: number;
+  reqsPer1000Workers: number;
   business: {
     name: string;
     total: number;
@@ -96,7 +98,7 @@ export default async function OkedPage({
       </div>
 
       {/* Stats */}
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
         <StatCard
           icon="📋"
           label="Требования"
@@ -123,6 +125,12 @@ export default async function OkedPage({
           icon="🏆"
           label="Ранг по ИРК"
           value={`${data.irkRank} / 1 301`}
+        />
+        <StatCard
+          icon="👷"
+          label="На 1 000 работников"
+          value={data.reqsPer1000Workers > 0 ? String(data.reqsPer1000Workers) : "н/д"}
+          subtitle={data.workers > 0 ? `${formatNumber(Math.round(data.workers * 1000))} работников` : undefined}
         />
       </div>
 

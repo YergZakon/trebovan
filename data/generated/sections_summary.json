@@ -9,6 +9,8 @@
       "individual": 5385,
       "farming": 249348
     },
+    "workers": 955.7,
+    "reqsPer1000Workers": 5.2,
     "okeds": 74,
     "totalReqs": 366731,
     "avgReqs": 4956,
@@ -37,6 +39,8 @@
       "individual": 586,
       "farming": 0
     },
+    "workers": 290.3,
+    "reqsPer1000Workers": 61.4,
     "okeds": 38,
     "totalReqs": 677784,
     "avgReqs": 17836,
@@ -65,6 +69,8 @@
       "individual": 80908,
       "farming": 0
     },
+    "workers": 626.7,
+    "reqsPer1000Workers": 16.9,
     "okeds": 472,
     "totalReqs": 5012549,
     "avgReqs": 10620,
@@ -93,6 +99,8 @@
       "individual": 481,
       "farming": 0
     },
+    "workers": 153.3,
+    "reqsPer1000Workers": 101.1,
     "okeds": 19,
     "totalReqs": 294526,
     "avgReqs": 15501,
@@ -121,6 +129,8 @@
       "individual": 2107,
       "farming": 0
     },
+    "workers": 90.2,
+    "reqsPer1000Workers": 130.8,
     "okeds": 11,
     "totalReqs": 129773,
     "avgReqs": 11798,
@@ -149,6 +159,8 @@
       "individual": 62203,
       "farming": 0
     },
+    "workers": 628.7,
+    "reqsPer1000Workers": 9.8,
     "okeds": 36,
     "totalReqs": 220673,
     "avgReqs": 6130,
@@ -177,6 +189,8 @@
       "individual": 636490,
       "farming": 0
     },
+    "workers": 1581,
+    "reqsPer1000Workers": 2.6,
     "okeds": 232,
     "totalReqs": 948279,
     "avgReqs": 4087,
@@ -205,6 +219,8 @@
       "individual": 160780,
       "farming": 0
     },
+    "workers": 674.7,
+    "reqsPer1000Workers": 11.8,
     "okeds": 42,
     "totalReqs": 334481,
     "avgReqs": 7964,
@@ -233,6 +249,8 @@
       "individual": 49882,
       "farming": 0
     },
+    "workers": 226.2,
+    "reqsPer1000Workers": 23.1,
     "okeds": 12,
     "totalReqs": 62571,
     "avgReqs": 5214,
@@ -261,6 +279,8 @@
       "individual": 20129,
       "farming": 0
     },
+    "workers": 201,
+    "reqsPer1000Workers": 16.9,
     "okeds": 91,
     "totalReqs": 309566,
     "avgReqs": 3402,
@@ -289,6 +309,8 @@
       "individual": 554,
       "farming": 0
     },
+    "workers": 203.2,
+    "reqsPer1000Workers": 3.2,
     "okeds": 30,
     "totalReqs": 19561,
     "avgReqs": 652,
@@ -317,6 +339,8 @@
       "individual": 88373,
       "farming": 0
     },
+    "workers": 182.5,
+    "reqsPer1000Workers": 2.1,
     "okeds": 9,
     "totalReqs": 3463,
     "avgReqs": 385,
@@ -345,6 +369,8 @@
       "individual": 31343,
       "farming": 0
     },
+    "workers": 272.1,
+    "reqsPer1000Workers": 15.2,
     "okeds": 49,
     "totalReqs": 203108,
     "avgReqs": 4145,
@@ -373,6 +399,8 @@
       "individual": 43387,
       "farming": 0
     },
+    "workers": 279.4,
+    "reqsPer1000Workers": 5.9,
     "okeds": 53,
     "totalReqs": 87923,
     "avgReqs": 1659,
@@ -401,6 +429,8 @@
       "individual": 30997,
       "farming": 0
     },
+    "workers": 1222.4,
+    "reqsPer1000Workers": 10.9,
     "okeds": 23,
     "totalReqs": 307303,
     "avgReqs": 13361,
@@ -429,6 +459,8 @@
       "individual": 9193,
       "farming": 0
     },
+    "workers": 617.6,
+    "reqsPer1000Workers": 15.1,
     "okeds": 7,
     "totalReqs": 65451,
     "avgReqs": 9350,
@@ -457,6 +489,8 @@
       "individual": 16511,
       "farming": 0
     },
+    "workers": 157.6,
+    "reqsPer1000Workers": 54,
     "okeds": 24,
     "totalReqs": 204258,
     "avgReqs": 8511,
@@ -485,6 +519,8 @@
       "individual": 244167,
       "farming": 0
     },
+    "workers": 391,
+    "reqsPer1000Workers": 18.1,
     "okeds": 59,
     "totalReqs": 417301,
     "avgReqs": 7073,

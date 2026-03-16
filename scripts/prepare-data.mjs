@@ -136,6 +136,14 @@ const dupsSummary = readCSV('дубликаты_сводка.csv');
 const crossPairs = readCSV('РЕЗУЛЬТАТ_сводка_кросс_пары_сфер.csv');
 console.log(`  Cross pairs: ${crossPairs.length}`);
 
+// 6. Employment data (workers by section, thousands)
+const employment = readCSV('занятость_по_секциям.csv');
+console.log(`  Employment sections: ${employment.length}`);
+const employmentBySection = {};
+for (const e of employment) {
+  employmentBySection[e.section] = parseFloat(e.workers_thousands || 0);
+}
+
 // 6. Load types
 const loadTypesSummary = readCSV('требования_типы_нагрузки_сводка.csv');
 
@@ -262,19 +270,24 @@ writeJSONPretty('global_stats.json', {
 });
 
 // 2. OKED summary (compact, for treemap + table)
-writeJSON('oked_summary.json', okedDetails.map(o => ({
-  id: o.oked_id,
-  name: o.oked_name_ru,
-  reqs: o.total_requirements,
-  spheres: o.num_spheres,
-  auths: o.num_authorities,
-  irk: o.irk_raw,
-  irkNorm: o.irk_normalized,
-  irkLog: o.irk_log,
-  rank: o.rank,
-  irkRank: o.irk_rank,
-  section: o.section,
-})));
+writeJSON('oked_summary.json', okedDetails.map(o => {
+  const workers = o.section ? (employmentBySection[o.section] || 0) : 0;
+  return {
+    id: o.oked_id,
+    name: o.oked_name_ru,
+    reqs: o.total_requirements,
+    spheres: o.num_spheres,
+    auths: o.num_authorities,
+    irk: o.irk_raw,
+    irkNorm: o.irk_normalized,
+    irkLog: o.irk_log,
+    rank: o.rank,
+    irkRank: o.irk_rank,
+    section: o.section,
+    workers,
+    reqsPer1000W: workers > 0 ? Math.round(o.total_requirements / workers * 10) / 10 : 0,
+  };
+}));
 
 // 3. Sections summary
 const sectionStats = {};
@@ -299,6 +312,8 @@ for (const o of okedDetails) {
 
 const sectionsData = bizSections.map(b => {
   const stats = sectionStats[b.section] || {};
+  const workers = employmentBySection[b.section] || 0;
+  const avgReqs = stats.okeds ? Math.round(stats.totalReqs / stats.okeds) : 0;
   return {
     section: b.section,
     name: b.section_name_ru,
@@ -309,9 +324,11 @@ const sectionsData = bizSections.map(b => {
       individual: parseInt(b.individual || 0),
       farming: parseInt(b.farming || 0),
     },
+    workers, // thousands
+    reqsPer1000Workers: workers > 0 ? Math.round(avgReqs / workers * 10) / 10 : 0,
     okeds: stats.okeds || 0,
     totalReqs: stats.totalReqs || 0,
-    avgReqs: stats.okeds ? Math.round(stats.totalReqs / stats.okeds) : 0,
+    avgReqs,
     avgSpheres: stats.okeds ? Math.round(stats.totalSpheres / stats.okeds * 10) / 10 : 0,
     irkAvg: stats.okeds ? Math.round(stats.totalIRK / stats.okeds) : 0,
     irkMax: stats.maxIRK || 0,
@@ -384,6 +401,7 @@ writeJSONPretty('duplicates.json', {
 let okedCount = 0;
 for (const o of okedDetails) {
   const bizSection = o.section ? bizBySection[o.section] : null;
+  const workers = o.section ? (employmentBySection[o.section] || 0) : 0;
   writeJSON(`oked/${o.oked_id}.json`, {
     id: o.oked_id,
     name: o.oked_name_ru,
@@ -396,6 +414,8 @@ for (const o of okedDetails) {
     rank: o.rank,
     irkRank: o.irk_rank,
     section: o.section,
+    workers,
+    reqsPer1000Workers: workers > 0 ? Math.round(o.total_requirements / workers * 10) / 10 : 0,
     business: bizSection ? {
       name: bizSection.section_name_ru,
       total: parseInt(bizSection.total || 0),
