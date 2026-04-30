@@ -1,0 +1,143 @@
+{
+  "card_code": "TREB-MVP-001373",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной боле…",
+    "canonical": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной более 0,3 мм..",
+    "legal": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной более 0,3 мм..",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_надзор_Комитет транспорта Министерств",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной более 0,3 мм..",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch8.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Технические параметры и нормативы). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001421",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001367. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001421. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 4580,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной более 0,3 мм..",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001421",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001367",
+        "sphere_code": "transport",
+        "short_title": "Выпуск в эксплуатацию подвижного состава при наличии ползуна (выбоина) по поверхности катания глубиной боле…"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch8-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T08:58:11.599Z",
+    "updated_at": "2026-04-30T08:58:11.599Z"
+  }
+}

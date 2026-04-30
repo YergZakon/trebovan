@@ -94,11 +94,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-001027",
+      "value": "DUP-AI-TRA-001348",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 0.731,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-000972. Средняя текстовая similarity (Jaccard 3-грамм): 0.73. Группа: DUP-AI-TRA-001027. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.821,
+      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере transport: TREB-MVP-001294, TREB-MVP-001298, TREB-MVP-000972. Средняя текстовая similarity (Jaccard 3-грамм): 0.82. Группа: DUP-AI-TRA-001348. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -114,13 +114,23 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-001027",
+    "group_code": "DUP-AI-TRA-001348",
     "duplicate_type": "text_ai",
-    "avg_similarity": 0.731,
+    "avg_similarity": 0.821,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
         "card_code": "TREB-MVP-000972",
+        "sphere_code": "transport",
+        "short_title": "Фрахтователь должен вернуть судно в первоначальном состоянии с учетом износа"
+      },
+      {
+        "card_code": "TREB-MVP-001298",
+        "sphere_code": "transport",
+        "short_title": "Фрахтователь должен вернуть судно в первоначальном состоянии с учетом износа"
+      },
+      {
+        "card_code": "TREB-MVP-001294",
         "sphere_code": "transport",
         "short_title": "Фрахтователь должен вернуть судно в первоначальном состоянии с учетом износа"
       }

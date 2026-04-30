@@ -9,10 +9,10 @@
   "is_published": true,
   "display_order": 20,
   "stats": {
-    "total_cards": 14,
-    "required": 6,
+    "total_cards": 16,
+    "required": 8,
     "optional": 8,
-    "concrete": 14,
+    "concrete": 16,
     "noise": 0
   },
   "cards": [
@@ -97,6 +97,26 @@
       "notes": "Применимо к автомобильным перевозкам грузов."
     },
     {
+      "card_code": "TREB-MVP-001416",
+      "sphere_code": "transport",
+      "subsphere": "Услуга: Выдача специального разрешения на перевозку опасного груза классов 1, 6 и 7",
+      "short_title": "свидетельство о подготовке водителя транспортного средства, перевозящего опасные грузы (свидетельство о доп…",
+      "role_fragment": "документ для заявления",
+      "role_class": "core",
+      "requirement_type": "лицензия",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 50,
+      "notes": "Применимо к автомобильным перевозкам грузов."
+    },
+    {
       "card_code": "TREB-MVP-000080",
       "sphere_code": "transport",
       "subsphere": "Внутренний водный транспорт / измерения массы",
@@ -113,7 +133,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 50,
+      "ordering": 60,
       "notes": "Весовое оборудование подлежит метрологическому контролю."
     },
     {
@@ -133,7 +153,27 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 60,
+      "ordering": 70,
+      "notes": "Весовое оборудование подлежит метрологическому контролю."
+    },
+    {
+      "card_code": "TREB-MVP-001350",
+      "sphere_code": "transport",
+      "subsphere": "О внутреннем водном транспорте",
+      "short_title": "Владельцы причалов обеспечивают безопасность и необходимое оборудование",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "процесс",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 80,
       "notes": "Весовое оборудование подлежит метрологическому контролю."
     },
     {
@@ -153,7 +193,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 70,
+      "ordering": 90,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -173,7 +213,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 80,
+      "ordering": 100,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -193,7 +233,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 90,
+      "ordering": 110,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -213,7 +253,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 100,
+      "ordering": 120,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -233,7 +273,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 110,
+      "ordering": 130,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -253,7 +293,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 120,
+      "ordering": 140,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -273,7 +313,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 130,
+      "ordering": 150,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -293,7 +333,7 @@
       "life_cycle_stage": "inspection;operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 140,
+      "ordering": 160,
       "notes": "Применимо при проверках и предписаниях."
     }
   ]

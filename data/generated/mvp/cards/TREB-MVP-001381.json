@@ -1,0 +1,178 @@
+{
+  "card_code": "TREB-MVP-001381",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…",
+    "canonical": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой между вагонами",
+    "legal": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой между вагонами",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "оборудование",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_надзор_Комитет автомобильного транспо",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой между вагонами",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch8.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Инфраструктура и оборудование). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001433",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 8 похожих карточек в сфере transport: TREB-MVP-001379, TREB-MVP-001384, TREB-MVP-001387, TREB-MVP-001391, TREB-MVP-001392.... Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001433. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 2497,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой между вагонами",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001433",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001395",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001394",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001393",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001392",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001391",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001387",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001384",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      },
+      {
+        "card_code": "TREB-MVP-001379",
+        "sphere_code": "transport",
+        "short_title": "Не оборудование пассажирских поездов, следующих со скоростью 161 км/час. и более беззазорной автосцепкой ме…"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch8-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T08:58:11.599Z",
+    "updated_at": "2026-04-30T08:58:11.599Z"
+  }
+}

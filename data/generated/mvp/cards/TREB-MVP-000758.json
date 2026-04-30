@@ -94,11 +94,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-000821",
+      "value": "DUP-AI-TRA-000506",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
       "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-000759, TREB-MVP-000760, TREB-MVP-000506, TREB-MVP-000507. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-000821. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-000506, TREB-MVP-000507, TREB-MVP-000759, TREB-MVP-000760. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-000506. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -114,7 +114,7 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-000821",
+    "group_code": "DUP-AI-TRA-000506",
     "duplicate_type": "text_ai",
     "avg_similarity": 1,
     "detected_method": "jaccard_3gram_v1",

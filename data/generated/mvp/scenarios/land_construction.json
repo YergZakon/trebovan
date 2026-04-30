@@ -10,13 +10,93 @@
   "is_published": true,
   "display_order": 40,
   "stats": {
-    "total_cards": 12,
-    "required": 7,
+    "total_cards": 16,
+    "required": 11,
     "optional": 5,
-    "concrete": 12,
+    "concrete": 16,
     "noise": 0
   },
   "cards": [
+    {
+      "card_code": "TREB-MVP-001467",
+      "sphere_code": "land",
+      "subsphere": "Земельный кодекс РК",
+      "short_title": "Запрет на самостоятельное изменение целевого назначения при отчуждении права землепользования.",
+      "role_fragment": "запрет",
+      "role_class": "core",
+      "requirement_type": "запрет",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 10,
+      "notes": "Целевое назначение участка должно соответствовать строительству."
+    },
+    {
+      "card_code": "TREB-MVP-001472",
+      "sphere_code": "land",
+      "subsphere": "Земельный кодекс РК",
+      "short_title": "Запрет на самостоятельное изменение целевого назначения и режима использования участка.",
+      "role_fragment": "запрет",
+      "role_class": "core",
+      "requirement_type": "запрет",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 20,
+      "notes": "Целевое назначение участка должно соответствовать строительству."
+    },
+    {
+      "card_code": "TREB-MVP-001483",
+      "sphere_code": "land",
+      "subsphere": "Земельный кодекс РК",
+      "short_title": "Обязанность оплатить кадастровую стоимость при изменении целевого назначения участка.",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "финансовое обязательство",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 30,
+      "notes": "Целевое назначение участка должно соответствовать строительству."
+    },
+    {
+      "card_code": "TREB-MVP-001485",
+      "sphere_code": "land",
+      "subsphere": "Земельный кодекс РК",
+      "short_title": "Обязанность оплатить разницу кадастровой стоимости при переводе сельхозземель в другие категории.",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "финансовое обязательство",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 40,
+      "notes": "Целевое назначение участка должно соответствовать строительству."
+    },
     {
       "card_code": "TREB-MVP-000104",
       "sphere_code": "land",
@@ -34,7 +114,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.93,
       "is_required": true,
-      "ordering": 10,
+      "ordering": 50,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -54,7 +134,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 20,
+      "ordering": 60,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -74,7 +154,7 @@
       "life_cycle_stage": "operation;expansion",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 30,
+      "ordering": 70,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -94,7 +174,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 40,
+      "ordering": 80,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -114,7 +194,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.93,
       "is_required": true,
-      "ordering": 50,
+      "ordering": 90,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -134,7 +214,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 60,
+      "ordering": 100,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -154,7 +234,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 70,
+      "ordering": 110,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -174,7 +254,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.93,
       "is_required": false,
-      "ordering": 80,
+      "ordering": 120,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -194,7 +274,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 90,
+      "ordering": 130,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -214,7 +294,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 100,
+      "ordering": 140,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -234,7 +314,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.93,
       "is_required": false,
-      "ordering": 110,
+      "ordering": 150,
       "notes": "Если объект влияет на водные ресурсы."
     },
     {
@@ -254,7 +334,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 120,
+      "ordering": 160,
       "notes": "Если объект влияет на водные ресурсы."
     }
   ]

@@ -1,0 +1,122 @@
+{
+  "card_code": "TREB-MVP-001417",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Услуга: Государственная регистрация транспортных средств городского рельсового транспорт",
+  "titles": {
+    "short": "акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспор…",
+    "canonical": "Обеспечить наличие/соответствие: акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспорта с последующим вывозом для использования за пределами Республики Казахстан.",
+    "legal": "акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспорта с последующим вывозом для использования за пределами Республики Казахстан.",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "оборудование",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": "Обеспечить наличие/соответствие: акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспорта с последующим вывозом для использования за пределами Республики Казахстан.",
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспорта с последующим вывозом для использования за пределами Республики Казахстан.",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch8.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=PROPERTY_EQUIPMENT). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 13429,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "акт о списании либо документа о повреждении, отчуждения транспортных средств городского рельсового транспорта с последующим вывозом для использования за пределами Республики Казахстан.",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch8-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T08:58:11.599Z",
+    "updated_at": "2026-04-30T08:58:11.599Z"
+  }
+}

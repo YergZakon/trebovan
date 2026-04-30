@@ -24,8 +24,8 @@
     "subcategory": "cargo",
     "is_published": true,
     "display_order": 20,
-    "total_cards": 14,
-    "required": 6,
+    "total_cards": 16,
+    "required": 8,
     "optional": 8
   },
   {
@@ -53,8 +53,8 @@
     "subcategory": "construction",
     "is_published": true,
     "display_order": 40,
-    "total_cards": 12,
-    "required": 7,
+    "total_cards": 16,
+    "required": 11,
     "optional": 5
   },
   {

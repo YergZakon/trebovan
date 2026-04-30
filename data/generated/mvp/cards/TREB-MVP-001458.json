@@ -1,0 +1,142 @@
+{
+  "card_code": "TREB-MVP-001458",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земельный кодекс РК",
+  "titles": {
+    "short": "Обязанность предусмотреть охранные мероприятия при строительстве объектов, влияющих на землю.",
+    "canonical": "При размещении, проектировании и вводе в эксплуатацию объектов, отрицательно влияющих на состояние земель, должны предусматриваться мероприятия по охране земель и соблюдаться экологические, санитарные требования",
+    "legal": "При размещении, проектировании и вводе в эксплуатацию объектов, отрицательно влияющих на состояние земель, должны предусматриваться мероприятия по охране земель и соблюдаться экологические, санитарные требования",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "соблюдаться",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "land_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "Ст. 142, п. 1",
+      "url": null,
+      "fragment_text": "При размещении, проектировании и вводе в эксплуатацию объектов, отрицательно влияющих на состояние земель, должны предусматриваться мероприятия по охране земель и соблюдаться экологические, санитарные требования",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "land_use_type",
+            "value": [
+              "agricultural",
+              "settlement",
+              "industrial",
+              "protected"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch8.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=STD, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-LAN-000523",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-000843. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000523. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7350,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "При размещении, проектировании и вводе в эксплуатацию объектов, отрицательно влияющих на состояние земель, должны предусматриваться мероприятия по охране земель и соблюдаться экологические, санитарные",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "Ст. 142, п. 1",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-LAN-000523",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000843",
+        "sphere_code": "land",
+        "short_title": "Обязанность предусмотреть охранные мероприятия при строительстве объектов, влияющих на землю."
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch8-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T08:53:39.091Z",
+    "updated_at": "2026-04-30T08:53:39.091Z"
+  }
+}

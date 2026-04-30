@@ -100,11 +100,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-001063",
+      "value": "DUP-AI-TRA-001420",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001013. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001063. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.916,
+      "explanation": "ИИ-детектор обнаружил 5 похожих карточек в сфере transport: TREB-MVP-001366, TREB-MVP-001368, TREB-MVP-001371, TREB-MVP-001372, TREB-MVP-001013. Средняя текстовая similarity (Jaccard 3-грамм): 0.92. Группа: DUP-AI-TRA-001420. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -120,15 +120,35 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-001063",
+    "group_code": "DUP-AI-TRA-001420",
     "duplicate_type": "text_ai",
-    "avg_similarity": 1,
+    "avg_similarity": 0.916,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
         "card_code": "TREB-MVP-001013",
         "sphere_code": "transport",
         "short_title": "Разница по высоте между продольными осями автосцепок не более 50 мм. то же со скоростью 121-140 км/час."
+      },
+      {
+        "card_code": "TREB-MVP-001372",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 50 мм. то же со скоростью 121-14…"
+      },
+      {
+        "card_code": "TREB-MVP-001371",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 50 мм. то же со скоростью 121-14…"
+      },
+      {
+        "card_code": "TREB-MVP-001368",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 50 мм. то же со скоростью 121-14…"
+      },
+      {
+        "card_code": "TREB-MVP-001366",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 50 мм. то же со скоростью 121-14…"
       }
     ]
   },

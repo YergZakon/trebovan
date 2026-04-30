@@ -1,0 +1,122 @@
+{
+  "card_code": "TREB-MVP-001415",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Услуга: Выдача сертификата организации по техническому обслуживанию и ремонту авиационно",
+  "titles": {
+    "short": "для внесения изменений и (или) дополнений в сертификат организации по техническому обслуживанию и ремонту а…",
+    "canonical": "Получить/иметь для внесения изменений и (или) дополнений в сертификат организации по техническому обслуживанию и ремонту авиационной техники гражданской авиации: заявка в произвольной форме",
+    "legal": "для внесения изменений и (или) дополнений в сертификат организации по техническому обслуживанию и ремонту авиационной техники гражданской авиации: заявка в произвольной форме",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "лицензия",
+    "requirement_subtype": null,
+    "role_fragment": "документ для заявления",
+    "role_class": "core",
+    "regulatory_regime": "transport_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "для внесения изменений и (или) дополнений в сертификат организации по техническому обслуживанию и ремонту авиационной техники гражданской авиации: заявка в произвольной форме",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch8.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=CERTIFICATE_LICENSE). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 13276,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "для внесения изменений и (или) дополнений в сертификат организации по техническому обслуживанию и ремонту авиационной техники гражданской авиации: заявка в произвольной форме",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch8-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T08:58:11.599Z",
+    "updated_at": "2026-04-30T08:58:11.599Z"
+  }
+}

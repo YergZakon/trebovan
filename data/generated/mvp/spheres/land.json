@@ -1,27 +1,27 @@
 {
   "sphere_code": "land",
   "sphere_name": "Земля и землепользование",
-  "total_cards": 300,
+  "total_cards": 354,
   "role_class_counts": {
-    "core": 192,
+    "core": 246,
     "procedural": 2,
     "noise": 106,
     "disputed": 0,
     "uncategorized": 0
   },
   "specificity_counts": {
-    "concrete": 194,
+    "concrete": 248,
     "framework": 0,
     "referential": 0,
     "principle": 0,
     "none": 106
   },
-  "business_route_count": 192,
+  "business_route_count": 246,
   "role_counts": {
-    "запрет": 48,
-    "обязанность бизнеса": 99,
+    "запрет": 70,
+    "обязанность бизнеса": 128,
     "описательная норма": 11,
-    "условие допуска": 22,
+    "условие допуска": 25,
     "процедурная обязанность бизнеса": 2,
     "документ для заявления": 23,
     "действие государственного органа": 95
@@ -29,7 +29,7 @@
   "subspheres_in_data": [
     {
       "name": "Земельный кодекс РК",
-      "count": 104,
+      "count": 148,
       "cards": [
         {
           "card_code": "TREB-MVP-000114",
@@ -484,7 +484,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000297",
@@ -497,7 +497,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000298",
@@ -523,7 +523,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000300",
@@ -549,7 +549,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000302",
@@ -562,7 +562,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000304",
@@ -588,7 +588,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000829",
@@ -666,7 +666,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000836",
@@ -692,7 +692,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000838",
@@ -705,7 +705,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000839",
@@ -757,7 +757,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000843",
@@ -770,7 +770,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000844",
@@ -796,7 +796,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000814",
@@ -1043,7 +1043,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-001104",
@@ -1056,7 +1056,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-001050",
@@ -1378,6 +1378,578 @@
           "role_fragment": "документ для заявления",
           "role_class": "core",
           "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001464",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Землеустройство по заявке собственника оплачивается за его счет.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001465",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность своевременной уплаты земельного налога и арендной платы.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001466",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет владения сельхозземлями для иностранцев и юрлиц с иностранным участием.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001467",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на самостоятельное изменение целевого назначения при отчуждении права землепользования.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001468",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет отчуждения и субаренды безвозмездных земельных участков.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001469",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на субаренду земельных участков сельскохозяйственного назначения.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001470",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет владения землёй в пограничной зоне иностранцами.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001471",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на сделки с участком до полной выплаты рассрочки (кроме залога).",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001472",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на самостоятельное изменение целевого назначения и режима использования участка.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001473",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность внести аванс 5% при покупке участка в рассрочку в 10-дневный срок.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001474",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на внедрение техники и строительство без положительного заключения госэкспертиз.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001475",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на раздел сельхозучастков в пригородных зонах крупных городов.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001476",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на загрязнение, захламление и снятие плодородного слоя почвы для продажи.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001477",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Неустойка 0,1% в день за просрочку оплаты земельного участка, купленного в рассрочку.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001478",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Ограничение на максимальный размер сельхозземель в аренде у одного лица.",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001479",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на перевод сельхозземель (КФХ) под ИЖС, ЛПХ, садоводство и дачное строительство.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001480",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на снятие или уничтожение плодородного слоя почвы в любых целях.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001481",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность возместить потери сельхозпроизводства при изъятии угодий в 6-месячный срок.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001482",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на строительство несельскохозяйственных объектов и жилых домов на сельхозземлях.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001483",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оплатить кадастровую стоимость при изменении целевого назначения участка.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001484",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на сделки с правом землепользования на землях общего пользования, обороны, ООПТ и др.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001485",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оплатить разницу кадастровой стоимости при переводе сельхозземель в другие категории.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001436",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность возместить потери сельхозпроизводства при изъятии угодий в 6-месячный срок.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001437",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оплатить кадастровую стоимость при изменении целевого назначения участка.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001438",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оплатить разницу кадастровой стоимости при переводе сельхозземель в другие категории.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001440",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Землеустройство по заявке собственника оплачивается за его счет.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001441",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Ограничение на максимальный размер предоставляемых сельхозучастков.",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001442",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет предоставления земель в пограничной полосе в собственность или землепользование.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001443",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность своевременной уплаты земельного налога и арендной платы.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001444",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на самостоятельное изменение целевого назначения при отчуждении права землепользования.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001445",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на субаренду земельных участков сельскохозяйственного назначения.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001446",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на сделки с участком до полной выплаты рассрочки (кроме залога).",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001447",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на самостоятельное изменение целевого назначения и режима использования участка.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001448",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность внести аванс 5% при покупке участка в рассрочку в 10-дневный срок.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001449",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на внедрение техники и строительство без положительного заключения госэкспертиз.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001450",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на загрязнение, захламление и снятие плодородного слоя почвы для продажи.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001451",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Ограничение на максимальный размер сельхозземель в аренде у одного лица.",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001452",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Неустойка 0,1% в день за просрочку оплаты земельного участка, купленного в рассрочку.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001453",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Солидарная ответственность первичного и вторичного землепользователей перед государством.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001454",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность соблюдать порядок пользования природными ресурсами и охранять объекты наследия.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001455",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность соблюдать строительные, экологические и санитарные нормативы при хоздеятельности.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001456",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на сделки с правом землепользования на землях общего пользования, обороны, ООПТ и др.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001457",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность применять технологии, соответствующие санитарным и экологическим нормам.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001458",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность предусмотреть охранные мероприятия при строительстве объектов, влияющих на землю.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -3022,6 +3594,116 @@
       ]
     },
     {
+      "name": "ППРК №890 «О базовых ставках платы за землю»",
+      "count": 8,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-001459",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Градация платы за продажу права аренды земли.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001460",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Базовая арендная ставка равна земельному налогу.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001461",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Арендная плата 100-120% от базовой ставки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001463",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Размер платы за частный сервитут — 50% от земельного налога.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001432",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Градация платы за продажу права аренды земли.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001433",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Базовая арендная ставка равна земельному налогу.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001434",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Арендная плата 100-120% от базовой ставки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001435",
+          "sphere_code": "land",
+          "subsphere": "ППРК №890 «О базовых ставках платы за землю»",
+          "short_title": "Размер платы за частный сервитут — 50% от земельного налога.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
       "name": "Приказ №7 — Правила рационального использования земель с/х назначения",
       "count": 7,
       "cards": [
@@ -3216,6 +3898,90 @@
       ]
     },
     {
+      "name": "Приказ №41 — Типовой договор аренды с/х земли",
+      "count": 6,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000115",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность допуска для агрохимического обследования.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000116",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность отчётности перед госорганами.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000125",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанности арендатора: целевое использование и своевременное продление.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000815",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность отчётности перед госорганами.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001462",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Пеня за просрочку арендной платы.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-001439",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Пеня за просрочку арендной платы.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
       "name": "Услуга: Приобретение прав на земельные участки, которые находятся в государственной собс",
       "count": 6,
       "cards": [
@@ -3363,64 +4129,6 @@
           "role_fragment": "условие допуска",
           "role_class": "core",
           "requirement_type": "условие",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        }
-      ]
-    },
-    {
-      "name": "Приказ №41 — Типовой договор аренды с/х земли",
-      "count": 4,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000115",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанность допуска для агрохимического обследования.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000116",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанность отчётности перед госорганами.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000125",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанности арендатора: целевое использование и своевременное продление.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000815",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанность отчётности перед госорганами.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
