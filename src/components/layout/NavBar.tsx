@@ -6,6 +6,9 @@ import okedSummary from "../../../data/generated/oked_summary.json";
 const navLinks = [
   { href: "/", label: "Обзор" },
   { href: "/sections", label: "Секции" },
+  { href: "/spheres", label: "Реестр" },
+  { href: "/scenarios", label: "Сценарии" },
+  { href: "/profile-builder", label: "Подбор по профилю" },
   { href: "/duplicates", label: "Дубликаты" },
   { href: "/methodology", label: "Методология" },
 ];

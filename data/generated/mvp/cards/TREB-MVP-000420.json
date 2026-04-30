@@ -1,0 +1,116 @@
+{
+  "card_code": "TREB-MVP-000420",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Услуга: Пломбирование приборов учета вод, устанавливаемых на сооружениях или устройствах",
+  "titles": {
+    "short": "электронная копия акта поверки прибора учета воды в случае окончания срока или отсутствия поверки",
+    "canonical": "акта поверки прибора учета воды в случае окончания срока или отсутствия поверки",
+    "legal": "электронная копия акта поверки прибора учета воды в случае окончания срока или отсутствия поверки",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "ecology_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "электронная копия акта поверки прибора учета воды в случае окончания срока или отсутствия поверки",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "has_premises",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=UNCLASSIFIED_POSSIBLE_REQUIREMENT). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 12885,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "электронная копия акта поверки прибора учета воды в случае окончания срока или отсутствия поверки",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:30:28.766Z",
+    "updated_at": "2026-04-29T23:30:28.766Z"
+  }
+}

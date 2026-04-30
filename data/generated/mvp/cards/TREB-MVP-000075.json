@@ -1,0 +1,107 @@
+{
+  "card_code": "TREB-MVP-000075",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Внутренний водный транспорт / документирование",
+  "titles": {
+    "short": "Капитан при исчезновении лица на судне — запись в журнал, акт, опись имущества",
+    "canonical": "Капитан судна в случае исчезновения члена экипажа или пассажира при обстоятельствах, допускающих возможность гибели, обязан сделать запись в судовом журнале, составить акт и опись имущества исчезнувшего.",
+    "legal": "В случае исчезновения члена экипажа судна или пассажира при обстоятельствах, допускающих возможность его гибели, капитан обязан сделать запись в судовом журнале, составить акт, а также опись находящегося на судне имущества исчезнувшего",
+    "business": null
+  },
+  "structure": {
+    "subject": "Капитан судна (ФЛ)",
+    "action": "сделать запись + составить акт + опись имущества",
+    "object": "событие исчезновения и имущество исчезнувшего",
+    "condition": "при исчезновении лица на судне с возможностью гибели",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "внутренний_водный_транспорт",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "немедленно после события",
+    "frequency": "on_event",
+    "evidence_required": "запись в судовом журнале, акт, опись имущества",
+    "evidence_form": "акт",
+    "consequences": "административная и гражданско-правовая ответственность; затруднения наследования",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 36 п. 3 пп. 4",
+      "url": null,
+      "fragment_text": "В случае исчезновения члена экипажа судна или пассажира при обстоятельствах, допускающих возможность его гибели, капитан обязан сделать запись в судовом журнале, составить акт, а также опись находящегося на судне имущества исчезнувшего",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: inland_waterway\nтриггер: missing_person_event\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "inland_waterway"
+          }
+        ],
+        "any_of": [],
+        "trigger": "missing_person",
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 3,
+    "num_authorities": 0,
+    "num_actions": 3,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7512,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В случае исчезновения члена экипажа судна или пассажира при обстоятельствах, допускающих возможность его гибели, капитан обязан сделать запись в судовом журнале, составить акт, а также опись находящег",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 36 п. 3 пп. 4",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "code": "cross_border_cargo",
+  "title": "Транспортировка грузов через границу",
+  "description": "Международные перевозки + экологические требования к транспорту.",
+  "spheres": [
+    "transport",
+    "ecology"
+  ],
+  "subcategory": "international",
+  "is_published": false,
+  "display_order": 70,
+  "stats": {
+    "total_cards": 0,
+    "required": 0,
+    "optional": 0,
+    "concrete": 0,
+    "noise": 0
+  },
+  "cards": []
+}

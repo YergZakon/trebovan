@@ -1,0 +1,126 @@
+{
+  "card_code": "TREB-MVP-000015",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земли сельхозназначения / пастбища",
+  "titles": {
+    "short": "Запрет приватизации общественных пастбищ",
+    "canonical": "Общественные пастбища не предоставляются ни в частную собственность, ни в землепользование.",
+    "legal": "Общественные пастбища не предоставляются в частную собственность и землепользование.",
+    "business": "Общественные пастбища нельзя купить или взять в аренду — они остаются в общественном пользовании."
+  },
+  "structure": {
+    "subject": "Любое лицо (физическое и юридическое)",
+    "action": "не приобретать",
+    "object": "общественные пастбища (в частную собственность или землепользование)",
+    "condition": "в любых правовых сделках с земельными участками",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": "ограничение_оборота",
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "земельное_законодательство",
+    "life_cycle_stage": "registration;pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при любой попытке оформления прав на землю",
+    "frequency": "on_event",
+    "evidence_required": "не применимо (запрет на сделку)",
+    "evidence_form": null,
+    "consequences": "отказ в государственной регистрации прав на землю; недействительность сделки",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О пастбищах»",
+      "article_ref": "ст. 14 п. 1-1",
+      "url": null,
+      "fragment_text": "Общественные пастбища не предоставляются в частную собственность и землепользование",
+      "relation_status": "прямая_связь",
+      "confidence": 0.98
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: land_use_type\n    оператор: eq\n    значение: agricultural\nспец_условия:\n  - категория: общественные_пастбища\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "сделки с общественными пастбищами"
+      },
+      "notes": "Запрет действует на оформление прав; не блокирует пользование на общих основаниях"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 1,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "high",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "запрет",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.95,
+      "explanation": "Прямой запрет на оборот ('не предоставляются')",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "_role_target_correction",
+      "value": "запрет (не 'обязанность')",
+      "source": "rule",
+      "method": "ml_category_check",
+      "confidence": 0.95,
+      "explanation": "ml_category=ZAP, исходная цель ‘обязанность бизнеса’ скорректирована — это явный запрет",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7369,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Общественные пастбища не предоставляются в частную собственность и землепользование",
+      "npa_title": "Закон РК «О пастбищах»",
+      "article_ref": "ст. 14 п. 1-1",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

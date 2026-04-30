@@ -1,0 +1,115 @@
+{
+  "card_code": "TREB-MVP-000107",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земли сельхозназначения / документы",
+  "titles": {
+    "short": "Сельхозпроизводитель — иметь статотчётность, планы севооборотов, проект ВХЗ",
+    "canonical": "Сельскохозяйственный производитель обязан иметь статистическую отчётность, планы севооборотов / пастбищеоборотов и проект внутрихозяйственного землеустройства (ВХЗ).",
+    "legal": "Сельхозпроизводитель обязан иметь: статотчётность, планы севооборотов/пастбищеоборотов, проект ВХЗ",
+    "business": null
+  },
+  "structure": {
+    "subject": "Сельхозпроизводитель (КФХ, ЮЛ, ИП)",
+    "action": "иметь",
+    "object": "статотчётность, планы севооборотов/пастбищеоборотов, проект ВХЗ",
+    "condition": "при ведении сельхоздеятельности",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "условие допуска",
+    "role_class": "core",
+    "regulatory_regime": "земли_сельхозназначения",
+    "life_cycle_stage": "pre_launch;operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "статистическая отчётность; план севооборотов / пастбищеоборотов; проект ВХЗ",
+    "evidence_form": "пакет документов",
+    "consequences": "административная ответственность; отказ в субсидиях; невозможность участия в госпрограммах",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Приказ №7 — Правила рационального использования земель сельхозназначения",
+      "article_ref": "п. 5",
+      "url": null,
+      "fragment_text": "Сельхозпроизводитель обязан иметь: статотчётность, планы севооборотов/пастбищеоборотов, проект ВХЗ",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: land_use_type\n    оператор: eq\n    значение: agricultural\n  - ось: subject_type\n    оператор: in\n    значение: [farmer, legal_entity_llp, individual_entrepreneur]\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          },
+          {
+            "op": "in",
+            "axis": "subject_type",
+            "value": [
+              "farmer",
+              "legal_entity_llp",
+              "individual_entrepreneur"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 3,
+    "num_authorities": 2,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "high",
+    "needs_external_spec": true,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7417,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Сельхозпроизводитель обязан иметь: статотчётность, планы севооборотов/пастбищеоборотов, проект ВХЗ",
+      "npa_title": "Приказ №7 — Правила рационального использования земель с/х назначения",
+      "article_ref": "п.5",
+      "ml_category": "DOC"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

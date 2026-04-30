@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000060",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Торговое мореплавание / страхование опасных грузов",
+  "titles": {
+    "short": "Перевозка >2000 т нефти/опасного груза — застраховать ответственность за загрязнение",
+    "canonical": "Судовладелец, перевозящий опасный груз или нефть в количестве более 2 000 тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнения обязательства.",
+    "legal": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнения обязательства в размере ответственности за ущерб от загрязнения",
+    "business": null
+  },
+  "structure": {
+    "subject": "Судовладелец (морской)",
+    "action": "застраховать или предоставить финобеспечение",
+    "object": "риск ответственности за загрязнение",
+    "condition": "при перевозке нефти >2 000 т или опасного груза",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "финансовое обязательство",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "до начала перевозки",
+    "frequency": "periodic_year",
+    "evidence_required": "договор страхования или банковская гарантия / иной финдокумент",
+    "evidence_form": "договор",
+    "consequences": "запрет на перевозку; задержание судна; полная имущественная ответственность",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 177 п. 1",
+      "url": null,
+      "fragment_text": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.97
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: maritime\nспец_условия:\n  - груз: нефть_>2000т_или_опасный\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "сфера ecology в исходной разметке — артефакт; реально transport"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": 5000000,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": true,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7954,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнени",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 177 п. 1",
+      "ml_category": "LIC"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

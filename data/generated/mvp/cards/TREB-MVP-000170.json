@@ -1,0 +1,152 @@
+{
+  "card_code": "TREB-MVP-000170",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Услуга: Приобретение прав на земельные участки, которые находятся в государственной собс",
+  "titles": {
+    "short": "электронная копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткос…",
+    "canonical": "Обеспечить наличие/соответствие: идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) землепользования (аренды) земельного участка либо земельно-кадастровый план)",
+    "legal": "электронная копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) землепользования (аренды) земельного участка либо земельно-кадастровый план)",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "land_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": "Обеспечить наличие/соответствие: идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) землепользования (аренды) земельного участка либо земельно-кадастровый план)",
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "электронная копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) землепользования (аренды) земельного участка либо земельно-кадастровый план)",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "land_use_type",
+            "value": [
+              "agricultural",
+              "settlement",
+              "industrial",
+              "protected"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch4.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=TECHNICAL_COMPLIANCE). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-LAN-000167",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере land: TREB-MVP-000167, TREB-MVP-000168, TREB-MVP-000169. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000167. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 13805,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "электронная копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) землепользования (аренды) земельного участка либо земельно-кадастровый план)",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-LAN-000167",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000169",
+        "sphere_code": "land",
+        "short_title": "электронная копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткос…"
+      },
+      {
+        "card_code": "TREB-MVP-000168",
+        "sphere_code": "land",
+        "short_title": "копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) зем…"
+      },
+      {
+        "card_code": "TREB-MVP-000167",
+        "sphere_code": "land",
+        "short_title": "копия идентификационного документа (акт на право временного возмездного (долгосрочного, краткосрочного) зем…"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch4-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:58:25.161Z",
+    "updated_at": "2026-04-29T22:58:25.161Z"
+  }
+}

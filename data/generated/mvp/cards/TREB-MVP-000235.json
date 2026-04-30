@@ -1,0 +1,152 @@
+{
+  "card_code": "TREB-MVP-000235",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Услуга: Выдача сертификата воздушного судна по шуму",
+  "titles": {
+    "short": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+    "canonical": "Обеспечить наличие/соответствие: акта проверки технического состояния и определения годности воздушного судна к полетам, со сроком, не превышающим 22 рабочих дня до дня регистрации заявки у услугодателя",
+    "legal": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, со сроком, не превышающим 22 рабочих дня до дня регистрации заявки у услугодателя",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_services",
+    "life_cycle_stage": "registration;pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": "Обеспечить наличие/соответствие: акта проверки технического состояния и определения годности воздушного судна к полетам, со сроком, не превышающим 22 рабочих дня до дня регистрации заявки у услугодателя",
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, со сроком, не превышающим 22 рабочих дня до дня регистрации заявки у услугодателя",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch4.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=TECHNICAL_COMPLIANCE). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-000231",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-000231, TREB-MVP-000232, TREB-MVP-000233, TREB-MVP-000234. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-000231. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 13373,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, со сроком, не превышающим 22 рабочих дня до дня регистрации заявки у услугодателя",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-000231",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000234",
+        "sphere_code": "transport",
+        "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…"
+      },
+      {
+        "card_code": "TREB-MVP-000233",
+        "sphere_code": "transport",
+        "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…"
+      },
+      {
+        "card_code": "TREB-MVP-000232",
+        "sphere_code": "transport",
+        "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…"
+      },
+      {
+        "card_code": "TREB-MVP-000231",
+        "sphere_code": "transport",
+        "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch4-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:01:12.349Z",
+    "updated_at": "2026-04-29T23:01:12.349Z"
+  }
+}

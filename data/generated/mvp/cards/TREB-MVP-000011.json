@@ -1,0 +1,130 @@
+{
+  "card_code": "TREB-MVP-000011",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Газовый мониторинг полигонов отходов",
+  "titles": {
+    "short": "При t° воздуха > 25°С помещать пробы на диоксид серы в холодильник",
+    "canonical": "Юридическое лицо, осуществляющее газовый мониторинг полигона отходов, обязано при температуре воздуха выше 25°С помещать отобранные пробы на диоксид серы в холодильник.",
+    "legal": "При температуре воздуха выше 25°С пробы на диоксид серы помещаются в холодильник.",
+    "business": "Если на улице жарче +25°С, пробы воздуха на SO2 надо хранить в холодильнике до анализа."
+  },
+  "structure": {
+    "subject": "Юридическое лицо, осуществляющее газовый мониторинг полигона",
+    "action": "помещать",
+    "object": "пробы на диоксид серы в холодильник",
+    "condition": "при температуре воздуха выше 25°С",
+    "exception": "при температуре ≤25°С обычное хранение"
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": "режим_хранения_проб",
+    "role_fragment": "условие допуска",
+    "role_class": "core",
+    "regulatory_regime": "методика_мониторинга",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "conditional",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при отборе проб в жаркую погоду",
+    "frequency": "on_event",
+    "evidence_required": "журнал отбора проб с указанием температуры, протокол хранения",
+    "evidence_form": "журнал",
+    "consequences": "забраковка результатов мониторинга, необходимость повторного отбора проб",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Методика по проведению газового мониторинга при эксплуатации полигонов",
+      "article_ref": "п. 17",
+      "url": null,
+      "fragment_text": "При температуре воздуха выше 25°С пробы на диоксид серы помещаются в холодильник",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: waste_handling\n    оператор: in\n    значение: [hazardous, non_hazardous]\nспец_условия:\n  - тип_деятельности: эксплуатация_полигона\n  - условие_срабатывания: температура_воздуха_выше_25C\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "waste_handling",
+            "value": [
+              "hazardous",
+              "non_hazardous"
+            ]
+          }
+        ],
+        "any_of": [],
+        "trigger": "ambient_temperature_above_25C",
+        "exceptions": [],
+        "scope_note": "эксплуатанты полигонов отходов, проводящие газовый мониторинг"
+      },
+      "notes": "Условное правило — срабатывает только при выполнении температурного условия"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 50,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "условие допуска",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.85,
+      "explanation": "Это условие корректности процедуры (если t°>25 — храним иначе), а не безусловная обязанность",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "mandatory_level",
+      "value": "conditional",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.9,
+      "explanation": "Срабатывает только при условии t°>25°С",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 8451,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "При температуре воздуха выше 25°С пробы на диоксид серы помещаются в холодильник",
+      "npa_title": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
+      "article_ref": "п. 17",
+      "ml_category": "USL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.88,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

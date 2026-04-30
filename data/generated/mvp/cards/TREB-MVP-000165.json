@@ -1,0 +1,121 @@
+{
+  "card_code": "TREB-MVP-000165",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Наличие у сельскохозяйственного товаропроизводителя сельскохозяйственных животных более пятидесяти проценто…",
+    "canonical": "Наличие у сельскохозяйственного товаропроизводителя сельскохозяйственных животных более пятидесяти процентов от предельно допустимой нормы, нагрузки на пастбища, утвержденной Приказом Министра сельского хозяйства Республики Казахстан от 14 апреля 2015 года № 3-3/332, в течение трех лет подряд",
+    "legal": "Наличие у сельскохозяйственного товаропроизводителя сельскохозяйственных животных более пятидесяти процентов от предельно допустимой нормы, нагрузки на пастбища, утвержденной Приказом Министра сельского хозяйства Республики Казахстан от 14 апреля 2015 года № 3-3/332, в течение трех лет подряд",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "утвержденной",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "land_надзор_Местные органы РК",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Наличие у сельскохозяйственного товаропроизводителя сельскохозяйственных животных более пятидесяти процентов от предельно допустимой нормы, нагрузки на пастбища, утвержденной Приказом Министра сельского хозяйства Республики Казахстан от 14 апреля 2015 года № 3-3/332, в течение трех лет подряд",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          },
+          {
+            "op": "eq",
+            "axis": "object_category",
+            "value": "pasture"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch4.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Технические параметры и нормативы). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 4839,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Наличие у сельскохозяйственного товаропроизводителя сельскохозяйственных животных более пятидесяти процентов от предельно допустимой нормы, нагрузки на пастбища, утвержденной Приказом Министра сельско",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch4-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:58:25.161Z",
+    "updated_at": "2026-04-29T22:58:25.161Z"
+  }
+}

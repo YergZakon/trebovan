@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000079",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Перевозка пассажиров / нормативы расходов",
+  "titles": {
+    "short": "Нормативы расходов на ремонт автотранспорта: 10/15/20% по сроку эксплуатации",
+    "canonical": "Перевозчик при расчёте тарифов автотранспортных перевозок применяет нормативы расходов на ремонт и техобслуживание: 10% (срок эксплуатации до 3 лет), 15% (3-7 лет), 20% (более 7 лет) от стоимости транспорта.",
+    "legal": "Расходы на проведение ремонтов и технических обслуживаний автотранспортных средств принимаются как 10% (для автотранспортных средств со сроком эксплуатации до 3 лет), 15% (для автотранспортных средств со сроком эксплуатации от 3 до 7 лет) и 20% (для автотранспортных средств со сроком эксплуатации более 7 лет) от стоимости автотранспортных средств",
+    "business": null
+  },
+  "structure": {
+    "subject": "Перевозчик-автомобильный (ЮЛ)",
+    "action": "применять",
+    "object": "нормативы расходов на ТО и ремонт по сроку эксплуатации",
+    "condition": "при расчёте тарифа",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "тарифообразование_перевозок",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при формировании тарифа",
+    "frequency": "periodic_year",
+    "evidence_required": "расчёт тарифа",
+    "evidence_form": "расчёт",
+    "consequences": "несогласование тарифа",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Методика расчёта тарифов на оказание услуг по перевозке пассажиров",
+      "article_ref": "п. 2 пп. 3)",
+      "url": null,
+      "fragment_text": "Расходы на проведение ремонтов и технических обслуживаний автотранспортных средств принимаются как 10% (... до 3 лет), 15% (... от 3 до 7 лет) и 20% (... более 7 лет) от стоимости автотранспортных средств",
+      "relation_status": "прямая_связь",
+      "confidence": 0.92
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: automobile\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "automobile"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "medium",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7712,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Расходы на проведение ремонтов и технических обслуживаний автотранспортных средств принимаются как 10% (для автотранспортных средств со сроком эксплуатации до 3 лет), 15% (для автотранспортных средств",
+      "npa_title": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+      "article_ref": "п. 2 пп. 3)",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.88,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

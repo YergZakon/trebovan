@@ -1,0 +1,67 @@
+[
+  {
+    "sphere_code": "ecology",
+    "source_layer": "ml_dataset",
+    "cnt": 1433
+  },
+  {
+    "sphere_code": "ecology",
+    "source_layer": "npa_extracted",
+    "cnt": 2779
+  },
+  {
+    "sphere_code": "ecology",
+    "source_layer": "rot_checklist",
+    "cnt": 1778
+  },
+  {
+    "sphere_code": "ecology",
+    "source_layer": "services",
+    "cnt": 110
+  },
+  {
+    "sphere_code": "land",
+    "source_layer": "ml_dataset",
+    "cnt": 168
+  },
+  {
+    "sphere_code": "land",
+    "source_layer": "npa_extracted",
+    "cnt": 168
+  },
+  {
+    "sphere_code": "land",
+    "source_layer": "rot_checklist",
+    "cnt": 211
+  },
+  {
+    "sphere_code": "land",
+    "source_layer": "services",
+    "cnt": 38
+  },
+  {
+    "sphere_code": "other",
+    "source_layer": "services",
+    "cnt": 1779
+  },
+  {
+    "sphere_code": "transport",
+    "source_layer": "ml_dataset",
+    "cnt": 276
+  },
+  {
+    "sphere_code": "transport",
+    "source_layer": "npa_extracted",
+    "cnt": 276
+  },
+  {
+    "sphere_code": "transport",
+    "source_layer": "rot_checklist",
+    "cnt": 3012
+  },
+  {
+    "sphere_code": "transport",
+    "source_layer": "services",
+    "cnt": 360
+  }
+]

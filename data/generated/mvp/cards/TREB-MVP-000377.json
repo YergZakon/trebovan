@@ -1,0 +1,119 @@
+{
+  "card_code": "TREB-MVP-000377",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+  "titles": {
+    "short": "Температурный режим хранения биоотходов не выше +5°С",
+    "canonical": "Температурный режим хранения биоотходов не выше +5°С",
+    "legal": "Биологические медицинские отходы класса \"Б\" хранятся при температуре не выше +5°С",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "ecology_npa_extracted",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 191",
+      "url": null,
+      "fragment_text": "Биологические медицинские отходы класса \"Б\" хранятся при температуре не выше +5°С",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "waste_handling",
+            "value": [
+              "hazardous",
+              "non_hazardous"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=STD, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 10325,
+      "source_layer": "npa_extracted",
+      "source_file": "requirements_ecology.json",
+      "text_preview": "Биологические медицинские отходы класса \"Б\" хранятся при температуре не выше +5°С",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 191",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:30:28.766Z",
+    "updated_at": "2026-04-29T23:30:28.766Z"
+  }
+}

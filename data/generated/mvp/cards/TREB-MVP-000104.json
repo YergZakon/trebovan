@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000104",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земли сельхозназначения / субаренда",
+  "titles": {
+    "short": "Запрет субаренды (вторичного землепользования) сельхозземель",
+    "canonical": "Любому лицу запрещается сдача сельскохозяйственных земель для сельхозпроизводства во вторичное землепользование (субаренду).",
+    "legal": "Сдача сельхозземель для сельхозпроизводства во вторичное землепользование (субаренду) не допускается",
+    "business": null
+  },
+  "structure": {
+    "subject": "Землепользователь сельхозземли",
+    "action": "не сдавать",
+    "object": "сельхозземлю в субаренду",
+    "condition": "при пользовании сельхозземлёй",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "земли_сельхозназначения",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "не применимо (запрет)",
+    "evidence_form": null,
+    "consequences": "недействительность сделки субаренды; административная ответственность; расторжение основного договора",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "ст. 38 п. 5",
+      "url": null,
+      "fragment_text": "Сдача сельхозземель для сельхозпроизводства во вторичное землепользование (субаренду) не допускается",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: land_use_type\n    оператор: eq\n    значение: agricultural\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "high",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7450,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Сдача сельхозземель для сельхозпроизводства во вторичное землепользование (субаренду) не допускается",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "ст. 38 п. 5",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.93,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

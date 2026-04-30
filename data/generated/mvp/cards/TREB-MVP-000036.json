@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000036",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Зоны санитарной охраны водозаборов",
+  "titles": {
+    "short": "Граница I пояса ЗСО — ≥30 м от стен ёмкостей, фильтров и осветлителей",
+    "canonical": "Водопользователь обязан установить границу первого пояса зоны санитарной охраны водопроводных сооружений на расстоянии не менее 30 м от стен запасных и регулирующих ёмкостей, фильтров и контактных осветлителей.",
+    "legal": "Граница первого пояса ЗСО водопроводных сооружений принимается на расстоянии не менее 30 м от стен запасных и регулирующих емкостей, фильтров и контактных осветлителей",
+    "business": null
+  },
+  "structure": {
+    "subject": "Водопользователь / предприятие водоснабжения",
+    "action": "установить",
+    "object": "границу первого пояса ЗСО на расстоянии ≥30 м",
+    "condition": "при проектировании / эксплуатации водопроводных сооружений",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "оборудование",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "pre_launch;operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "на стадии проектирования и постоянно",
+    "frequency": "one_time",
+    "evidence_required": "проект ЗСО, акт обследования",
+    "evidence_form": "проект",
+    "consequences": "несогласование проекта; приостановление эксплуатации; угроза качеству воды",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 97 пп. 1",
+      "url": null,
+      "fragment_text": "Граница первого пояса ЗСО водопроводных сооружений принимается на расстоянии не менее 30 м от стен запасных и регулирующих емкостей, фильтров и контактных осветлителей",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: subsphere\n    оператор: eq\n    значение: water_use\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "subsphere",
+            "value": "water_use"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "водопроводные сооружения хозяйственно-питьевого назначения"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 2,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "high",
+    "needs_external_spec": true,
+    "needs_equipment": false,
+    "needs_premises": true,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8603,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Граница первого пояса ЗСО водопроводных сооружений принимается на расстоянии не менее 30 м от стен запасных и регулирующих емкостей, фильтров и контактных осветлителей",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 97 пп. 1",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.93,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

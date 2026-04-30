@@ -1,0 +1,137 @@
+{
+  "card_code": "TREB-MVP-000375",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+  "titles": {
+    "short": "Операторы полигонов должны отчитываться об отчислениях в ликвидационный фонд до 31 марта",
+    "canonical": "Операторы полигона обязаны ежегодно до 31 марта года, следующего за отчетным периодом, предоставлять в уполномоченный орган в области охраны окружающей среды сведения об отчислениях в ликвидационный фонд по форме № 1-ЛФ",
+    "legal": "Операторы полигона обязаны ежегодно до 31 марта года, следующего за отчетным периодом, предоставлять в уполномоченный орган в области охраны окружающей среды сведения об отчислениях в ликвидационный фонд по форме № 1-ЛФ",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "ежегодно",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "отчётность",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "ecology_npa_extracted",
+    "life_cycle_stage": "operation;reporting",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+      "article_ref": "приложение к форме",
+      "url": null,
+      "fragment_text": "Операторы полигона обязаны ежегодно до 31 марта года, следующего за отчетным периодом, предоставлять в уполномоченный орган в области охраны окружающей среды сведения об отчислениях в ликвидационный фонд по форме № 1-ЛФ",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "has_premises",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=REP, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-ECO-000021",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.583,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере ecology: TREB-MVP-000021. Средняя текстовая similarity (Jaccard 3-грамм): 0.58. Группа: DUP-AI-ECO-000021. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 9550,
+      "source_layer": "npa_extracted",
+      "source_file": "requirements_ecology.json",
+      "text_preview": "Операторы полигона обязаны ежегодно до 31 марта года, следующего за отчетным периодом, предоставлять в уполномоченный орган в области охраны окружающей среды сведения об отчислениях в ликвидационный ф",
+      "npa_title": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+      "article_ref": "приложение к форме",
+      "ml_category": "REP"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-ECO-000021",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.583,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000021",
+        "sphere_code": "ecology",
+        "short_title": "Ежегодно до 31 марта подавать сведения об отчислениях в ликвидационный фонд (ф. 1-ЛФ)"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:30:28.766Z",
+    "updated_at": "2026-04-29T23:30:28.766Z"
+  }
+}

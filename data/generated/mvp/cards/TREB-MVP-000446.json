@@ -1,0 +1,122 @@
+{
+  "card_code": "TREB-MVP-000446",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхно…",
+    "canonical": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхностью контакта в местах приварки не менее 500 мм2. Превышение электрического сопротивления сборного стыка сопротивлению целого рельса длиной 2,5 м.",
+    "legal": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхностью контакта в местах приварки не менее 500 мм2. Превышение электрического сопротивления сборного стыка сопротивлению целого рельса длиной 2,5 м.",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "провода",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_надзор_Комитет автомобильного транспо",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхностью контакта в местах приварки не менее 500 мм2. Превышение электрического сопротивления сборного стыка сопротивлению целого рельса длиной 2,5 м.",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Технические параметры и нормативы). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 2861,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхностью контакта в местах приварки не менее 500 мм2. Превышение электрического сопротивления сбо",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:32:55.273Z",
+    "updated_at": "2026-04-29T23:32:55.273Z"
+  }
+}

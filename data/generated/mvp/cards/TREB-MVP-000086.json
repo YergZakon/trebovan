@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000086",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Морской транспорт / экипаж (ограничения)",
+  "titles": {
+    "short": "Запрет иностранцам занимать должности капитана, ст. помощника, ст. механика",
+    "canonical": "Иностранцы и лица без гражданства не могут занимать должности капитана судна, старшего помощника капитана и старшего механика.",
+    "legal": "Иностранцы и лица без гражданства не могут занимать должности капитана судна, старшего помощника капитана и старшего механика",
+    "business": null
+  },
+  "structure": {
+    "subject": "Иностранец / лицо без гражданства (применительно к судовладельцу)",
+    "action": "не назначать",
+    "object": "иностранцев на должности капитана, ст. помощника, ст. механика",
+    "condition": "при формировании экипажа казахстанского судна",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "судовая роль с указанием гражданства членов экипажа",
+    "evidence_form": "документ",
+    "consequences": "запрет выхода в рейс; административная ответственность",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 25 п. 1",
+      "url": null,
+      "fragment_text": "Иностранцы и лица без гражданства не могут занимать должности капитана судна, старшего помощника капитана и старшего механика",
+      "relation_status": "прямая_связь",
+      "confidence": 0.97
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: maritime\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7615,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Иностранцы и лица без гражданства не могут занимать должности капитана судна, старшего помощника капитана и старшего механика",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 25 п. 1",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

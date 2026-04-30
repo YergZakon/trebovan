@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000064",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Санитария / производство пастеризованных консервов",
+  "titles": {
+    "short": "Мясное сырьё для пастеризованных консервов — горячий воздух +120°C 60-90 сек или фламбирование 15-20 сек",
+    "canonical": "Юридическое лицо при производстве пастеризованных консервов обязано после жиловки обрабатывать мясное сырьё горячим воздухом при +120°C в течение 60-90 секунд или фламбировать пламенем газовой горелки 15-20 секунд.",
+    "legal": "Для производства пастеризованных консервов мясное сырье после процесса жиловки обрабатывается горячим воздухом при температуре +120°С в течение 60-90 сек или фламбируется пламенем газовой горелки в течение 15-20 сек",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо, производящее пастеризованные консервы",
+    "action": "обрабатывать",
+    "object": "мясное сырьё (термообработка по нормативу)",
+    "condition": "после жиловки, перед укупоркой",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при каждой партии производства",
+    "frequency": "continuous",
+    "evidence_required": "технологический регламент, журнал термообработки",
+    "evidence_form": "журнал",
+    "consequences": "административная ответственность; отзыв партии; приостановление производства",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 300",
+      "url": null,
+      "fragment_text": "Для производства пастеризованных консервов мясное сырье после процесса жиловки обрабатывается горячим воздухом при температуре +120°С в течение 60-90 сек или фламбируется пламенем газовой горелки в течение 15-20 сек",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: object_category\n    оператор: eq\n    значение: meat_processing\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "object_category",
+            "value": "meat_processing"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 250,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": true,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 9054,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Для производства пастеризованных консервов мясное сырье после процесса жиловки обрабатывается горячим воздухом при температуре +120°С в течение 60-90 сек или фламбируется пламенем газовой горелки в те",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 300",
+      "ml_category": "PRO"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

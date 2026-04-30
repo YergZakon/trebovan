@@ -1,0 +1,129 @@
+{
+  "card_code": "TREB-MVP-000073",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Внутренний водный транспорт / пассажиры",
+  "titles": {
+    "short": "Пассажир обязан предъявить удостоверение личности при покупке билета и в пути",
+    "canonical": "Пассажир обязан предъявить документ, удостоверяющий личность, при приобретении проездного документа (билета), при поездке и проверке проездного документа в пути следования.",
+    "legal": "Пассажир обязан предъявить документ, удостоверяющий личность, при приобретении проездного документа (билета), при поездке и проверке проездного документа (билета) в пути следования",
+    "business": null
+  },
+  "structure": {
+    "subject": "Пассажир (физлицо)",
+    "action": "предъявить",
+    "object": "документ, удостоверяющий личность",
+    "condition": "при покупке билета, при посадке и в пути",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "внутренний_водный_транспорт",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "в момент покупки/посадки/проверки",
+    "frequency": "on_event",
+    "evidence_required": "удостоверение личности (для пассажира); фиксация в билете (для перевозчика)",
+    "evidence_form": "документ",
+    "consequences": "отказ в продаже билета или в посадке; административная ответственность",
+    "can_be_online": true,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 52 п. 2 пп. 1",
+      "url": null,
+      "fragment_text": "Пассажир обязан предъявить документ, удостоверяющий личность, при приобретении проездного документа (билета), при поездке и проверке проездного документа (билета) в пути следования",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: inland_waterway\nприменимо_к: пассажир\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "inland_waterway"
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "обязанность пассажира — для бизнеса релевантна косвенно (через правила перевозчика)"
+      },
+      "notes": "не основная обязанность бизнеса, но влияет на регламенты перевозчика"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "medium",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-000073",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.8,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-000212. Средняя текстовая similarity (Jaccard 3-грамм): 0.80. Группа: DUP-AI-TRA-000073. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7535,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Пассажир обязан предъявить документ, удостоверяющий личность, при приобретении проездного документа (билета), при поездке и проверке проездного документа (билета) в пути следования",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 52 п. 2 пп. 1",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-000073",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.8,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000212",
+        "sphere_code": "transport",
+        "short_title": "Предъявлять удостоверение личности при покупке билета и в пути"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.9,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

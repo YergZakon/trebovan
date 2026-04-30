@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000085",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Морской транспорт / запретные районы",
+  "titles": {
+    "short": "Запрет плавания в запретных для плавания районах",
+    "canonical": "В запретных для плавания районах любому лицу запрещается плавание судов и плавучих средств.",
+    "legal": "В запретных для плавания районах плавание всех судов и плавучих средств запрещается",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любое лицо (судовладелец, капитан)",
+    "action": "не осуществлять",
+    "object": "плавание судов и плавучих средств",
+    "condition": "в запретных для плавания районах",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "не применимо (запрет)",
+    "evidence_form": null,
+    "consequences": "административная и уголовная ответственность; задержание судна",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 8-5 п. 2",
+      "url": null,
+      "fragment_text": "В запретных для плавания районах плавание всех судов и плавучих средств запрещается",
+      "relation_status": "прямая_связь",
+      "confidence": 0.97
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: maritime\nрегион:\n  - запретные_районы\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          },
+          {
+            "op": "in_zone",
+            "axis": "region",
+            "value": "prohibited_navigation"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7582,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В запретных для плавания районах плавание всех судов и плавучих средств запрещается",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 8-5 п. 2",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

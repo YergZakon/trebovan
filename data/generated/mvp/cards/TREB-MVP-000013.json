@@ -1,0 +1,120 @@
+{
+  "card_code": "TREB-MVP-000013",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Торговое мореплавание / экологическая безопасность спасательных операций",
+  "titles": {
+    "short": "Спасатель обязан предотвращать ущерб окружающей среде",
+    "canonical": "Спасатель при проведении спасательных операций обязан принимать меры по предотвращению или уменьшению ущерба окружающей среде.",
+    "legal": "Спасатель обязан принимать меры по предотвращению или уменьшению ущерба окружающей среде.",
+    "business": "При спасении судна или груза в море спасатель должен также не допустить (или минимизировать) экологический ущерб."
+  },
+  "structure": {
+    "subject": "Спасатель (физическое или юридическое лицо, осуществляющее спасательную операцию)",
+    "action": "принимать",
+    "object": "меры по предотвращению или уменьшению ущерба окружающей среде",
+    "condition": "при проведении спасательных операций",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": "экологическая_защита_при_спасании",
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "principle"
+  },
+  "execution": {
+    "timing": "в течение всей спасательной операции",
+    "frequency": "on_event",
+    "evidence_required": "отчёт о спасательной операции с описанием экологических мер",
+    "evidence_form": "отчёт",
+    "consequences": "снижение размера спасательного вознаграждения; ответственность за ущерб окружающей среде",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 181 п. 1 пп. 2",
+      "url": null,
+      "fragment_text": "Спасатель обязан принимать меры по предотвращению или уменьшению ущерба окружающей среде",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_type\n    оператор: in\n    значение: [cargo, passenger]\nспец_условия:\n  - вид_деятельности: спасательные_операции\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_type",
+            "value": [
+              "cargo",
+              "passenger"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "спасательная деятельность в торговом мореплавании"
+      },
+      "notes": "Узкое применение — спасательные операции в море"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "обязанность бизнеса",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.85,
+      "explanation": "Эксплуатационная обязанность спасателя при выполнении операции",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7681,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Спасатель обязан принимать меры по предотвращению или уменьшению ущерба окружающей среде",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 181 п. 1 пп. 2",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

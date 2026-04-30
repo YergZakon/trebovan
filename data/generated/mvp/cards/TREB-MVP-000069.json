@@ -1,0 +1,101 @@
+{
+  "card_code": "TREB-MVP-000069",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Лесное хозяйство / самовольное занятие",
+  "titles": {
+    "short": "[ОПИСАТЕЛЬНАЯ] Самовольно занятые территории госфонда возвращаются без возмещения затрат",
+    "canonical": "Самовольно занятые территории государственного лесного фонда возвращаются по их принадлежности без возмещения затрат, произведённых за время незаконного пользования ими.",
+    "legal": "Самовольно занятые территории государственного лесного фонда возвращаются по их принадлежности без возмещения затрат, произведенных за время незаконного пользования ими",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любое лицо, самовольно занявшее участок ГЛФ",
+    "action": "—",
+    "object": "—",
+    "condition": "—",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "описательная",
+    "requirement_subtype": null,
+    "role_fragment": "описательная норма",
+    "role_class": "noise",
+    "regulatory_regime": "лесное_хозяйство",
+    "life_cycle_stage": null,
+    "mandatory_level": null,
+    "specificity": null
+  },
+  "execution": {
+    "timing": null,
+    "frequency": null,
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": "(норма о последствиях — описательная)",
+    "can_be_online": null,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Лесной кодекс Республики Казахстан",
+      "article_ref": "ст. 115 п. 1",
+      "url": null,
+      "fragment_text": "Самовольно занятые территории государственного лесного фонда возвращаются по их принадлежности без возмещения затрат, произведенных за время незаконного пользования ими",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_применимо: описательная норма\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "норма о последствиях"
+      },
+      "notes": "не включается в маршрут предпринимателя"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8098,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Самовольно занятые территории государственного лесного фонда возвращаются по их принадлежности без возмещения затрат, произведенных за время незаконного пользования ими",
+      "npa_title": "Лесной кодекс Республики Казахстан",
+      "article_ref": "ст. 115 п. 1",
+      "ml_category": "OTV"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

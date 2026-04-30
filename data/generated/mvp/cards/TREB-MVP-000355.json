@@ -1,0 +1,116 @@
+{
+  "card_code": "TREB-MVP-000355",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+  "titles": {
+    "short": "Установлены нормативы неорганизованного притока воздуха в зависимости от высоты помещения",
+    "canonical": "Неорганизованный приток наружного воздуха допускается в объеме не более однократного воздухообмена в 1 час в помещениях высотой 6 м и менее, а в помещениях высотой более 6 м – 6 м³/ч на 1 м² площади пола",
+    "legal": "Неорганизованный приток наружного воздуха допускается в объеме не более однократного воздухообмена в 1 час в помещениях высотой 6 м и менее, а в помещениях высотой более 6 м – 6 м³/ч на 1 м² площади пола",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "ecology_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "periodic_year",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 170",
+      "url": null,
+      "fragment_text": "Неорганизованный приток наружного воздуха допускается в объеме не более однократного воздухообмена в 1 час в помещениях высотой 6 м и менее, а в помещениях высотой более 6 м – 6 м³/ч на 1 м² площади пола",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "has_premises",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=STD, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 8707,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Неорганизованный приток наружного воздуха допускается в объеме не более однократного воздухообмена в 1 час в помещениях высотой 6 м и менее, а в помещениях высотой более 6 м – 6 м³/ч на 1 м² площади п",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 170",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:30:28.766Z",
+    "updated_at": "2026-04-29T23:30:28.766Z"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000111",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земельные конкурсы / процедура",
+  "titles": {
+    "short": "Победитель конкурса, отказавшийся от подписания договора, — год без права участия",
+    "canonical": "Победитель земельного конкурса, отказавшийся от подписания договора, не имеет права участвовать в последующих конкурсах в течение одного года.",
+    "legal": "Победитель конкурса, отказавшийся от подписания договора, не имеет права участвовать в последующих конкурсах в течение одного года",
+    "business": null
+  },
+  "structure": {
+    "subject": "Победитель земельного конкурса (КФХ, ЮЛ)",
+    "action": "не участвовать",
+    "object": "в последующих земельных конкурсах в течение года",
+    "condition": "при отказе от подписания договора по итогам конкурса",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "земельные_конкурсы",
+    "life_cycle_stage": "registration",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "1 год с момента отказа",
+    "frequency": "on_event",
+    "evidence_required": "протокол конкурсной комиссии с фиксацией отказа",
+    "evidence_form": "протокол",
+    "consequences": "запрет на участие в конкурсах в течение года",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "ст. 43-1 п. 19",
+      "url": null,
+      "fragment_text": "Победитель конкурса, отказавшийся от подписания договора, не имеет права участвовать в последующих конкурсах в течение одного года",
+      "relation_status": "прямая_связь",
+      "confidence": 0.92
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: subject_type\n    оператор: in\n    значение: [farmer, legal_entity_llp, individual_entrepreneur]\nтриггер: refused_to_sign_after_winning_auction\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "subject_type",
+            "value": [
+              "farmer",
+              "legal_entity_llp",
+              "individual_entrepreneur"
+            ]
+          }
+        ],
+        "any_of": [],
+        "trigger": "auction_refusal",
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 1,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "high",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7356,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Победитель конкурса, отказавшийся от подписания договора, не имеет права участвовать в последующих конкурсах в течение одного года",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "Ст. 43-1, п. 19",
+      "ml_category": "PRO"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

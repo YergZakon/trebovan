@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000088",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Морской транспорт / претензии и иски",
+  "titles": {
+    "short": "Запрет передачи права на претензии и иски третьим лицам (с исключениями)",
+    "canonical": "Любому лицу не допускается передача права на предъявление претензий и исков другим гражданам или организациям, за исключением передачи отправителем получателю (или наоборот), отправителем или получателем экспедитору либо страховщику.",
+    "legal": "Передача права на предъявление претензий и исков другим гражданам или организациям не допускается, за исключением случаев передачи такого права отправителем получателю или наоборот, а также отправителем или получателем экспедитору либо страховщику",
+    "business": null
+  },
+  "structure": {
+    "subject": "Отправитель / получатель / иное лицо в перевозочном правоотношении",
+    "action": "не передавать",
+    "object": "право на претензии и иски",
+    "condition": "за исключением передачи отправитель↔получатель, экспедитору или страховщику",
+    "exception": "передача отправителем получателю или наоборот; экспедитору; страховщику"
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "не применимо (запрет)",
+    "evidence_form": null,
+    "consequences": "недействительность передачи права; невозможность судебной защиты",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 233 п. 1",
+      "url": null,
+      "fragment_text": "Передача права на предъявление претензий и исков другим гражданам или организациям не допускается, за исключением случаев передачи такого права отправителем получателю или наоборот, а также отправителем или получателем экспедитору либо страховщику",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: maritime\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7700,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Передача права на предъявление претензий и исков другим гражданам или организациям не допускается, за исключением случаев передачи такого права отправителем получателю или наоборот, а также отправител",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 233 п. 1",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.88,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "card_code": "TREB-MVP-000009",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Особо охраняемые природные территории",
+  "titles": {
+    "short": "Запрет охоты в охранных зонах государственных национальных природных парков",
+    "canonical": "В охранных зонах государственных национальных природных парков охота запрещена для всех субъектов.",
+    "legal": "В охранных зонах государственных национальных природных парков запрещается охота.",
+    "business": "В охранных зонах нацпарков охотиться нельзя — это территориальный запрет, действующий на всех."
+  },
+  "structure": {
+    "subject": "Любое лицо (физическое и юридическое)",
+    "action": "не осуществлять",
+    "object": "охоту",
+    "condition": "в охранных зонах государственных национальных природных парков",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": "территориальный_запрет",
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "ООПТ",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "отсутствие фактов охоты (контролируется уполномоченным органом)",
+    "evidence_form": null,
+    "consequences": "административная и уголовная ответственность по ст. 339 УК РК (незаконная охота), штрафы и конфискация орудий охоты",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «Об особо охраняемых природных территориях»",
+      "article_ref": "ст. 48 п. 1 пп. 4",
+      "url": null,
+      "fragment_text": "В охранных зонах государственных национальных природных парков запрещается охота",
+      "relation_status": "прямая_связь",
+      "confidence": 0.98
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: region\n    оператор: in_zone\n    значение: ohrannaya_zona_gnpp\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in_zone",
+            "axis": "region",
+            "value": "ohrannaya_zona_gnpp"
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "территориальный запрет — действует только в охранных зонах ГНПП"
+      },
+      "notes": "Привязка к конкретной территории. Для предпринимателя релевантно только если деятельность ведётся вблизи нацпарка."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "запрет",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.98,
+      "explanation": "Прямой территориально-видовой запрет ('запрещается охота')",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "consequences",
+      "value": "ст. 339 УК РК",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.7,
+      "explanation": "Незаконная охота в ООПТ — уголовное преступление; точная статья требует юридической верификации",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 8233,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В охранных зонах государственных национальных природных парков запрещается охота",
+      "npa_title": "Об особо охраняемых природных территориях",
+      "article_ref": "ст. 48 п. 1 пп. 4",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "card_code": "TREB-MVP-000001",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Внутренний водный транспорт (надзор)",
+  "titles": {
+    "short": "Устранить нарушения по предписанию надзорного органа в срок",
+    "canonical": "Субъект контроля и надзора в сфере внутреннего водного транспорта обязан устранить выявленные нарушения требований законодательства РК о внутреннем водном транспорте в сроки, указанные в предписании об устранении нарушений.",
+    "legal": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушений законодательства Республики Казахстан о внутреннем водном транспорте.",
+    "business": "Если надзорный орган выдал вам предписание устранить нарушения — это надо сделать в срок, который указан в самом предписании. После — отчитаться об исполнении."
+  },
+  "structure": {
+    "subject": "Субъект контроля и надзора в сфере внутреннего водного транспорта",
+    "action": "устранить",
+    "object": "выявленные нарушения требований законодательства РК о внутреннем водном транспорте",
+    "condition": "по получении предписания об устранении нарушений (мера оперативного реагирования)",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": "исполнение_предписания_надзора",
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "надзор_оперативное_реагирование",
+    "life_cycle_stage": "inspection;operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "в сроки, указанные в предписании",
+    "frequency": "on_event",
+    "evidence_required": "акт/отчёт об исполнении предписания, доказательства устранения нарушений",
+    "evidence_form": "акт",
+    "consequences": "административная ответственность по КоАП РК за неисполнение предписания (ст. 462), повторное предписание, приостановление деятельности по ст. 48 Предпринимательского кодекса",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 7-1 п. 9",
+      "url": null,
+      "fragment_text": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушений законодательства Республики Казахстан о внутреннем водном транспорте.",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: life_cycle_stage\n    оператор: in\n    значение: [inspection, operation]\nлюбое: []\nисключения: []\nтриггер: получение предписания надзорного органа в сфере ВВТ\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "life_cycle_stage",
+            "value": [
+              "inspection",
+              "operation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "trigger": "regulatory_prescription_received",
+        "exceptions": [],
+        "scope_note": "применимо к субъектам внутреннего водного транспорта, получившим предписание"
+      },
+      "notes": "Узкого axis для 'внутренний водный транспорт' в condition_dict нет — фильтрация по сфере деятельности будет через transport_type + дополнительный признак, который надо завести позже"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 2,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "процедурная обязанность бизнеса",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.85,
+      "explanation": "Действие = реакция на акт надзорного органа (предписание), а не основное регулятивное требование к деятельности → процедурная обязанность бизнеса",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "requirement_type",
+      "value": "процесс",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.85,
+      "explanation": "Не лицензия / документ к подаче / физическое оборудование — это процессное действие (устранить нарушение)",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "frequency",
+      "value": "on_event",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.95,
+      "explanation": "Срабатывает по факту получения каждого нового предписания, не периодически",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "npa_link.relation_status",
+      "value": "прямая_связь",
+      "source": "import",
+      "method": "ml_dataset_field",
+      "confidence": 0.95,
+      "explanation": "В исходнике ml_dataset уже указан конкретный article_ref (ст. 7-1 п. 9)",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "consequences",
+      "value": "ст. 462 КоАП РК + ст. 48 ПК РК",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.6,
+      "explanation": "Ст. 462 КоАП — типовая статья за неисполнение предписания госоргана; ст. 48 ПК — приостановление деятельности. Точный article_ref требует юридической проверки эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7737,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушен",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 7-1 п. 9",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.88,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:14:49.312Z",
+    "updated_at": "2026-04-29T21:14:49.312Z"
+  }
+}

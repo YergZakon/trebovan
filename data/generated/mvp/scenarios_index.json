@@ -1,0 +1,103 @@
+[
+  {
+    "code": "open_sto",
+    "title": "Открыть станцию техобслуживания (СТО)",
+    "description": "Маршрут запуска СТО в Казахстане: лицензии, помещение, персонал, экологические требования.",
+    "spheres": [
+      "transport",
+      "ecology"
+    ],
+    "subcategory": "transport_service",
+    "is_published": true,
+    "display_order": 10,
+    "total_cards": 12,
+    "required": 8,
+    "optional": 4
+  },
+  {
+    "code": "cargo_carrier",
+    "title": "Перевозчик грузов (внутренние перевозки)",
+    "description": "Лицензии и разрешения для грузоперевозок по РК.",
+    "spheres": [
+      "transport"
+    ],
+    "subcategory": "cargo",
+    "is_published": true,
+    "display_order": 20,
+    "total_cards": 10,
+    "required": 4,
+    "optional": 6
+  },
+  {
+    "code": "hazardous_waste",
+    "title": "Деятельность с опасными отходами",
+    "description": "Сбор, хранение, транспортировка, утилизация опасных отходов.",
+    "spheres": [
+      "ecology"
+    ],
+    "subcategory": "waste",
+    "is_published": true,
+    "display_order": 30,
+    "total_cards": 17,
+    "required": 14,
+    "optional": 3
+  },
+  {
+    "code": "land_construction",
+    "title": "Использование земельного участка под строительство",
+    "description": "Изменение целевого назначения, ПЗЗ, ИРД, экологические согласования.",
+    "spheres": [
+      "land",
+      "ecology"
+    ],
+    "subcategory": "construction",
+    "is_published": true,
+    "display_order": 40,
+    "total_cards": 15,
+    "required": 11,
+    "optional": 4
+  },
+  {
+    "code": "agro_land_use",
+    "title": "Сельхозпроизводитель с обработкой земли",
+    "description": "Аренда с/х земли, рациональное использование, пастбища, охрана земель.",
+    "spheres": [
+      "land"
+    ],
+    "subcategory": "agriculture",
+    "is_published": true,
+    "display_order": 50,
+    "total_cards": 19,
+    "required": 11,
+    "optional": 8
+  },
+  {
+    "code": "emissions_business",
+    "title": "Предприятие с выбросами в атмосферу",
+    "description": "Экологическое разрешение, инвентаризация, мониторинг выбросов.",
+    "spheres": [
+      "ecology"
+    ],
+    "subcategory": "emissions",
+    "is_published": true,
+    "display_order": 60,
+    "total_cards": 16,
+    "required": 11,
+    "optional": 5
+  },
+  {
+    "code": "cross_border_cargo",
+    "title": "Транспортировка грузов через границу",
+    "description": "Международные перевозки + экологические требования к транспорту.",
+    "spheres": [
+      "transport",
+      "ecology"
+    ],
+    "subcategory": "international",
+    "is_published": false,
+    "display_order": 70,
+    "total_cards": 0,
+    "required": 0,
+    "optional": 0
+  }
+]

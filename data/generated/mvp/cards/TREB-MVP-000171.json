@@ -1,0 +1,120 @@
+{
+  "card_code": "TREB-MVP-000171",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Услуга: Согласование и выдача проекта рекультивации нарушенных земель",
+  "titles": {
+    "short": "решение местного исполнительного органа и признании проекта инвестиционным. Второй этап: согласованный акт …",
+    "canonical": "Произвести оплату или подтвердить решение местного исполнительного органа и признании проекта инвестиционным. Второй этап: согласованный акт выбора земельного участка, копия/электронная копия платежного документа, подтверждающего оплату за услуги земельно-кадастровых работ",
+    "legal": "решение местного исполнительного органа и признании проекта инвестиционным. Второй этап: согласованный акт выбора земельного участка, копия/электронная копия платежного документа, подтверждающего оплату за услуги земельно-кадастровых работ",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "вестиционным",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "описательная",
+    "requirement_subtype": null,
+    "role_fragment": "действие государственного органа",
+    "role_class": "noise",
+    "regulatory_regime": "land_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": null,
+    "specificity": null
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "решение местного исполнительного органа и признании проекта инвестиционным. Второй этап: согласованный акт выбора земельного участка, копия/электронная копия платежного документа, подтверждающего оплату за услуги земельно-кадастровых работ",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_применимо: действие госоргана\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "процедура госоргана, не порождает обязанности бизнеса"
+      },
+      "notes": "Не включается в маршрут предпринимателя"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch4.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=PAYMENT_COST). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "role_fragment",
+      "value": "действие государственного органа",
+      "source": "rule",
+      "method": "regex_organ_pattern",
+      "confidence": 0.85,
+      "explanation": "Текст содержит признаки процедуры госоргана (МИО, комитет, формирование перечня). Не порождает обязанности бизнеса. Помечено как noise.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 12576,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "решение местного исполнительного органа и признании проекта инвестиционным. Второй этап: согласованный акт выбора земельного участка, копия/электронная копия платежного документа, подтверждающего опла",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch4-auto",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:58:25.161Z",
+    "updated_at": "2026-04-29T22:58:25.161Z"
+  }
+}

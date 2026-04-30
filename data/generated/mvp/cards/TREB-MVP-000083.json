@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000083",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Морской транспорт / порты",
+  "titles": {
+    "short": "В государственных морских портах — ≥2 операторов терминалов",
+    "canonical": "В морских портах, находящихся в государственной собственности, обязательно наличие не менее двух операторов морских терминалов.",
+    "legal": "В морских портах, находящихся в государственной собственности, обязательно наличие не менее двух операторов морских терминалов",
+    "business": null
+  },
+  "structure": {
+    "subject": "Морской порт в государственной собственности",
+    "action": "обеспечить наличие",
+    "object": "не менее двух операторов морских терминалов",
+    "condition": "для государственных морских портов",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "договоры с операторами терминалов; реестр операторов",
+    "evidence_form": "договор",
+    "consequences": "нарушение конкуренции; административная ответственность управляющего порта",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 35 п. 2",
+      "url": null,
+      "fragment_text": "В морских портах, находящихся в государственной собственности, обязательно наличие не менее двух операторов морских терминалов",
+      "relation_status": "прямая_связь",
+      "confidence": 0.92
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: eq\n    значение: maritime\nспец_условия:\n  - тип_объекта: государственный_морской_порт\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 2,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7622,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В морских портах, находящихся в государственной собственности, обязательно наличие не менее двух операторов морских терминалов",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 35 п. 2",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

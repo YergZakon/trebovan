@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000041",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Эмиссии в водные объекты",
+  "titles": {
+    "short": "Норматив температуры сбрасываемых сточных вод — не выше +30°С",
+    "canonical": "Природопользователь, осуществляющий сброс сточных вод в поверхностные водные объекты, обязан обеспечивать температуру сбрасываемых вод не выше 30°C.",
+    "legal": "Температура сточных вод, сбрасываемых в поверхностные водные объекты не должна превышать 30 градусов по Цельсию",
+    "business": null
+  },
+  "structure": {
+    "subject": "Природопользователь, осуществляющий сброс в водные объекты",
+    "action": "обеспечивать",
+    "object": "температуру сточных вод не выше +30°С",
+    "condition": "при сбросе в поверхностный водный объект",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "нормирование_эмиссий",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно при сбросе",
+    "frequency": "continuous",
+    "evidence_required": "протоколы измерений, журнал контроля сбросов",
+    "evidence_form": "протокол",
+    "consequences": "административная ответственность за превышение нормативов; плата за сверхнормативные сбросы; приостановление сброса",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Методика определения нормативов эмиссий в окружающую среду",
+      "article_ref": "п. 45",
+      "url": null,
+      "fragment_text": "Температура сточных вод, сбрасываемых в поверхностные водные объекты не должна превышать 30 градусов по Цельсию",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: subsphere\n    оператор: eq\n    значение: discharges\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "subsphere",
+            "value": "discharges"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": true,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8433,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Температура сточных вод, сбрасываемых в поверхностные водные объекты не должна превышать 30 градусов по Цельсию",
+      "npa_title": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
+      "article_ref": "п. 45",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

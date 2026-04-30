@@ -1,0 +1,132 @@
+{
+  "card_code": "TREB-MVP-000078",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Перевозка пассажиров / тарифы (норматив)",
+  "titles": {
+    "short": "Тарифные коэффициенты за провоз багажа по типам маршрутов",
+    "canonical": "Перевозчик обязан применять кратность тарифа за одно место багажа к стоимости проезда: для городского маршрута 1,0; пригородных 0,2; внутрирайонных и межрайонных до 100 км 0,2; до 500 км 0,15; свыше 500 км 0,10.",
+    "legal": "Кратность тарифа за одно место багажа к стоимости проезда пассажиров составляет: для городского маршрута - 1,0; для пригородных - 0,2; для внутрирайонных и межрайонных до 100 км - 0,2; до 500 км - 0,15; свыше 500 км - 0,10",
+    "business": null
+  },
+  "structure": {
+    "subject": "Перевозчик пассажиров (ЮЛ)",
+    "action": "применять",
+    "object": "кратность тарифа за багаж по типу маршрута",
+    "condition": "при формировании тарифа на провоз багажа",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "тарифообразование_перевозок",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при формировании прейскуранта",
+    "frequency": "periodic_year",
+    "evidence_required": "утверждённый тариф, расчёт",
+    "evidence_form": "расчёт",
+    "consequences": "несогласование тарифа; административная ответственность за нарушение тарифной политики",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Методика расчёта тарифов на оказание услуг по перевозке пассажиров",
+      "article_ref": "Приложение 2",
+      "url": null,
+      "fragment_text": "Кратность тарифа за одно место багажа к стоимости проезда пассажиров составляет: для городского маршрута - 1,0; для пригородных - 0,2...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_subtype\n    оператор: in\n    значение: [automobile, urban_rail, railway]\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "automobile",
+              "urban_rail",
+              "railway"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "medium",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-000078",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.578,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-000469. Средняя текстовая similarity (Jaccard 3-грамм): 0.58. Группа: DUP-AI-TRA-000078. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7720,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Кратность тарифа за одно место багажа к стоимости проезда пассажиров составляет: для городского маршрута - 1,0; для пригородных - 0,2; для внутрирайонных и межрайонных до 100 км - 0,2; до 500 км - 0,1",
+      "npa_title": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+      "article_ref": "Приложение 2",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-000078",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.578,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000469",
+        "sphere_code": "transport",
+        "short_title": "Установлены коэффициенты для расчета стоимости перевозки багажа"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.9,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

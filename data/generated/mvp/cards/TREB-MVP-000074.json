@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000074",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Внутренний водный транспорт / документирование",
+  "titles": {
+    "short": "[CROSS-SPHERE DUP] Капитан судна — акт при рождении/смерти на судне (ВВТ)",
+    "canonical": "Капитан судна в случае рождения или смерти на судне обязан составить соответствующий акт при участии двух свидетелей и врача (если он имеется на судне), а также сделать запись в судовом журнале.",
+    "legal": "В случае рождения на судне ребенка или в каждом случае смерти на судне капитан обязан составить соответствующий акт при участии двух свидетелей и врача, если он имеется на судне, а также сделать запись в судовом журнале",
+    "business": null
+  },
+  "structure": {
+    "subject": "Капитан судна (ФЛ)",
+    "action": "составить",
+    "object": "акт о рождении/смерти + запись в судовом журнале",
+    "condition": "при рождении или смерти лица на судне",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "внутренний_водный_транспорт",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "немедленно после события",
+    "frequency": "on_event",
+    "evidence_required": "акт + запись в судовом журнале",
+    "evidence_form": "акт",
+    "consequences": "административная ответственность; невозможность регистрации факта в гражданских органах",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 36 п. 3 пп. 5",
+      "url": null,
+      "fragment_text": "В случае рождения на судне ребенка или в каждом случае смерти на судне капитан обязан составить соответствующий акт...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_канонический\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "не-каноническая копия TREB-MVP-000026"
+      },
+      "notes": "Та же норма ВВТ ст.36 п.3 пп.5 размечена в исходнике и как ecology (REQ-00057) и как transport — типичный кросс-сферный дубль"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "duplicate_group",
+      "value": "DUP-MVP-CROSS-001",
+      "source": "rule",
+      "method": "exact_text_match",
+      "confidence": 0.99,
+      "explanation": "Тот же фрагмент текста, что у TREB-MVP-000026 (ecology, fragment 7789). Кросс-сферный дубль из ml_dataset.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7513,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В случае рождения на судне ребенка или в каждом случае смерти на судне капитан обязан составить соответствующий акт при участии двух свидетелей и врача, если он имеется на судне, а также сделать запис",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 36 п. 3 пп. 5",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

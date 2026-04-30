@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000032",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Санитария / производство пищевых консервов",
+  "titles": {
+    "short": "Стерилизовать укупорочные крышки при +100°С ≥20 мин (пастеризованные консервы)",
+    "canonical": "Юридическое лицо, производящее пастеризованные консервы, обязано предварительно стерилизовать укупорочные средства (крышки) при температуре +100°С не менее 20 минут.",
+    "legal": "Укупорочные средства (крышки) для производства пастеризованных консервов предварительно стерилизуются при температуре +100°С не менее 20 мин",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо, производящее пастеризованные консервы",
+    "action": "стерилизовать",
+    "object": "укупорочные средства (крышки)",
+    "condition": "перед укупоркой банок при производстве пастеризованных консервов",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "перед каждой укупоркой партии",
+    "frequency": "continuous",
+    "evidence_required": "технологический регламент, журнал температурного контроля стерилизации",
+    "evidence_form": "журнал",
+    "consequences": "административная ответственность за нарушение технологии; риск отзыва партии и приостановления производства",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 302",
+      "url": null,
+      "fragment_text": "Укупорочные средства (крышки) для производства пастеризованных консервов предварительно стерилизуются при температуре +100°С не менее 20 мин",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: object_category\n    оператор: eq\n    значение: food_production\nспец_условия:\n  - подкатегория: пастеризованные_консервы\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "object_category",
+            "value": "food_production"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 250,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": true,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 9056,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Укупорочные средства (крышки) для производства пастеризованных консервов предварительно стерилизуются при температуре +100°С не менее 20 мин",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 302",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.93,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

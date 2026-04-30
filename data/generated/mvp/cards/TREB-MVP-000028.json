@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000028",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Санитария / хранение пестицидов",
+  "titles": {
+    "short": "Ежегодно в конце года проводить инвентаризацию пестицидов с актом снятия остатков",
+    "canonical": "Юридическое лицо, хранящее пестициды на складе, обязано ежегодно в конце года проводить инвентаризацию с составлением акта снятия остатков.",
+    "legal": "Ежегодно в конце года на складе проводят инвентаризацию пестицидов с составлением акта снятия остатков",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо, эксплуатирующее склад пестицидов",
+    "action": "проводить",
+    "object": "инвентаризацию пестицидов с составлением акта",
+    "condition": "ежегодно в конце года",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "отчётность",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "operation;reporting",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "ежегодно, в конце календарного года",
+    "frequency": "periodic_year",
+    "evidence_required": "акт снятия остатков пестицидов",
+    "evidence_form": "акт",
+    "consequences": "административная ответственность за нарушение учёта пестицидов; риск штрафа за расхождения с фактическими остатками",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 60",
+      "url": null,
+      "fragment_text": "Ежегодно в конце года на складе проводят инвентаризацию пестицидов с составлением акта снятия остатков",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: hazardous_substances\n    оператор: eq\n    значение: yes\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "hazardous_substances",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "склады с пестицидами"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": true,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8681,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Ежегодно в конце года на складе проводят инвентаризацию пестицидов с составлением акта снятия остатков",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 60",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

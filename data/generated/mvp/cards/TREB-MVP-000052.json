@@ -1,0 +1,107 @@
+{
+  "card_code": "TREB-MVP-000052",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Парниковые газы / план мониторинга",
+  "titles": {
+    "short": "При заключении органа по валидации — внести изменения в план мониторинга",
+    "canonical": "Субъект квотирования обязан внести изменения в план мониторинга для улучшения точности отчётных данных или в ответ на заключение органа по валидации.",
+    "legal": "Субъект квотирования вносит изменения в план мониторинга для улучшения точности отчетных данных или в ответ на заключение органа по валидации",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект квотирования (ЮЛ)",
+    "action": "внести изменения",
+    "object": "план мониторинга парниковых газов",
+    "condition": "при получении заключения валидирующего органа или для повышения точности",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "условие допуска",
+    "role_class": "core",
+    "regulatory_regime": "квотирование_парниковых_газов",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "conditional",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "по получении заключения / по необходимости",
+    "frequency": "on_event",
+    "evidence_required": "обновлённая редакция плана мониторинга, согласование валидатора",
+    "evidence_form": "план",
+    "consequences": "приостановление участия в системе квотирования; недостоверная отчётность",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Приказ Министра экологии — Правила квотирования парниковых газов",
+      "article_ref": "п. 61 пп. 7",
+      "url": null,
+      "fragment_text": "Субъект квотирования вносит изменения в план мониторинга для улучшения точности отчетных данных или в ответ на заключение органа по валидации",
+      "relation_status": "прямая_связь",
+      "confidence": 0.92
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: emissions\n    оператор: eq\n    значение: yes\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "emissions",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "trigger": "validator_remarks_received",
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "low",
+    "suspension_risk": "medium",
+    "refusal_risk": "medium",
+    "needs_external_spec": true,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8135,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Субъект квотирования вносит изменения в план мониторинга для улучшения точности отчетных данных или в ответ на заключение органа по валидации",
+      "npa_title": "О внесении изменения в приказ Министра экологии геологии и природных ресурсов Ре",
+      "article_ref": "п. 61 пп. 7",
+      "ml_category": "USL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

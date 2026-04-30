@@ -1,0 +1,142 @@
+{
+  "card_code": "TREB-MVP-000197",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) пр…",
+    "canonical": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) правилами, утвержденными приказом Министра сельского хозяйства Республики Казахстан от 29 июня 2015 года № 7-1/587 (зарегистрированный в Реестре государственной регистрации нормативных правовых актов № 11940)",
+    "legal": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) правилами, утвержденными приказом Министра сельского хозяйства Республики Казахстан от 29 июня 2015 года № 7-1/587 (зарегистрированный в Реестре государственной регистрации нормативных правовых актов № 11940)",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "утвержденными",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "документ для заявления",
+    "role_class": "core",
+    "regulatory_regime": "ecology_надзор_Комитет ветеринарного контроля",
+    "life_cycle_stage": "registration;pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) правилами, утвержденными приказом Министра сельского хозяйства Республики Казахстан от 29 июня 2015 года № 7-1/587 (зарегистрированный в Реестре государственной регистрации нормативных правовых актов № 11940)",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "has_premises",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch4.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Документы и записи). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-ECO-000196",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.874,
+      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере ecology: TREB-MVP-000196, TREB-MVP-000198. Средняя текстовая similarity (Jaccard 3-грамм): 0.87. Группа: DUP-AI-ECO-000196. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 470,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) правилами, утвержденными приказом Министра сельского хозяйства Республики Казахстан от 29 июня ",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-ECO-000196",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.874,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000198",
+        "sphere_code": "ecology",
+        "short_title": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) пр…"
+      },
+      {
+        "card_code": "TREB-MVP-000196",
+        "sphere_code": "ecology",
+        "short_title": "Содержание, разведение и использование животных в соответствии с ветеринарными (ветеринарно-санитарными) пр…"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch4-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:59:52.591Z",
+    "updated_at": "2026-04-29T22:59:52.591Z"
+  }
+}

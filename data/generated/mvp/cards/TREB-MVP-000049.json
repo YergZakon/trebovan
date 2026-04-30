@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000049",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Лесное хозяйство / подсочка",
+  "titles": {
+    "short": "Запрет передачи древостоев в подсочку без утверждённых планов рубок и подсочки",
+    "canonical": "Юридическому лицу запрещена передача древостоев в подсочку без утверждённых в установленном порядке планов рубок главного пользования и подсочки этих древостоев.",
+    "legal": "Передача древостоев в подсочку без утвержденных в порядке, установленном законодательством Республики Казахстан, планов рубок главного пользования и подсочки этих древостоев запрещается",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо (лесопользователь / лесовладелец)",
+    "action": "не передавать",
+    "object": "древостои в подсочку без утверждённых планов",
+    "condition": "при отсутствии утверждённых планов рубок и подсочки",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "лесное_хозяйство",
+    "life_cycle_stage": "pre_launch;operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "до передачи в подсочку",
+    "frequency": "on_event",
+    "evidence_required": "копии утверждённых планов рубок и подсочки",
+    "evidence_form": "план",
+    "consequences": "административная ответственность; недействительность передачи; ущерб лесному фонду",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Лесной кодекс Республики Казахстан",
+      "article_ref": "ст. 96 п. 1",
+      "url": null,
+      "fragment_text": "Передача древостоев в подсочку без утвержденных... планов рубок главного пользования и подсочки этих древостоев запрещается",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: subsphere\n    оператор: eq\n    значение: forestry\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "subsphere",
+            "value": "forestry"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 2,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "high",
+    "needs_external_spec": true,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8083,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Передача древостоев в подсочку без утвержденных в порядке, установленном законодательством Республики Казахстан, планов рубок главного пользования и подсочки этих древостоев запрещается",
+      "npa_title": "Лесной кодекс Республики Казахстан",
+      "article_ref": "ст. 96 п. 1",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

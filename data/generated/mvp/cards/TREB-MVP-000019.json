@@ -1,0 +1,117 @@
+{
+  "card_code": "TREB-MVP-000019",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Торговое мореплавание / учебные центры",
+  "titles": {
+    "short": "Уведомить уполномоченный орган перед началом подготовки специалистов морского транспорта",
+    "canonical": "Организация образования или морской учебно-тренажёрный центр осуществляет подготовку (переподготовку) и повышение квалификации специалистов морского транспорта только после уведомления уполномоченного органа.",
+    "legal": "Организации образования и морские учебно-тренажерные центры осуществляют подготовку (переподготовку) и повышение квалификации специалистов морского транспорта после уведомления уполномоченного органа.",
+    "business": "Чтобы готовить специалистов морского транспорта, надо предварительно уведомить уполномоченный орган."
+  },
+  "structure": {
+    "subject": "Организация образования / морской учебно-тренажёрный центр",
+    "action": "уведомить",
+    "object": "уполномоченный орган о начале подготовки специалистов морского транспорта",
+    "condition": "до начала подготовки/переподготовки специалистов",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "уведомление",
+    "requirement_subtype": "уведомительный_порядок_деятельности",
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "уведомительный_порядок",
+    "life_cycle_stage": "pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "до начала подготовки",
+    "frequency": "one_time",
+    "evidence_required": "копия уведомления, отметка / квитанция о приёме",
+    "evidence_form": "уведомление",
+    "consequences": "запрет на ведение деятельности до подачи уведомления; административная ответственность за деятельность без уведомления",
+    "can_be_online": true,
+    "related_service_url": "https://elicense.kz/"
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 28-1 п. 1",
+      "url": null,
+      "fragment_text": "Организации образования и морские учебно-тренажерные центры осуществляют подготовку (переподготовку) и повышение квалификации специалистов морского транспорта после уведомления уполномоченного органа",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: license_required\n    оператор: eq\n    значение: yes\nспец_условия:\n  - вид_деятельности: подготовка_морских_специалистов\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "license_required",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "учебные центры подготовки морских специалистов"
+      },
+      "notes": "Уведомительный порядок (не лицензирование)"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": 0,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "обязанность бизнеса",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.85,
+      "explanation": "Это классическое требование 'на входе' — уведомить до начала деятельности. Несмотря на ml_category=PRO, по существу это обязанность бизнеса (входное требование), а не процедурная реакция на надзор. Скорректировано против _role_target.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7612,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Организации образования и морские учебно-тренажерные центры осуществляют подготовку (переподготовку) и повышение квалификации специалистов морского транспорта после уведомления уполномоченного органа",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 28-1 п. 1",
+      "ml_category": "PRO"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

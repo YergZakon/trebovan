@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000087",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Внутренний водный транспорт / береговая полоса",
+  "titles": {
+    "short": "Запрет хоздеятельности на береговой полосе, несовместимой с безопасностью судоходства",
+    "canonical": "Любому лицу не допускается использование береговой полосы для хозяйственной и иной деятельности, несовместимой с обеспечением безопасности судоходства.",
+    "legal": "Не допускается использование береговой полосы для осуществления хозяйственной и иной деятельности, если такая деятельность не совместима с обеспечением безопасности судоходства",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любое лицо (землепользователь береговой полосы)",
+    "action": "не использовать",
+    "object": "береговую полосу для несовместимой деятельности",
+    "condition": "если деятельность не совместима с безопасностью судоходства",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "внутренний_водный_транспорт",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "согласование с уполномоченным органом",
+    "evidence_form": "согласование",
+    "consequences": "административная ответственность; запрет деятельности; снос самовольных построек",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 13 п. 6",
+      "url": null,
+      "fragment_text": "Не допускается использование береговой полосы для осуществления хозяйственной и иной деятельности, если такая деятельность не совместима с обеспечением безопасности судоходства",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: region\n    оператор: in_zone\n    значение: beregovaya_polosa\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in_zone",
+            "axis": "region",
+            "value": "shore_zone"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "high",
+    "refusal_risk": "high",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7466,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Не допускается использование береговой полосы для осуществления хозяйственной и иной деятельности, если такая деятельность не совместима с обеспечением безопасности судоходства",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 13 п. 6",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

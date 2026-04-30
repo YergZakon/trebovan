@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000103",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земли сельхозназначения / радиоактивное загрязнение",
+  "titles": {
+    "short": "Запрет производства и реализации сельхозпродукции с радиоактивно загрязнённых земель",
+    "canonical": "Любому лицу запрещается производство сельскохозяйственной продукции на радиоактивно загрязнённых землях и её реализация.",
+    "legal": "Производство сельскохозяйственной продукции на радиоактивно загрязненных землях и ее реализация запрещается",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любое лицо (землепользователь, КФХ, ЮЛ)",
+    "action": "не производить и не реализовывать",
+    "object": "сельхозпродукцию с радиоактивно загрязнённых земель",
+    "condition": "на землях, признанных радиоактивно загрязнёнными",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "земли_сельхозназначения",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "карта радиоактивно загрязнённых земель; документы на землю",
+    "evidence_form": "карта",
+    "consequences": "административная и уголовная ответственность; конфискация продукции; запрет деятельности",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "ст. 143 п. 2",
+      "url": null,
+      "fragment_text": "Производство сельскохозяйственной продукции на радиоактивно загрязненных землях и ее реализация запрещается",
+      "relation_status": "прямая_связь",
+      "confidence": 0.97
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: land_use_type\n    оператор: eq\n    значение: agricultural\nрегион:\n  - радиоактивно_загрязнённые_земли\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          },
+          {
+            "op": "in_zone",
+            "axis": "region",
+            "value": "radioactive_contaminated"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7364,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Производство сельскохозяйственной продукции на радиоактивно загрязненных землях и ее реализация запрещается",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "Ст. 143, п. 2",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

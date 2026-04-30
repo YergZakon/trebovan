@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000109",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "СЗЗ / авиаобработка пестицидами",
+  "titles": {
+    "short": "Авиаобработка пестицидами — на расстоянии ≥2000 м от населённого пункта",
+    "canonical": "Сельхозпроизводитель при авиационной обработке пестицидами обязан соблюдать минимальное расстояние не менее 2000 м до населённого пункта.",
+    "legal": "При авиационной обработке пестицидами расстояние до населённого пункта — не менее 2000 м",
+    "business": null
+  },
+  "structure": {
+    "subject": "Сельхозпроизводитель (КФХ, ЮЛ)",
+    "action": "соблюдать",
+    "object": "минимальное расстояние ≥2000 м от населённого пункта при авиаобработке",
+    "condition": "при авиационной обработке пестицидами",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "санитарно_защитные_зоны",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при каждой авиаобработке",
+    "frequency": "on_event",
+    "evidence_required": "план обработок с указанием расстояний; уведомление населения",
+    "evidence_form": "план",
+    "consequences": "административная и уголовная ответственность за заражение населённой территории; запрет на обработку",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Приказ №ДСМ-2 — Санитарные правила к санитарно-защитным зонам",
+      "article_ref": "п. 23",
+      "url": null,
+      "fragment_text": "При авиационной обработке пестицидами расстояние до населённого пункта — не менее 2000 м",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: land_use_type\n    оператор: eq\n    значение: agricultural\n  - ось: hazardous_substances\n    оператор: eq\n    значение: yes\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "land_use_type",
+            "value": "agricultural"
+          },
+          {
+            "op": "eq",
+            "axis": "hazardous_substances",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 4,
+    "num_documents": 2,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": true,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7436,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "При авиационной обработке пестицидами расстояние до населённого пункта — не менее 2000 м",
+      "npa_title": "Приказ №ДСМ-2 — Санитарные правила к СЗЗ",
+      "article_ref": "п.23",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

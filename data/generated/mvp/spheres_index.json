@@ -1,0 +1,50 @@
+[
+  {
+    "code": "ecology",
+    "name": "Экология и природопользование",
+    "total_cards": 189,
+    "core": 173,
+    "procedural": 12,
+    "noise": 4,
+    "business_route": 171,
+    "specificity": {
+      "concrete": 183,
+      "framework": 2,
+      "referential": 0,
+      "principle": 0,
+      "none": 4
+    }
+  },
+  {
+    "code": "transport",
+    "name": "Транспорт",
+    "total_cards": 135,
+    "core": 129,
+    "procedural": 5,
+    "noise": 1,
+    "business_route": 124,
+    "specificity": {
+      "concrete": 129,
+      "framework": 3,
+      "referential": 1,
+      "principle": 1,
+      "none": 1
+    }
+  },
+  {
+    "code": "land",
+    "name": "Земля и землепользование",
+    "total_cards": 183,
+    "core": 164,
+    "procedural": 2,
+    "noise": 17,
+    "business_route": 164,
+    "specificity": {
+      "concrete": 166,
+      "framework": 0,
+      "referential": 0,
+      "principle": 0,
+      "none": 17
+    }
+  }
+]

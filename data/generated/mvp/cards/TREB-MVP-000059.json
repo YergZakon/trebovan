@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000059",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Парниковые газы / учёт топлива",
+  "titles": {
+    "short": "В конце года — отразить количество топлива по источникам в отчёте инвентаризации ПГ",
+    "canonical": "Юридическое лицо обязано в конце отчётного года сводить количество использованного топлива по каждому источнику выбросов и отражать это в отчёте об инвентаризации выбросов парниковых газов.",
+    "legal": "С целью контроля количества использованного топлива в конце отчетного года количество топлива по каждому источнику выбросов сводится и отражается в отчете об инвентаризации выбросов парниковых газов",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо (объект-источник выбросов)",
+    "action": "сводить и отражать",
+    "object": "количество топлива по каждому источнику выбросов",
+    "condition": "в конце отчётного года",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "отчётность",
+    "requirement_subtype": null,
+    "role_fragment": "документ для заявления",
+    "role_class": "core",
+    "regulatory_regime": "учет_парниковых_газов",
+    "life_cycle_stage": "operation;reporting",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "в конце отчётного года",
+    "frequency": "periodic_year",
+    "evidence_required": "отчёт об инвентаризации выбросов ПГ",
+    "evidence_form": "отчёт",
+    "consequences": "недостоверная отчётность; административная ответственность; корректировка квоты",
+    "can_be_online": true,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Методики по расчёту выбросов и поглощения парниковых газов",
+      "article_ref": "п. 34",
+      "url": null,
+      "fragment_text": "С целью контроля количества использованного топлива в конце отчетного года количество топлива по каждому источнику выбросов сводится и отражается в отчете об инвентаризации выбросов парниковых газов",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: emissions\n    оператор: eq\n    значение: yes\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "emissions",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": true,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8348,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "С целью контроля количества использованного топлива в конце отчетного года количество топлива по каждому источнику выбросов сводится и отражается в отчете об инвентаризации выбросов парниковых газов",
+      "npa_title": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
+      "article_ref": "п. 34",
+      "ml_category": "DOC"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.9,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

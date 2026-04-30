@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000102",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Пастбища / норма нагрузки",
+  "titles": {
+    "short": "Пастбищепользователь — обеспечить непревышение нормы нагрузки",
+    "canonical": "Пастбищепользователь обязан самостоятельно обеспечивать наличие животных в количестве, не превышающем установленную Норму нагрузки на пастбище.",
+    "legal": "Пастбищепользователь самостоятельно обеспечивает наличие животных в количестве, не превышающем Норму нагрузки",
+    "business": null
+  },
+  "structure": {
+    "subject": "Пастбищепользователь (КФХ, ЮЛ, ВСЕ)",
+    "action": "обеспечивать непревышение",
+    "object": "численность животных в пределах Нормы нагрузки",
+    "condition": "при использовании пастбища",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "норматив",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "земли_сельхозназначения_пастбища",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "журнал учёта поголовья; расчёт фактической нагрузки",
+    "evidence_form": "журнал",
+    "consequences": "административная ответственность; деградация пастбища; ограничение пользования",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Приказ №173 «Правила рационального использования пастбищ»",
+      "article_ref": "п. 4",
+      "url": null,
+      "fragment_text": "Пастбищепользователь самостоятельно обеспечивает наличие животных в количестве, не превышающем Норму нагрузки",
+      "relation_status": "прямая_связь",
+      "confidence": 0.93
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: object_category\n    оператор: eq\n    значение: pasture\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "object_category",
+            "value": "pasture"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": null
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 12,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "medium",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7386,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Пастбищепользователь самостоятельно обеспечивает наличие животных в количестве, не превышающем Норму нагрузки",
+      "npa_title": "Приказ №173 «Правила рационального использования пастбищ»",
+      "article_ref": "п. 4",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.9,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:47.678Z",
+    "updated_at": "2026-04-29T22:31:47.678Z"
+  }
+}

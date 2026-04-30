@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000046",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Особо охраняемые природные территории",
+  "titles": {
+    "short": "Запрет захоронения радиоактивных и промышленных отходов в охранных зонах ГНПП",
+    "canonical": "В охранных зонах государственных национальных природных парков любому лицу запрещено захоронение радиоактивных материалов и промышленных отходов.",
+    "legal": "В охранных зонах государственных национальных природных парков запрещается захоронение радиоактивных материалов и промышленных отходов",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любое лицо (физическое и юридическое)",
+    "action": "не захоранивать",
+    "object": "радиоактивные материалы и промышленные отходы",
+    "condition": "в охранных зонах ГНПП",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "ООПТ",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно",
+    "frequency": "continuous",
+    "evidence_required": "не применимо (запрет)",
+    "evidence_form": null,
+    "consequences": "уголовная ответственность по ст. 277 УК РК (нарушение режима ООПТ), значительные штрафы и возмещение ущерба",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «Об особо охраняемых природных территориях»",
+      "article_ref": "ст. 48 п. 1 пп. 5",
+      "url": null,
+      "fragment_text": "В охранных зонах государственных национальных природных парков запрещается захоронение радиоактивных материалов и промышленных отходов",
+      "relation_status": "прямая_связь",
+      "confidence": 0.98
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: region\n    оператор: in_zone\n    значение: ohrannaya_zona_gnpp\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in_zone",
+            "axis": "region",
+            "value": "ohrannaya_zona_gnpp"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "территориальный запрет"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8234,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В охранных зонах государственных национальных природных парков запрещается захоронение радиоактивных материалов и промышленных отходов",
+      "npa_title": "Об особо охраняемых природных территориях",
+      "article_ref": "ст. 48 п. 1 пп. 5",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.96,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "card_code": "TREB-MVP-000012",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Торговое мореплавание / безопасность экипажа",
+  "titles": {
+    "short": "Судовладельцу обеспечить координацию действий экипажа в аварийной ситуации",
+    "canonical": "Судовладелец обязан обеспечить координацию действий экипажа судна в аварийной ситуации.",
+    "legal": "Судовладелец обязан обеспечить координацию действий экипажа судна в аварийной ситуации.",
+    "business": "Если случается авария — судовладелец отвечает за то, чтобы экипаж действовал согласованно (план, инструкции, тренировки)."
+  },
+  "structure": {
+    "subject": "Судовладелец",
+    "action": "обеспечить",
+    "object": "координацию действий экипажа судна в аварийной ситуации",
+    "condition": "в аварийной ситуации",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": "аварийная_готовность",
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "framework"
+  },
+  "execution": {
+    "timing": "постоянно (готовность); срабатывает в аварийной ситуации",
+    "frequency": "continuous",
+    "evidence_required": "судовая документация по аварийной готовности, журнал учений, утверждённые планы",
+    "evidence_form": "журнал",
+    "consequences": "административная и уголовная ответственность за последствия аварии при необеспечении координации; ответственность по гражданскому праву за ущерб",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 28 п. 5 пп. 6",
+      "url": null,
+      "fragment_text": "Судовладелец обязан обеспечить координацию действий экипажа судна в аварийной ситуации",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: transport_type\n    оператор: in\n    значение: [cargo, passenger]\nспец_условия:\n  - вид_транспорта: морской\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_type",
+            "value": [
+              "cargo",
+              "passenger"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "торговое мореплавание (морские суда)"
+      },
+      "notes": "Применимо к судовладельцам морских судов"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 4,
+    "num_documents": 3,
+    "num_authorities": 1,
+    "num_actions": 2,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": true,
+    "needs_equipment": true,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "обязанность бизнеса",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.92,
+      "explanation": "Безусловная эксплуатационная обязанность судовладельца",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7608,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Судовладелец обязан обеспечить координацию действий экипажа судна в аварийной ситуации",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 28 п. 5 пп. 6",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.9,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

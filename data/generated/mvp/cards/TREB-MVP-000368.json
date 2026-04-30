@@ -1,0 +1,116 @@
+{
+  "card_code": "TREB-MVP-000368",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+  "titles": {
+    "short": "Запрет на использование опасных компонентов при производстве БАД",
+    "canonical": "При производстве БАД не допускаются к использованию растения и продукты их переработки, объекты животного происхождения, микроорганизмы, грибы и биологически активные вещества, представляющие опасность для жизни и здоровья человека",
+    "legal": "При производстве БАД не допускаются к использованию растения и продукты их переработки, объекты животного происхождения, микроорганизмы, грибы и биологически активные вещества, представляющие опасность для жизни и здоровья человека",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "представляющие",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "ecology_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 694",
+      "url": null,
+      "fragment_text": "При производстве БАД не допускаются к использованию растения и продукты их переработки, объекты животного происхождения, микроорганизмы, грибы и биологически активные вещества, представляющие опасность для жизни и здоровья человека",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "hazardous_substances",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=ZAP, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 9163,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "При производстве БАД не допускаются к использованию растения и продукты их переработки, объекты животного происхождения, микроорганизмы, грибы и биологически активные вещества, представляющие опасност",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 694",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:30:28.766Z",
+    "updated_at": "2026-04-29T23:30:28.766Z"
+  }
+}

@@ -1,0 +1,2131 @@
+{
+  "sphere_code": "transport",
+  "sphere_name": "Транспорт",
+  "total_cards": 135,
+  "role_class_counts": {
+    "core": 129,
+    "procedural": 5,
+    "noise": 1,
+    "disputed": 0,
+    "uncategorized": 0
+  },
+  "specificity_counts": {
+    "concrete": 129,
+    "framework": 3,
+    "referential": 1,
+    "principle": 1,
+    "none": 1
+  },
+  "business_route_count": 124,
+  "role_counts": {
+    "обязанность бизнеса": 91,
+    "условие допуска": 7,
+    "процедурная обязанность бизнеса": 5,
+    "запрет": 7,
+    "документ для заявления": 24,
+    "описательная норма": 1
+  },
+  "subspheres_in_data": [
+    {
+      "name": "(не указано)",
+      "count": 42,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000219",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси крайнего пути до внутреннего края опор контактной сети на перегонах и станциях не менее 3…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000220",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси крайнего пути до внутреннего края опор контактной сети на перегонах и станциях не менее 3…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000221",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000222",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000223",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000224",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000225",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000226",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000227",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000228",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000229",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Возвышение рабочей поверхности контактного рельса над уровнем головок ходовых рельсов 160 мм., с отклонения…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000230",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие акта проверок состояния путей и тоннелей сплошным нивелированием при эксплуатации тоннелей сроко…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000433",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Несоответствие высоты подвески контактного провода над уровнем верха головки рельса на перегонах и станциях…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000434",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Несоответствие высоты подвески контактного провода над уровнем верха головки рельса на перегонах и станциях…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000435",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси контактного рельса до внутренней грани головки ближайшего ходового рельса 690 мм. с откло…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000436",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Оборудование мест расположения стрелочных переводов, перекрестных съездов и металлоконструкций перекрываемы…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "оборудование",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000437",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Не допущение работ плужных снегоочистителей с открытыми крыльями при наличии на участке опор контактной сет…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000438",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Установление ширины обособленного полотна наземных участков скоростного трамвая, включая полосы, занимаемые…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000439",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси крайнего пути до внутреннего края опор контактной сети не менее 5700 мм., в особо сильно …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000440",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси крайнего пути до внутреннего края опор контактной сети не менее 5700 мм., в особо сильно …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000441",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Расстояние от оси крайнего пути до внутреннего края опор контактной сети не менее 5700 мм., в особо сильно …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000442",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Подвешивание контактного провода над уровнем головок рельсов под пролетными строениями путепровода менее 4,…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000443",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Подвешивание контактного провода над уровнем головок рельсов под пролетными строениями путепровода менее 4,…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000444",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Наличие паспортов на арматуру с условным проходом более 20 миллиметров, с указанием данных по химическому с…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000445",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "На существующих линиях до их реконструкции, а также в особо трудных условиях на вновь электрифицируемых лин…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000446",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Приваривание гибкого медного провода или медной пластины общей площадью сечения не менее 70 мм2. с поверхно…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000447",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие показании выходных и маршрутных светофоров главных путей отчетливо различимые на расстоянии не м…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000448",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие показании выходных и маршрутных светофоров главных путей отчетливо различимые на расстоянии не м…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000449",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Обеспечение перевозчиком хранения заполненных диаграммных дисков каждого водителя в течение не менее чем 12…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000450",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Необеспечение перевозчиком хранения заполненных диаграммных дисков каждого водителя в течение не менее чем …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000451",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Необеспечение перевозчиком хранения заполненных диаграммных дисков каждого водителя в течение не менее чем …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000452",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Необеспечение перевозчиком хранения заполненных диаграммных дисков каждого водителя в течение не менее чем …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000453",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Необеспечение перевозчиком хранения заполненных диаграммных дисков каждого водителя в течение не менее чем …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000454",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие заявки о выдаче предупреждений в связи с предстоящим производством предвиденных работ дорожными …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "оборудование",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000455",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие заявки о выдаче предупреждений в связи с предстоящим производством предвиденных работ дорожными …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "оборудование",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000456",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие заявки о выдаче предупреждений в связи с предстоящим производством предвиденных работ дорожными …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "оборудование",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000457",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Не обеспечение расстояния между осями смежных трамвайных путей на прямых участках при боковом размещении оп…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000458",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие разделения контактного рельса на отдельные изолированные секции (фидерные зоны) не перекрываемым…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000459",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие в пределах искусственных сооружений расстояния от токонесущих элементов токоприемника и частей к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000460",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие в пределах искусственных сооружений расстояния от токонесущих элементов токоприемника и частей к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000461",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Отсутствие в пределах искусственных сооружений расстояния от токонесущих элементов токоприемника и частей к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000462",
+          "sphere_code": "transport",
+          "subsphere": "(не указано)",
+          "short_title": "Наличие в пределах искусственных сооружений расстояния от токонесущих элементов токоприемника и частей конт…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "О торговом мореплавании",
+      "count": 29,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000209",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судно обязано получить разрешение на выход из порта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000210",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен ознакомить экипаж с их правами, обязанностями и устройством судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000211",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Учебные организации должны обеспечить плавательную практику для специалистов морского транспорта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000216",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Запрещено плавание судов в запретных районах",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000217",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Запрещено требовать вознаграждение от спасенных людей",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000218",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Иностранцам запрещено занимать должности капитана, старшего помощника и старшего механика",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000464",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судно должно иметь свидетельство о страховании ответственности",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000466",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Иностранные суда должны получить разрешение для работы в казахстанском секторе Каспия",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000470",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "На судне должны быть оригиналы всех документов, кроме свидетельства о собственности",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000472",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Капитан должен сообщать об авариях судна длиной 15 метров и более",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000473",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "К претензии о грузе необходимо приложить подтверждающие документы",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000475",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Обязанность предоставить информацию об устранении нарушений с подтверждающими материалами",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000476",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Перевозчик обязан указать в коносаменте оговорки о неточностях в данных груза",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000478",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Субъект контроля обязан предоставить информацию об устранении нарушений до истечения срока",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000480",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "На судне должны находиться все требуемые судовые документы",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000481",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен обеспечить координацию действий экипажа при авариях",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000482",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Экипаж судна должен быть укомплектован согласно установленным требованиям",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000483",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Субъект контроля обязан предоставить информацию об устранении нарушений до истечения срока",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000484",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судно обязано получить разрешение на выход из порта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000486",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Перевозчик обязан указать в коносаменте оговорки о неточностях в данных груза",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000487",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Фрахтовщик должен обеспечить мореходность судна к передаче",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000488",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Перевозчик обязан подать судно в срок, указанный в чартере",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000489",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Отправитель обязан информировать об особых условиях обращения с грузом",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000491",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен незамедлительно принять результаты работы морского агента",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000492",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Фрахтователь должен поддерживать мореходность судна по бербоут-чартеру",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000493",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен обеспечить наличие спасательных средств на судне",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000494",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Перевозчик обязан подать судно в указанное место погрузки",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000496",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен обеспечить прохождение экипажем курсов повышения квалификации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000497",
+          "sphere_code": "transport",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен обеспечить наличие квалификационных документов у всех членов экипажа",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "О внутреннем водном транспорте",
+      "count": 12,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000212",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Предъявлять удостоверение личности при покупке билета и в пути",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000213",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Капитан обязан покинуть судно последним и спасти важные документы",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000214",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Капитан обязан документировать рождение или смерть на судне",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000215",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Судоводители обязаны пройти обучение и иметь удостоверение",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000463",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Судовладелец обязан хранить первый экземпляр акта осмотра маломерного судна и предписания",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000465",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Для регистрации судна требуется подать заявление с правоустанавливающими документами и классификационным свидетельством",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000471",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "При исчезновении человека капитан обязан документировать и описать его имущество",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000474",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "При подаче претензии о грузе необходимо приложить подтверждающие документы и оригиналы перевозочных документов",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000477",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Субъект обязан предоставить информацию об устранении нарушений до истечения срока предписания",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000485",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Судоводители обязаны пройти обучение и иметь удостоверение",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000490",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Временные огни можно устанавливать только с ограждением от судовых ходов",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000495",
+          "sphere_code": "transport",
+          "subsphere": "О внутреннем водном транспорте",
+          "short_title": "Иметь билет при посадке и до конца поездки",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+      "count": 6,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000498",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта на списание (в случае списания гражданского воздушного судна) по форме согласно прил…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000499",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта приема-передачи гражданского воздушного судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000500",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта приема-передачи гражданского воздушного судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000501",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта приема-передачи гражданского воздушного судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000502",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта проверки технического состояния воздушного судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000503",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача свидетельств о государственной регистрации гражданских воздушных судов Ре",
+          "short_title": "электронная копия акта проверки технического состояния воздушного судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+      "count": 4,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000467",
+          "sphere_code": "transport",
+          "subsphere": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+          "short_title": "Тариф подлежит корректировке при изменении затрат более чем на 10%",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000468",
+          "sphere_code": "transport",
+          "subsphere": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+          "short_title": "Перевозчик должен иметь отчеты по реализации билетов и финансовым поступлениям",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000469",
+          "sphere_code": "transport",
+          "subsphere": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+          "short_title": "Установлены коэффициенты для расчета стоимости перевозки багажа",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000479",
+          "sphere_code": "transport",
+          "subsphere": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+          "short_title": "Нормативы расходов на ремонт и ТО автотранспорта в зависимости от срока эксплуатации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / документирование",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000074",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / документирование",
+          "short_title": "[CROSS-SPHERE DUP] Капитан судна — акт при рождении/смерти на судне (ВВТ)",
+          "role_fragment": "процедурная обязанность бизнеса",
+          "role_class": "procedural",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000075",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / документирование",
+          "short_title": "Капитан при исчезновении лица на судне — запись в журнал, акт, опись имущества",
+          "role_fragment": "процедурная обязанность бизнеса",
+          "role_class": "procedural",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача сертификата летной годности гражданского воздушного судна",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000231",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача сертификата летной годности гражданского воздушного судна",
+          "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000506",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача сертификата летной годности гражданского воздушного судна",
+          "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача разрешения на выполнение специального полета",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000234",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача разрешения на выполнение специального полета",
+          "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000507",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача разрешения на выполнение специального полета",
+          "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Торговое мореплавание / безопасность экипажа",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000012",
+          "sphere_code": "transport",
+          "subsphere": "Торговое мореплавание / безопасность экипажа",
+          "short_title": "Судовладельцу обеспечить координацию действий экипажа в аварийной ситуации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "framework",
+          "confidence": 0.9,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Торговое мореплавание / экологическая безопасность спасательных операций",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000013",
+          "sphere_code": "transport",
+          "subsphere": "Торговое мореплавание / экологическая безопасность спасательных операций",
+          "short_title": "Спасатель обязан предотвращать ущерб окружающей среде",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "principle",
+          "confidence": 0.85,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Торговое мореплавание / комплектование экипажа",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000014",
+          "sphere_code": "transport",
+          "subsphere": "Торговое мореплавание / комплектование экипажа",
+          "short_title": "Соблюдать требования к комплектованию экипажа судна",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "персонал",
+          "mandatory_level": "mandatory",
+          "specificity": "referential",
+          "confidence": 0.9,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Торговое мореплавание / учебные центры",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000019",
+          "sphere_code": "transport",
+          "subsphere": "Торговое мореплавание / учебные центры",
+          "short_title": "Уведомить уполномоченный орган перед началом подготовки специалистов морского транспорта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "уведомление",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / документация судна",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000070",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / документация судна",
+          "short_title": "На каждое судно вести отдельный формуляр с копиями актов и свидетельств",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.9,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / экипаж",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000071",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / экипаж",
+          "short_title": "Судовладельцу — обеспечить ознакомление экипажа с правами, обязанностями и устройством судна",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "framework",
+          "confidence": 0.78,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / подготовка специалистов",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000072",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / подготовка специалистов",
+          "short_title": "Учебным организациям — обеспечить плавательную практику для специалистов морского транспорта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.88,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / пассажиры",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000073",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / пассажиры",
+          "short_title": "Пассажир обязан предъявить удостоверение личности при покупке билета и в пути",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.9,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / уведомление об авариях",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000076",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / уведомление об авариях",
+          "short_title": "Капитан судна ≥15 м — сообщать о повреждениях/авариях, влияющих на безопасность",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "уведомление",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / надзор",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000077",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / надзор",
+          "short_title": "До истечения срока предписания — представить информацию об устранении нарушений",
+          "role_fragment": "процедурная обязанность бизнеса",
+          "role_class": "procedural",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / тарифы (норматив)",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000078",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / тарифы (норматив)",
+          "short_title": "Тарифные коэффициенты за провоз багажа по типам маршрутов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.9,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / нормативы расходов",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000079",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / нормативы расходов",
+          "short_title": "Нормативы расходов на ремонт автотранспорта: 10/15/20% по сроку эксплуатации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.88,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / измерения массы",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000080",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / измерения массы",
+          "short_title": "Средства определения массы грузов — государственный метрологический контроль",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "оборудование",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / тара и упаковка",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000081",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / тара и упаковка",
+          "short_title": "Тара и упаковка — соответствие техрегламентам и международным договорам",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "framework",
+          "confidence": 0.78,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / нормативы рентабельности",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000082",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / нормативы рентабельности",
+          "short_title": "Коэффициент расчётной рентабельности к затратам перевозчика — 1,15 (15%)",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.88,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / порты",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000083",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / порты",
+          "short_title": "В государственных морских портах — ≥2 операторов терминалов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.85,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / амортизация автотранспорта",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000084",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / амортизация автотранспорта",
+          "short_title": "Норма амортизации автотранспорта — 15% в год (не для аренды)",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.88,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / запретные районы",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000085",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / запретные районы",
+          "short_title": "Запрет плавания в запретных для плавания районах",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / экипаж (ограничения)",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000086",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / экипаж (ограничения)",
+          "short_title": "Запрет иностранцам занимать должности капитана, ст. помощника, ст. механика",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / береговая полоса",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000087",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / береговая полоса",
+          "short_title": "Запрет хоздеятельности на береговой полосе, несовместимой с безопасностью судоходства",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / претензии и иски",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000088",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / претензии и иски",
+          "short_title": "Запрет передачи права на претензии и иски третьим лицам (с исключениями)",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.88,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / регистрация судов",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000089",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / регистрация судов",
+          "short_title": "К заявлению о госрегистрации судна — приложить правоустанавливающие документы и классификационное свидетельство",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / корректировка тарифа",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000090",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / корректировка тарифа",
+          "short_title": "Корректировка тарифа при изменении затрат >10% по независящим факторам",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "conditional",
+          "specificity": "concrete",
+          "confidence": 0.85,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / претензии о грузе",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000091",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / претензии о грузе",
+          "short_title": "К претензии о грузе — приложить документы, подтверждающие право и стоимость",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / претензии о грузе",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000092",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / претензии о грузе",
+          "short_title": "К претензии о грузе (ВВТ) — приложить подтверждающие документы и оригиналы перевозочных",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.92,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / страхование",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000093",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / страхование",
+          "short_title": "Судно — иметь свидетельство о страховании ответственности",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / страхование опасных грузов",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000094",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / страхование опасных грузов",
+          "short_title": "[CROSS-SPHERE DUP] Перевозка >2000т нефти/опасного — застраховать ответственность",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Перевозка пассажиров / расчёт тарифа",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000095",
+          "sphere_code": "transport",
+          "subsphere": "Перевозка пассажиров / расчёт тарифа",
+          "short_title": "[CROSS-SPHERE DUP] Прогноз перевозок для нового маршрута — формула за 2 месяца",
+          "role_fragment": "процедурная обязанность бизнеса",
+          "role_class": "procedural",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.85,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Морской транспорт / претензионный порядок",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000096",
+          "sphere_code": "transport",
+          "subsphere": "Морской транспорт / претензионный порядок",
+          "short_title": "Досудебное претензионное урегулирование споров — обязательное условие иска",
+          "role_fragment": "процедурная обязанность бизнеса",
+          "role_class": "procedural",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.9,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Внутренний водный транспорт / ответственность",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000097",
+          "sphere_code": "transport",
+          "subsphere": "Внутренний водный транспорт / ответственность",
+          "short_title": "[ОПИСАТЕЛЬНАЯ / CROSS-SPHERE DUP] Собственник буксирующего судна отвечает за ущерб",
+          "role_fragment": "описательная норма",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.95,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "О внесении дополнения в приказ исполняющего обязанности Министра транспорта и",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000208",
+          "sphere_code": "transport",
+          "subsphere": "О внесении дополнения в приказ исполняющего обязанности Министра транспорта и",
+          "short_title": "На каждое судно должен вестись отдельный формуляр с копиями документов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача решения о признании сертификата летной годности гражданских воздушных суд",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000232",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача решения о признании сертификата летной годности гражданских воздушных суд",
+          "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача экспортного сертификата летной годности",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000233",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача экспортного сертификата летной годности",
+          "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача сертификата воздушного судна по шуму",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000235",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача сертификата воздушного судна по шуму",
+          "short_title": "электронная копия акта проверки технического состояния и определения годности воздушного судна к полетам, с…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача сертификата авиационного учебного центра гражданской авиации",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000504",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Выдача сертификата авиационного учебного центра гражданской авиации",
+          "short_title": "копия сертификата иностранного авиационного учебного центра с областью действия",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "лицензия",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Признание сертификата иностранного авиационного учебного центра гражданской авиа",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000505",
+          "sphere_code": "transport",
+          "subsphere": "Услуга: Признание сертификата иностранного авиационного учебного центра гражданской авиа",
+          "short_title": "копия сертификата иностранного авиационного учебного центра с областью действия",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "лицензия",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    }
+  ],
+  "subsphere_dict": [
+    {
+      "code": "maritime",
+      "name": "Торговое мореплавание",
+      "is_business_facing": true,
+      "display_order": 10,
+      "cards_count": 4,
+      "business_facing_cards": 4
+    },
+    {
+      "code": "inland_waterway",
+      "name": "Внутренний водный транспорт",
+      "is_business_facing": true,
+      "display_order": 20,
+      "cards_count": 9,
+      "business_facing_cards": 5
+    },
+    {
+      "code": "automobile",
+      "name": "Автомобильный транспорт",
+      "is_business_facing": true,
+      "display_order": 30,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "railway",
+      "name": "Железнодорожный транспорт",
+      "is_business_facing": true,
+      "display_order": 40,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "aviation",
+      "name": "Гражданская авиация",
+      "is_business_facing": true,
+      "display_order": 50,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "urban_rail",
+      "name": "Городской рельсовый транспорт",
+      "is_business_facing": true,
+      "display_order": 60,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "pipeline",
+      "name": "Магистральный трубопровод",
+      "is_business_facing": true,
+      "display_order": 70,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "cross_border",
+      "name": "Международные перевозки",
+      "is_business_facing": true,
+      "display_order": 80,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "dangerous_goods",
+      "name": "Перевозка опасных грузов",
+      "is_business_facing": true,
+      "display_order": 90,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    },
+    {
+      "code": "driver_training",
+      "name": "Подготовка специалистов транспорта",
+      "is_business_facing": true,
+      "display_order": 100,
+      "cards_count": 0,
+      "business_facing_cards": 0
+    }
+  ]
+}

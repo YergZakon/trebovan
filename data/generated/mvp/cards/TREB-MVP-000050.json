@@ -1,0 +1,106 @@
+{
+  "card_code": "TREB-MVP-000050",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Радиационная безопасность / отчётность",
+  "titles": {
+    "short": "Запрет включения в форму №1-ДОЗ доз аварийного облучения и расчётных доз персонала группы Б",
+    "canonical": "Юридическому лицу запрещается включать в форму №1-ДОЗ дозы, связанные с планируемым повышенным и аварийным облучением (включаются в форму №2-ДОЗ), а также дозы лиц из персонала группы «Б», полученные расчётным методом.",
+    "legal": "В форму № 1-ДОЗ не должны включаться дозы, связанные с планируемым повышенным и аварийным облучением, которые включаются в форму № 2-ДОЗ, а также дозы лиц из персонала группы \"Б\", полученные расчетным методом",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо (объект с источниками ИИ)",
+    "action": "не включать",
+    "object": "аварийные / расчётные дозы — в форму №1-ДОЗ",
+    "condition": "при заполнении отчётности по дозовым нагрузкам",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "operation;reporting",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "при заполнении отчётной формы",
+    "frequency": "periodic_year",
+    "evidence_required": "формы №1-ДОЗ и №2-ДОЗ с разделением доз",
+    "evidence_form": "форма",
+    "consequences": "административная ответственность за искажение отчётности по радиационной безопасности",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 3",
+      "url": null,
+      "fragment_text": "В форму № 1-ДОЗ не должны включаться дозы, связанные с планируемым повышенным и аварийным облучением...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.92
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: hazardous_substances\n    оператор: eq\n    значение: yes\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "hazardous_substances",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "объекты с источниками ионизирующего излучения"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 2,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 8825,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В форму № 1-ДОЗ не должны включаться дозы, связанные с планируемым повышенным и аварийным облучением, которые включаются в форму № 2-ДОЗ, а также дозы лиц из персонала группы \"Б\", полученные расчетным",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 3",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.88,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:29:44.021Z",
+    "updated_at": "2026-04-29T22:29:44.021Z"
+  }
+}

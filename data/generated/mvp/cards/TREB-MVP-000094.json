@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000094",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Морской транспорт / страхование опасных грузов",
+  "titles": {
+    "short": "[CROSS-SPHERE DUP] Перевозка >2000т нефти/опасного — застраховать ответственность",
+    "canonical": "Судовладелец, перевозящий опасный груз или нефть в количестве более 2 000 тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнения обязательства.",
+    "legal": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнения обязательства в размере ответственности за ущерб от загрязнения",
+    "business": null
+  },
+  "structure": {
+    "subject": "Судовладелец (морской)",
+    "action": "застраховать или предоставить финобеспечение",
+    "object": "риск ответственности за загрязнение",
+    "condition": "при перевозке нефти >2 000 т или опасного груза",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "финансовое обязательство",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "торговое_мореплавание",
+    "life_cycle_stage": "pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "до начала перевозки",
+    "frequency": "periodic_year",
+    "evidence_required": "договор страхования или банковская гарантия",
+    "evidence_form": "договор",
+    "consequences": "запрет на перевозку; задержание судна; полная имущественная ответственность",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О торговом мореплавании»",
+      "article_ref": "ст. 177 п. 1",
+      "url": null,
+      "fragment_text": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.97
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_канонический\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "не-каноническая копия TREB-MVP-000060"
+      },
+      "notes": "Кросс-сферный дубль: тот же фрагмент REQ-00222 размечен в исходнике и как ecology, и как transport"
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 1,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "duplicate_group",
+      "value": "DUP-MVP-CROSS-004",
+      "source": "rule",
+      "method": "exact_text_match",
+      "confidence": 0.99,
+      "explanation": "Тот же текст что у TREB-MVP-000060",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7678,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Судовладелец, перевозящий опасный груз, а также нефть в размере, превышающем две тысячи тонн, обязан застраховать риск ответственности за загрязнение либо предоставить финансовое обеспечение исполнени",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 177 п. 1",
+      "ml_category": "LIC"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

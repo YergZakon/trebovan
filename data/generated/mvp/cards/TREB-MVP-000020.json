@@ -1,0 +1,111 @@
+{
+  "card_code": "TREB-MVP-000020",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Санитарно-эпидемиологическое заключение",
+  "titles": {
+    "short": "[ОПИСАТЕЛЬНАЯ] Невыполнение предписания — основание для приостановления СЭЗ",
+    "canonical": "Невыполнение предписания об устранении нарушений санитарно-эпидемиологического законодательства является основанием для приостановления действия санитарно-эпидемиологического заключения (СЭЗ).",
+    "legal": "Невыполнение предписания об устранении нарушений требований нормативных правовых актов в сфере санитарно-эпидемиологического благополучия населения является основанием для приостановления действия санитарно-эпидемиологического заключения.",
+    "business": "Если предписание санврача не выполнено — могут приостановить ваше санитарное заключение."
+  },
+  "structure": {
+    "subject": "Любой держатель СЭЗ",
+    "action": "—",
+    "object": "—",
+    "condition": "—",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "описательная",
+    "requirement_subtype": "норма_о_последствиях",
+    "role_fragment": "описательная норма",
+    "role_class": "noise",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": null,
+    "mandatory_level": null,
+    "specificity": null
+  },
+  "execution": {
+    "timing": null,
+    "frequency": null,
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": "(описание последствий неисполнения другой обязанности — не самостоятельное требование)",
+    "can_be_online": null,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Правила оказания государственных услуг в сфере санитарно-эпидемиологического благополучия",
+      "article_ref": "п. 24",
+      "url": null,
+      "fragment_text": "Невыполнение предписания об устранении нарушений требований нормативных правовых актов в сфере санитарно-эпидемиологического благополучия населения является основанием для приостановления действия санитарно-эпидемиологического заключения",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_применимо: описательная норма (последствия), не действие\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "норма-санкция: НЕ включается в маршрут предпринимателя"
+      },
+      "notes": "Описательная норма о последствиях неисполнения другой обязанности — не порождает самостоятельного действия. Сохраняется в БД для полноты, но исключается из портала."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 0,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "описательная норма",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.95,
+      "explanation": "Норма-санкция: описывает последствия неисполнения, не порождает самостоятельной обязанности. Помечена как 'описательная' для исключения из портала предпринимателя.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 8155,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Невыполнение предписания об устранении нарушений требований нормативных правовых актов в сфере санитарно-эпидемиологического благополучия населения является основанием для приостановления действия сан",
+      "npa_title": "О некоторых вопросах оказания государственных услуг в сфере санитарно-эпидемиоло",
+      "article_ref": "п. 24",
+      "ml_category": "OTV"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.95,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

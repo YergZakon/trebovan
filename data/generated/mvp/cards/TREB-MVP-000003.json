@@ -1,0 +1,126 @@
+{
+  "card_code": "TREB-MVP-000003",
+  "sphere": {
+    "code": "ecology",
+    "name": "Экология и природопользование"
+  },
+  "subsphere": "Санитарные требования к медицинским учреждениям",
+  "titles": {
+    "short": "Поддерживать в палате для недоношенных детей температуру +25...+28°С",
+    "canonical": "Медицинская организация обязана обеспечивать в палате для недоношенных детей температуру воздуха в диапазоне +25°С – +28°С.",
+    "legal": "В палате для недоношенных детей температура воздуха обеспечивается +25°С – +28°С.",
+    "business": "В палатах для недоношенных детей температура воздуха должна поддерживаться от +25°С до +28°С."
+  },
+  "structure": {
+    "subject": "Медицинская организация (палата недоношенных детей)",
+    "action": "обеспечивать",
+    "object": "температуру воздуха +25°С – +28°С",
+    "condition": "при наличии в учреждении палаты для недоношенных детей",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "оборудование",
+    "requirement_subtype": "температурный_режим",
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "санитарные_правила",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "постоянно во время эксплуатации палаты",
+    "frequency": "continuous",
+    "evidence_required": "журнал температурного режима, технический паспорт климатической системы",
+    "evidence_form": "журнал",
+    "consequences": "административная ответственность за нарушение санитарных норм; в худшем случае — приостановление деятельности палаты",
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Санитарные правила «Санитарно-эпидемиологические требования к объектам»",
+      "article_ref": "п. 42",
+      "url": null,
+      "fragment_text": "В палате для недоношенных детей температура воздуха обеспечивается +25°С – +28°С",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "все_условия:\n  - ось: has_premises\n    оператор: eq\n    значение: yes\nспец_условия:\n  - тип_объекта: палата_недоношенных\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "has_premises",
+            "value": "yes"
+          }
+        ],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "только для медорганизаций с палатой недоношенных"
+      },
+      "notes": "Узкое применение — только медицинские учреждения с педиатрической специализацией. Сфера ecology — артефакт исходной разметки (фактически — здравоохранение/санитария)."
+    }
+  ],
+  "burden": {
+    "is_periodic": true,
+    "frequency_per_year": 365,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": true,
+    "needs_premises": true,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "обязанность бизнеса",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.9,
+      "explanation": "Постоянная эксплуатационная обязанность, не реакция на надзор",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "frequency",
+      "value": "continuous",
+      "source": "llm",
+      "method": "claude-opus-4-7",
+      "confidence": 0.95,
+      "explanation": "Температура должна поддерживаться непрерывно во время работы палаты",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 8843,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В палате для недоношенных детей температура воздуха обеспечивается +25°С – +28°С",
+      "npa_title": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "article_ref": "п. 42",
+      "ml_category": "STD"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T21:20:56.663Z",
+    "updated_at": "2026-04-29T21:20:56.663Z"
+  }
+}

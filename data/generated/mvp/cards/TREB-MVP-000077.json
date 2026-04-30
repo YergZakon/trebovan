@@ -1,0 +1,101 @@
+{
+  "card_code": "TREB-MVP-000077",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Внутренний водный транспорт / надзор",
+  "titles": {
+    "short": "До истечения срока предписания — представить информацию об устранении нарушений",
+    "canonical": "Субъект контроля и надзора в сфере ВВТ обязан до истечения срока, указанного в предписании, представить информацию об устранении выявленных нарушений с приложением материалов, доказывающих факт устранения.",
+    "legal": "До истечения сроков, предусмотренных предписанием об устранении нарушений законодательства Республики Казахстан о внутреннем водном транспорте, субъект контроля и надзора обязан предоставить информацию об устранении выявленных нарушений требований с приложением материалов (при необходимости), доказывающих факт устранения нарушения",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект контроля и надзора в сфере ВВТ",
+    "action": "представить",
+    "object": "информацию об устранении нарушений + доказательства",
+    "condition": "по получении предписания",
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "процедурная обязанность бизнеса",
+    "role_class": "procedural",
+    "regulatory_regime": "надзор_оперативное_реагирование",
+    "life_cycle_stage": "inspection;operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": "до истечения срока, указанного в предписании",
+    "frequency": "on_event",
+    "evidence_required": "отчёт об исполнении предписания, фотофиксации, протоколы измерений",
+    "evidence_form": "отчёт",
+    "consequences": "административная ответственность по КоАП за неисполнение предписания; повторное предписание; приостановление деятельности",
+    "can_be_online": true,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Закон РК «О внутреннем водном транспорте»",
+      "article_ref": "ст. 7-1 п. 12",
+      "url": null,
+      "fragment_text": "До истечения сроков, предусмотренных предписанием об устранении нарушений... субъект контроля и надзора обязан предоставить информацию об устранении выявленных нарушений...",
+      "relation_status": "прямая_связь",
+      "confidence": 0.95
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_канонический\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "родственная норма к TREB-MVP-000001"
+      },
+      "notes": "Та же глава ВВТ что и в первой пилотной карточке (предписание об устранении). Здесь — обязанность отчитаться, в первой — обязанность устранить."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 2,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "high",
+    "suspension_risk": "high",
+    "refusal_risk": "low",
+    "needs_external_spec": null,
+    "needs_equipment": null,
+    "needs_premises": null,
+    "burden_index": null
+  },
+  "field_metadata": [],
+  "sources": [
+    {
+      "fragment_id": 7462,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "До истечения сроков, предусмотренных предписанием об устранении нарушений законодательства Республики Казахстан о внутреннем водном транспорте, субъект контроля и надзора обязан предоставить информаци",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 7-1 п. 12",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1",
+    "model_confidence": 0.92,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T22:31:02.230Z",
+    "updated_at": "2026-04-29T22:31:02.230Z"
+  }
+}

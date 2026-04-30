@@ -1,0 +1,121 @@
+{
+  "card_code": "TREB-MVP-000287",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земельный кодекс РК",
+  "titles": {
+    "short": "Запрет сделок с правом землепользования на землях общего пользования и ООПТ.",
+    "canonical": "Запрет сделок с правом землепользования на землях общего пользования и ООПТ.",
+    "legal": "Не допускается совершение сделок в отношении права землепользования на землях общего пользования, обороны, лесного фонда, ООПТ",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любой субъект (ФЛ/ЮЛ/ИП)",
+    "action": "не допуска",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "запрет",
+    "requirement_subtype": null,
+    "role_fragment": "запрет",
+    "role_class": "core",
+    "regulatory_regime": "land_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "ст. 33 п. 2",
+      "url": null,
+      "fragment_text": "Не допускается совершение сделок в отношении права землепользования на землях общего пользования, обороны, лесного фонда, ООПТ",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "land_use_type",
+            "value": [
+              "agricultural",
+              "settlement",
+              "industrial",
+              "protected"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 0,
+    "num_actions": 0,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch5.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=ZAP, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7446,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Не допускается совершение сделок в отношении права землепользования на землях общего пользования, обороны, лесного фонда, ООПТ",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "ст. 33 п. 2",
+      "ml_category": "ZAP"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch5-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-29T23:28:23.564Z",
+    "updated_at": "2026-04-29T23:28:23.564Z"
+  }
+}
