@@ -21,12 +21,12 @@
   "classification": {
     "requirement_type": "процесс",
     "requirement_subtype": null,
-    "role_fragment": "обязанность бизнеса",
-    "role_class": "core",
+    "role_fragment": "действие государственного органа",
+    "role_class": "noise",
     "regulatory_regime": "land_надзор_Местные органы РК",
     "life_cycle_stage": "registration;pre_launch",
-    "mandatory_level": "mandatory",
-    "specificity": "concrete"
+    "mandatory_level": null,
+    "specificity": null
   },
   "execution": {
     "timing": null,
@@ -96,6 +96,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Операционные процессы). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "role_fragment",
+      "value": "действие государственного органа",
+      "source": "rule",
+      "method": "regex_organ_verb_v5",
+      "confidence": 0.92,
+      "explanation": "Текст описывает действия госоргана при оказании госуслуги (соблюдение срока выдачи/направления/предоставления, ведение реестра, размещение информации, подготовка договора и т.п.). Это процедуры самого органа, не требование к бизнесу.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -116,6 +125,6 @@
     "model_confidence": 0.7,
     "expert_status": "unchecked",
     "created_at": "2026-04-29T23:28:23.564Z",
-    "updated_at": "2026-04-29T23:28:23.564Z"
+    "updated_at": "2026-04-30T02:58:49.051Z"
   }
 }
