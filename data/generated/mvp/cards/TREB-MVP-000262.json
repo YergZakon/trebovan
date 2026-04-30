@@ -134,12 +134,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000268",
+        "card_code": "TREB-MVP-000263",
         "sphere_code": "land",
         "short_title": "Соблюдение срока передачи заявителю одного экземпляра положительного заключения комиссии для подготовки им …"
       },
       {
-        "card_code": "TREB-MVP-000263",
+        "card_code": "TREB-MVP-000268",
         "sphere_code": "land",
         "short_title": "Соблюдение срока передачи заявителю одного экземпляра положительного заключения комиссии для подготовки им …"
       }

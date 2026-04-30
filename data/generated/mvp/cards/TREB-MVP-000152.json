@@ -134,12 +134,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000164",
+        "card_code": "TREB-MVP-000160",
         "sphere_code": "land",
         "short_title": "Предоставление и изменение целевого назначения земельных участков или права аренды земельных участков в соо…"
       },
       {
-        "card_code": "TREB-MVP-000160",
+        "card_code": "TREB-MVP-000164",
         "sphere_code": "land",
         "short_title": "Предоставление и изменение целевого назначения земельных участков или права аренды земельных участков в соо…"
       },

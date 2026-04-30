@@ -21,12 +21,12 @@
   "classification": {
     "requirement_type": "процесс",
     "requirement_subtype": null,
-    "role_fragment": "обязанность бизнеса",
-    "role_class": "core",
+    "role_fragment": "действие государственного органа",
+    "role_class": "noise",
     "regulatory_regime": "land_надзор_Местные органы РК",
     "life_cycle_stage": "operation",
-    "mandatory_level": "mandatory",
-    "specificity": "concrete"
+    "mandatory_level": null,
+    "specificity": null
   },
   "execution": {
     "timing": null,
@@ -98,6 +98,15 @@
       "check_status": "unchecked"
     },
     {
+      "field": "role_fragment",
+      "value": "действие государственного органа",
+      "source": "rule",
+      "method": "rot_mio_land_v1",
+      "confidence": 0.93,
+      "explanation": "Карточка из проверочного листа Местных исполнительных органов в сфере земельных отношений. МИО оказывают земельные госуслуги (рассмотрение заявлений, принятие решений, выдача актов, заключение договоров) — это процедуры самого органа, а не требования к бизнесу.",
+      "check_status": "unchecked"
+    },
+    {
       "field": "duplicate_alert",
       "value": "DUP-AI-LAN-000289",
       "source": "rule",
@@ -137,6 +146,6 @@
     "model_confidence": 0.7,
     "expert_status": "unchecked",
     "created_at": "2026-04-29T23:28:23.564Z",
-    "updated_at": "2026-04-29T23:28:23.564Z"
+    "updated_at": "2026-04-30T03:41:15.458Z"
   }
 }
