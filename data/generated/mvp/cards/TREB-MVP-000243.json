@@ -125,12 +125,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000240",
+        "card_code": "TREB-MVP-000239",
         "sphere_code": "land",
         "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка"
       },
       {
-        "card_code": "TREB-MVP-000239",
+        "card_code": "TREB-MVP-000240",
         "sphere_code": "land",
         "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка"
       }

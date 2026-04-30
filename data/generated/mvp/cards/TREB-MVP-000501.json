@@ -120,12 +120,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000500",
+        "card_code": "TREB-MVP-000499",
         "sphere_code": "transport",
         "short_title": "электронная копия акта приема-передачи гражданского воздушного судна"
       },
       {
-        "card_code": "TREB-MVP-000499",
+        "card_code": "TREB-MVP-000500",
         "sphere_code": "transport",
         "short_title": "электронная копия акта приема-передачи гражданского воздушного судна"
       }

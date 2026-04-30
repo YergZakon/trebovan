@@ -9,10 +9,10 @@
   "is_published": true,
   "display_order": 30,
   "stats": {
-    "total_cards": 17,
-    "required": 14,
-    "optional": 3,
-    "concrete": 17,
+    "total_cards": 20,
+    "required": 16,
+    "optional": 4,
+    "concrete": 20,
     "noise": 0
   },
   "cards": [
@@ -157,6 +157,26 @@
       "notes": "Применимо для всех, кто образует, хранит или утилизирует опасные отходы."
     },
     {
+      "card_code": "TREB-MVP-000534",
+      "sphere_code": "ecology",
+      "subsphere": "(не указано)",
+      "short_title": "Наличие паспорта опасных отходов представленного в уполномоченный орган в области охраны окружающей среды",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "отчётность",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "periodic_year",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 80,
+      "notes": "Применимо для всех, кто образует, хранит или утилизирует опасные отходы."
+    },
+    {
       "card_code": "TREB-MVP-000004",
       "sphere_code": "ecology",
       "subsphere": "Санитарные требования к обращению с медотходами",
@@ -173,7 +193,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 80,
+      "ordering": 90,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -193,7 +213,7 @@
       "life_cycle_stage": "operation;reporting",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 90,
+      "ordering": 100,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -213,7 +233,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 100,
+      "ordering": 110,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -233,7 +253,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.88,
       "is_required": true,
-      "ordering": 110,
+      "ordering": 120,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -253,7 +273,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.88,
       "is_required": true,
-      "ordering": 120,
+      "ordering": 130,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -273,7 +293,7 @@
       "life_cycle_stage": "operation;reporting",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 130,
+      "ordering": 140,
       "notes": "Эксплуатация полигонов и обращение с отходами."
     },
     {
@@ -293,7 +313,7 @@
       "life_cycle_stage": "operation;reporting",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 140,
+      "ordering": 150,
       "notes": "Если работаете с медицинскими отходами (клиники, лаборатории)."
     },
     {
@@ -313,7 +333,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 150,
+      "ordering": 160,
       "notes": "Если работаете с медицинскими отходами (клиники, лаборатории)."
     },
     {
@@ -333,7 +353,27 @@
       "life_cycle_stage": "operation;reporting",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 160,
+      "ordering": 170,
+      "notes": "Применимо при использовании ОРВ (хладагенты, аэрозоли)."
+    },
+    {
+      "card_code": "TREB-MVP-000603",
+      "sphere_code": "ecology",
+      "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+      "short_title": "При наличии опасных веществ требуется определить дополнительные работы для безопасного обращения",
+      "role_fragment": "условие допуска",
+      "role_class": "core",
+      "requirement_type": "условие",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": false,
+      "ordering": 180,
       "notes": "Применимо при использовании ОРВ (хладагенты, аэрозоли)."
     },
     {
@@ -353,7 +393,27 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 170,
+      "ordering": 190,
+      "notes": "Базовое разрешение для деятельности с эмиссиями."
+    },
+    {
+      "card_code": "TREB-MVP-000580",
+      "sphere_code": "ecology",
+      "subsphere": "О внесении изменения в приказ Министра экологии геологии и природных ресурсов Ре",
+      "short_title": "Юрлица и ИП обязаны разработать проект технологических нормативов при подаче заявки",
+      "role_fragment": "документ для заявления",
+      "role_class": "core",
+      "requirement_type": "документ",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "registration;pre_launch",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 200,
       "notes": "Базовое разрешение для деятельности с эмиссиями."
     }
   ]

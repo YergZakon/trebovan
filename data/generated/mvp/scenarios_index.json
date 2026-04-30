@@ -24,9 +24,9 @@
     "subcategory": "cargo",
     "is_published": true,
     "display_order": 20,
-    "total_cards": 10,
+    "total_cards": 12,
     "required": 4,
-    "optional": 6
+    "optional": 8
   },
   {
     "code": "hazardous_waste",
@@ -38,9 +38,9 @@
     "subcategory": "waste",
     "is_published": true,
     "display_order": 30,
-    "total_cards": 17,
-    "required": 14,
-    "optional": 3
+    "total_cards": 20,
+    "required": 16,
+    "optional": 4
   },
   {
     "code": "land_construction",
@@ -53,9 +53,9 @@
     "subcategory": "construction",
     "is_published": true,
     "display_order": 40,
-    "total_cards": 15,
+    "total_cards": 16,
     "required": 11,
-    "optional": 4
+    "optional": 5
   },
   {
     "code": "agro_land_use",

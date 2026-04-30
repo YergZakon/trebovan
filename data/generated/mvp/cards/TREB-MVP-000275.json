@@ -96,6 +96,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Согласования и разрешения). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-LAN-000525",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-000783. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000525. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -109,7 +118,19 @@
       "ml_category": null
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-LAN-000525",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000783",
+        "sphere_code": "land",
+        "short_title": "Учет количества земель, собственников земельных участков и землепользователей, а также других субъектов зем…"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch5-auto",

@@ -1,35 +1,35 @@
 {
   "sphere_code": "land",
   "sphere_name": "Земля и землепользование",
-  "total_cards": 183,
+  "total_cards": 245,
   "role_class_counts": {
-    "core": 164,
+    "core": 216,
     "procedural": 2,
-    "noise": 17,
+    "noise": 27,
     "disputed": 0,
     "uncategorized": 0
   },
   "specificity_counts": {
-    "concrete": 166,
+    "concrete": 218,
     "framework": 0,
     "referential": 0,
     "principle": 0,
-    "none": 17
+    "none": 27
   },
-  "business_route_count": 164,
+  "business_route_count": 216,
   "role_counts": {
-    "запрет": 20,
-    "обязанность бизнеса": 108,
+    "запрет": 22,
+    "обязанность бизнеса": 155,
     "условие допуска": 11,
     "процедурная обязанность бизнеса": 2,
     "описательная норма": 1,
-    "документ для заявления": 25,
-    "действие государственного органа": 16
+    "документ для заявления": 28,
+    "действие государственного органа": 26
   },
   "subspheres_in_data": [
     {
       "name": "(не указано)",
-      "count": 60,
+      "count": 90,
       "cards": [
         {
           "card_code": "TREB-MVP-000147",
@@ -757,7 +757,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000272",
@@ -809,13 +809,403 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000783",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Учет количества земель, собственников земельных участков и землепользователей, а также других субъектов зем…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "разрешение",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000784",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Размещение объявления о проведении торгов (аукционов) на веб-портале реестра государственного имущества (не…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000785",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Принятие местным исполнительным органом решения о предоставлении права частной собственности только на земе…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000786",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Принятие местным исполнительным органом решения о предоставлении права частной собственности только на земе…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000787",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Накопление, обработка и ведение банка данных о земельных участках и их субъектах, а также другой земельно-к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000788",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Учет качества земель, включающий их экономическую оценку и ведение мониторинга земель, проведения почвенных…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000789",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Накопление, обработка и ведение банка данных о земельных участках и их субъектах, а также другой земельно-к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000790",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока вручения копии решения о предоставлении либо об отказе в предоставлении права на земельный…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000791",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Учет качества земель, включающей их экономическую оценку и ведение мониторинга земель, проведения почвенных…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000792",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Накопление, обработка и ведение банка данных о земельных участках и их субъектах, а также другой земельно-к…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000793",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Формирование и утверждение состава земельной комиссии местными исполнительными органами области, города рес…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000794",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока проведения торгов (конкурсов, аукционов) (не позднее девяноста календарных дней со дня при…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000795",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Своевременный возврат государственных земель, находящихся во временном пользовании и выполнение обязанносте…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000796",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Своевременный возврат государственных земель, находящихся во временном пользовании и выполнение обязанносте…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000797",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Своевременный возврат государственных земель, находящегося во временном пользовании и выполнение обязанност…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000798",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока подготовки предложений в соответствии с территориальным зонированием о возможности использ…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000799",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока подготовки предложений в соответствии с территориальным зонированием о возможности использ…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000800",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Предоставление согласующими органами соответствующего заключения о возможности предоставления земельного уч…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000801",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение согласующими органами срока предоставления соответствующего заключения о возможности предоставле…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000802",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Вручение (направление) заявителю копию решения о предоставлении либо об отказе в предоставлении соответству…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000803",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Заключение договора купли-продажи или временного возмездного (безвозмездного) землепользования (не позднее …",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "разрешение",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000804",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Принятие местным исполнительным органом решения о предоставлении прав на земельные участки на основании пол…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000805",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока предоставления физическим или негосударственным юридическим лицам в частную собственность …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000806",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Принятие местным исполнительным органом решения о предоставлении прав на земельные участки на основании пол…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000807",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Направление соответствующих запросов по земельным участкам, предоставленным для строительства объектов, сро…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000808",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение местным исполнительным органом срока предоставления физическим или негосударственным юридическим…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000809",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение местным исполнительным органом срока предоставления физическим или негосударственным юридическим…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000810",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Размещение протокольных решений земельной комиссии на интернет-ресурсе соответствующего уполномоченного орг…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000811",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока отказа в предоставлении права на земельный участок оформленный заключением структурного по…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000812",
+          "sphere_code": "land",
+          "subsphere": "(не указано)",
+          "short_title": "Соблюдение срока отказа в предоставлении права на земельный участок оформленный заключением структурного по…",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
         }
       ]
     },
     {
       "name": "Земельный кодекс РК",
-      "count": 43,
+      "count": 61,
       "cards": [
         {
           "card_code": "TREB-MVP-000114",
@@ -1244,7 +1634,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000295",
@@ -1257,7 +1647,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000296",
@@ -1296,7 +1686,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000299",
@@ -1322,7 +1712,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000301",
@@ -1361,7 +1751,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000305",
@@ -1375,12 +1765,246 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000829",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "При утрате гражданства обязанность отчуждить или переоформить земельный участок.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000830",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Критерий неиспользования пастбищ — менее 50% поголовья от допустимой нормы нагрузки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000831",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность предоставить сервитут заинтересованным лицам в установленных случаях.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000832",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность устранить экологический ущерб или снижение плодородия почв.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000833",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность письменно уведомить сособственников о продаже земельной доли (преимущественное право).",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000835",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Солидарная ответственность первичного и вторичного землепользователей перед государством.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000836",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность использовать земельный участок строго по целевому назначению.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000837",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность соблюдать порядок пользования природными ресурсами и охранять объекты наследия.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000838",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность соблюдать строительные, экологические и санитарные нормативы при хоздеятельности.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000839",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность прекратить работы и уведомить госорган при обнаружении историко-культурных объектов.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000840",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность проводить мероприятия по защите земель от эрозии, загрязнения и деградации.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000841",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оборудовать скотопрогонные трассы колодцами и площадками для скота.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000842",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность применять технологии, соответствующие санитарным и экологическим нормам.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000843",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность предусмотреть охранные мероприятия при строительстве объектов, влияющих на землю.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000844",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность соблюдать ротацию культур и содержать ирригационные системы на орошаемых землях.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000813",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на строительство несельскохозяйственных объектов и жилых домов на сельхозземлях.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000814",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Обязанность оборудовать скотопрогонные трассы колодцами и площадками для скота.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000822",
+          "sphere_code": "land",
+          "subsphere": "Земельный кодекс РК",
+          "short_title": "Запрет на несоответствующую деятельность на землях рекреационного назначения.",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
         }
       ]
     },
     {
       "name": "Закон РК «О пастбищах»",
-      "count": 10,
+      "count": 13,
       "cards": [
         {
           "card_code": "TREB-MVP-000124",
@@ -1393,7 +2017,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000129",
@@ -1445,7 +2069,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000314",
@@ -1511,12 +2135,51 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000828",
+          "sphere_code": "land",
+          "subsphere": "Закон РК «О пастбищах»",
+          "short_title": "Пастбищепользователь обязан использовать пастбища рационально и по целевому назначению.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000821",
+          "sphere_code": "land",
+          "subsphere": "Закон РК «О пастбищах»",
+          "short_title": "Обязанность пастбищепользователей по восстановлению пастбищ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000826",
+          "sphere_code": "land",
+          "subsphere": "Закон РК «О пастбищах»",
+          "short_title": "Обязанность соблюдать ветеринарное законодательство и пожарную безопасность.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
         }
       ]
     },
     {
       "name": "Совместный приказ №502/101 — Критерии оценки рисков",
-      "count": 6,
+      "count": 9,
       "cards": [
         {
           "card_code": "TREB-MVP-000113",
@@ -1542,7 +2205,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000123",
@@ -1555,7 +2218,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000126",
@@ -1568,7 +2231,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000138",
@@ -1591,6 +2254,239 @@
           "role_fragment": "условие допуска",
           "role_class": "core",
           "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000817",
+          "sphere_code": "land",
+          "subsphere": "Совместный приказ №502/101 — Критерии оценки рисков",
+          "short_title": "Невыполнение мероприятий по рациональному использованию сельхозземель — значительное нарушение.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000820",
+          "sphere_code": "land",
+          "subsphere": "Совместный приказ №502/101 — Критерии оценки рисков",
+          "short_title": "Непроведение мероприятий по охране земель — значительное нарушение.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000824",
+          "sphere_code": "land",
+          "subsphere": "Совместный приказ №502/101 — Критерии оценки рисков",
+          "short_title": "Несвоевременный возврат госземель — грубое нарушение.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Приказ №7 — Правила рационального использования земель с/х назначения",
+      "count": 7,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000134",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Обязательные документы для сельхозпроизводителя.",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000144",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Норма содержания животных на пастбищах: 50-100% от нагрузки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000145",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Предельные нормы снижения плодородия почв.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000174",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Обязанность утвердить и направить план севооборотов.",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000313",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Обязанность утвердить и направить план севооборотов.",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
+          "requirement_type": "описательная",
+          "mandatory_level": null,
+          "specificity": null,
+          "confidence": 0.85,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000816",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Норма содержания животных на пастбищах: 50-100% от нагрузки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000819",
+          "sphere_code": "land",
+          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
+          "short_title": "Предельные нормы снижения плодородия почв.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Приказ №173 «Правила рационального использования пастбищ»",
+      "count": 7,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000308",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Обязанность обеспечить непревышение нормы нагрузки.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000310",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Запрет допускать зарастание и захламление пастбищ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000320",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Обязательная система пастбищеоборота с ежегодным отдыхом.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000286",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Обязательная система пастбищеоборота с ежегодным отдыхом.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000303",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Обязанности рационального использования пастбищ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000834",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Обязанности рационального использования пастбищ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000825",
+          "sphere_code": "land",
+          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
+          "short_title": "Запрет допускать зарастание и захламление пастбищ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -1683,150 +2579,8 @@
       ]
     },
     {
-      "name": "Приказ №7 — Правила рационального использования земель с/х назначения",
-      "count": 5,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000134",
-          "sphere_code": "land",
-          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
-          "short_title": "Обязательные документы для сельхозпроизводителя.",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000144",
-          "sphere_code": "land",
-          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
-          "short_title": "Норма содержания животных на пастбищах: 50-100% от нагрузки.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000145",
-          "sphere_code": "land",
-          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
-          "short_title": "Предельные нормы снижения плодородия почв.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000174",
-          "sphere_code": "land",
-          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
-          "short_title": "Обязанность утвердить и направить план севооборотов.",
-          "role_fragment": "действие государственного органа",
-          "role_class": "noise",
-          "requirement_type": "описательная",
-          "mandatory_level": null,
-          "specificity": null,
-          "confidence": 0.85,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000313",
-          "sphere_code": "land",
-          "subsphere": "Приказ №7 — Правила рационального использования земель с/х назначения",
-          "short_title": "Обязанность утвердить и направить план севооборотов.",
-          "role_fragment": "действие государственного органа",
-          "role_class": "noise",
-          "requirement_type": "описательная",
-          "mandatory_level": null,
-          "specificity": null,
-          "confidence": 0.85,
-          "has_duplicate_alert": true
-        }
-      ]
-    },
-    {
-      "name": "Приказ №173 «Правила рационального использования пастбищ»",
-      "count": 5,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000308",
-          "sphere_code": "land",
-          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
-          "short_title": "Обязанность обеспечить непревышение нормы нагрузки.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000310",
-          "sphere_code": "land",
-          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
-          "short_title": "Запрет допускать зарастание и захламление пастбищ.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000320",
-          "sphere_code": "land",
-          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
-          "short_title": "Обязательная система пастбищеоборота с ежегодным отдыхом.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000286",
-          "sphere_code": "land",
-          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
-          "short_title": "Обязательная система пастбищеоборота с ежегодным отдыхом.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000303",
-          "sphere_code": "land",
-          "subsphere": "Приказ №173 «Правила рационального использования пастбищ»",
-          "short_title": "Обязанности рационального использования пастбищ.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
       "name": "Приказ №ДСМ-2 — Санитарные правила к СЗЗ",
-      "count": 4,
+      "count": 5,
       "cards": [
         {
           "card_code": "TREB-MVP-000122",
@@ -1852,7 +2606,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000141",
@@ -1879,6 +2633,77 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000823",
+          "sphere_code": "land",
+          "subsphere": "Приказ №ДСМ-2 — Санитарные правила к СЗЗ",
+          "short_title": "Обязанность разработки проекта СЗЗ.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Приказ №41 — Типовой договор аренды с/х земли",
+      "count": 4,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000115",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность допуска для агрохимического обследования.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000116",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность отчётности перед госорганами.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000125",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанности арендатора: целевое использование и своевременное продление.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000815",
+          "sphere_code": "land",
+          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
+          "short_title": "Обязанность отчётности перед госорганами.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
         }
       ]
     },
@@ -1995,51 +2820,6 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": true
-        }
-      ]
-    },
-    {
-      "name": "Приказ №41 — Типовой договор аренды с/х земли",
-      "count": 3,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000115",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанность допуска для агрохимического обследования.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000116",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанность отчётности перед госорганами.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000125",
-          "sphere_code": "land",
-          "subsphere": "Приказ №41 — Типовой договор аренды с/х земли",
-          "short_title": "Обязанности арендатора: целевое использование и своевременное продление.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
         }
       ]
     },
@@ -2179,6 +2959,38 @@
       ]
     },
     {
+      "name": "Приказ №119 — Правила составления проектов землеустройства",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000120",
+          "sphere_code": "land",
+          "subsphere": "Приказ №119 — Правила составления проектов землеустройства",
+          "short_title": "Обязательный перенос проекта ВХЗ на местность.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000818",
+          "sphere_code": "land",
+          "subsphere": "Приказ №119 — Правила составления проектов землеустройства",
+          "short_title": "Обязательный перенос проекта ВХЗ на местность.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
       "name": "Услуга: Согласование и выдача проекта рекультивации нарушенных земель",
       "count": 2,
       "cards": [
@@ -2207,6 +3019,38 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Приказ №180 — Правила составления землеустроительного проекта",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000312",
+          "sphere_code": "land",
+          "subsphere": "Приказ №180 — Правила составления землеустроительного проекта",
+          "short_title": "Обязательное согласование проекта.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000827",
+          "sphere_code": "land",
+          "subsphere": "Приказ №180 — Правила составления землеустроительного проекта",
+          "short_title": "Обязательное согласование проекта.",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
         }
       ]
     },
@@ -2534,25 +3378,6 @@
       ]
     },
     {
-      "name": "Приказ №119 — Правила составления проектов землеустройства",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000120",
-          "sphere_code": "land",
-          "subsphere": "Приказ №119 — Правила составления проектов землеустройства",
-          "short_title": "Обязательный перенос проекта ВХЗ на местность.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
       "name": "Приказ №301 — Правила оказания госуслуг",
       "count": 1,
       "cards": [
@@ -2564,25 +3389,6 @@
           "role_fragment": "документ для заявления",
           "role_class": "core",
           "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
-      "name": "Приказ №180 — Правила составления землеустроительного проекта",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000312",
-          "sphere_code": "land",
-          "subsphere": "Приказ №180 — Правила составления землеустроительного проекта",
-          "short_title": "Обязательное согласование проекта.",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -2651,8 +3457,8 @@
       "name": "Пастбища",
       "is_business_facing": true,
       "display_order": 30,
-      "cards_count": 13,
-      "business_facing_cards": 13
+      "cards_count": 16,
+      "business_facing_cards": 16
     },
     {
       "code": "land_reclamation",

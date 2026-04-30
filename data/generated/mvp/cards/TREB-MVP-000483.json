@@ -103,8 +103,8 @@
       "value": "DUP-AI-TRA-000475",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 0.744,
-      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере transport: TREB-MVP-000475, TREB-MVP-000477, TREB-MVP-000478. Средняя текстовая similarity (Jaccard 3-грамм): 0.74. Группа: DUP-AI-TRA-000475. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.754,
+      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-000475, TREB-MVP-000477, TREB-MVP-000478, TREB-MVP-000714. Средняя текстовая similarity (Jaccard 3-грамм): 0.75. Группа: DUP-AI-TRA-000475. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -122,9 +122,14 @@
   "duplicate_alert": {
     "group_code": "DUP-AI-TRA-000475",
     "duplicate_type": "text_ai",
-    "avg_similarity": 0.744,
+    "avg_similarity": 0.754,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
+      {
+        "card_code": "TREB-MVP-000714",
+        "sphere_code": "transport",
+        "short_title": "Обязанность предоставить информацию об устранении нарушений с подтверждающими материалами"
+      },
       {
         "card_code": "TREB-MVP-000478",
         "sphere_code": "transport",

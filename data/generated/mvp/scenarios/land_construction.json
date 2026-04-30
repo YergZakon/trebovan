@@ -10,10 +10,10 @@
   "is_published": true,
   "display_order": 40,
   "stats": {
-    "total_cards": 15,
+    "total_cards": 16,
     "required": 11,
-    "optional": 4,
-    "concrete": 15,
+    "optional": 5,
+    "concrete": 16,
     "noise": 0
   },
   "cards": [
@@ -278,6 +278,26 @@
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
+      "card_code": "TREB-MVP-000574",
+      "sphere_code": "ecology",
+      "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+      "short_title": "Требование получить разрешение комиссии для работы с патогенными микроорганизмами",
+      "role_fragment": "документ для заявления",
+      "role_class": "core",
+      "requirement_type": "документ",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": false,
+      "ordering": 140,
+      "notes": "Применимо если строительство связано с эмиссиями."
+    },
+    {
       "card_code": "TREB-MVP-000036",
       "sphere_code": "ecology",
       "subsphere": "Зоны санитарной охраны водозаборов",
@@ -294,7 +314,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.93,
       "is_required": false,
-      "ordering": 140,
+      "ordering": 150,
       "notes": "Если объект влияет на водные ресурсы."
     },
     {
@@ -314,7 +334,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 150,
+      "ordering": 160,
       "notes": "Если объект влияет на водные ресурсы."
     }
   ]

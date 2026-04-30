@@ -9,10 +9,10 @@
   "is_published": true,
   "display_order": 20,
   "stats": {
-    "total_cards": 10,
+    "total_cards": 12,
     "required": 4,
-    "optional": 6,
-    "concrete": 10,
+    "optional": 8,
+    "concrete": 12,
     "noise": 0
   },
   "cards": [
@@ -157,6 +157,26 @@
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
+      "card_code": "TREB-MVP-000723",
+      "sphere_code": "transport",
+      "subsphere": "О торговом мореплавании",
+      "short_title": "Фрахтователь должен указать безопасное место для погрузки",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "процесс",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": false,
+      "ordering": 80,
+      "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
+    },
+    {
       "card_code": "TREB-MVP-000060",
       "sphere_code": "ecology",
       "subsphere": "Торговое мореплавание / страхование опасных грузов",
@@ -173,7 +193,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 80,
+      "ordering": 90,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -193,7 +213,27 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 90,
+      "ordering": 100,
+      "notes": "Финансовое обеспечение ответственности перевозчика."
+    },
+    {
+      "card_code": "TREB-MVP-000718",
+      "sphere_code": "transport",
+      "subsphere": "О торговом мореплавании",
+      "short_title": "Работодатель обязан застраховать работников от несчастных случаев",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "процесс",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "continuous",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": false,
+      "ordering": 110,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -213,7 +253,7 @@
       "life_cycle_stage": "inspection;operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 100,
+      "ordering": 120,
       "notes": "Применимо при проверках и предписаниях."
     }
   ]

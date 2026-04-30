@@ -1,0 +1,202 @@
+{
+  "card_code": "TREB-MVP-000774",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Услуга: Выдача сертификата летной годности гражданского воздушного судна",
+  "titles": {
+    "short": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется",
+    "canonical": "Заключить/иметь договора аренды и приемо-сдаточного акта, если воздушное судно арендуется",
+    "legal": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "финансовое обязательство",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_services",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch6.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=CONTRACT_INSURANCE). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-000824",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 14 похожих карточек в сфере transport: TREB-MVP-000762, TREB-MVP-000763, TREB-MVP-000764, TREB-MVP-000765, TREB-MVP-000766.... Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-000824. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 13531,
+      "source_layer": "services",
+      "source_file": "требования_service_name.csv",
+      "text_preview": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-000824",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000776",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000775",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000773",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000772",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000771",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000770",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000769",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000768",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000767",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000766",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000765",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000764",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000763",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000762",
+        "sphere_code": "transport",
+        "short_title": "электронная копия договора аренды и приемо-сдаточного акта, если воздушное судно арендуется"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch6-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T01:58:46.616Z",
+    "updated_at": "2026-04-30T01:58:46.616Z"
+  }
+}
