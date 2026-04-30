@@ -21,12 +21,12 @@
   "classification": {
     "requirement_type": "запрет",
     "requirement_subtype": null,
-    "role_fragment": "обязанность бизнеса",
-    "role_class": "core",
+    "role_fragment": "описательная норма",
+    "role_class": "noise",
     "regulatory_regime": "земельный_надзор",
     "life_cycle_stage": "operation",
-    "mandatory_level": "mandatory",
-    "specificity": "concrete"
+    "mandatory_level": null,
+    "specificity": null
   },
   "execution": {
     "timing": "постоянно",
@@ -87,7 +87,17 @@
     "needs_premises": null,
     "burden_index": null
   },
-  "field_metadata": [],
+  "field_metadata": [
+    {
+      "field": "role_fragment",
+      "value": "описательная норма",
+      "source": "rule",
+      "method": "regex_risk_criteria_v1",
+      "confidence": 0.92,
+      "explanation": "Это критерий оценки рисков (грубое/значительное/незначительное нарушение, факты, жалобы) — основание для назначения проверки или применения степени риска. Не порождает обязанности бизнеса; используется надзорным органом.",
+      "check_status": "unchecked"
+    }
+  ],
   "sources": [
     {
       "fragment_id": 7394,
@@ -106,6 +116,6 @@
     "model_confidence": 0.92,
     "expert_status": "unchecked",
     "created_at": "2026-04-29T22:31:47.678Z",
-    "updated_at": "2026-04-29T22:31:47.678Z"
+    "updated_at": "2026-04-30T02:41:07.187Z"
   }
 }

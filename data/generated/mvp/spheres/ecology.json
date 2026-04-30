@@ -3,27 +3,27 @@
   "sphere_name": "Экология и природопользование",
   "total_cards": 334,
   "role_class_counts": {
-    "core": 318,
+    "core": 315,
     "procedural": 12,
-    "noise": 4,
+    "noise": 7,
     "disputed": 0,
     "uncategorized": 0
   },
   "specificity_counts": {
-    "concrete": 328,
+    "concrete": 325,
     "framework": 2,
     "referential": 0,
     "principle": 0,
-    "none": 4
+    "none": 7
   },
-  "business_route_count": 316,
+  "business_route_count": 313,
   "role_counts": {
     "процедурная обязанность бизнеса": 12,
-    "обязанность бизнеса": 199,
+    "обязанность бизнеса": 198,
     "запрет": 24,
     "условие допуска": 15,
-    "описательная норма": 4,
-    "документ для заявления": 80
+    "описательная норма": 7,
+    "документ для заявления": 78
   },
   "subspheres_in_data": [
     {
@@ -87,11 +87,11 @@
           "sphere_code": "ecology",
           "subsphere": "(не указано)",
           "short_title": "Факты о нарушениях экологического законодательства от правоохранительных органов",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
+          "role_fragment": "описательная норма",
+          "role_class": "noise",
           "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
@@ -100,11 +100,11 @@
           "sphere_code": "ecology",
           "subsphere": "(не указано)",
           "short_title": "Наличие двух подтвержденных жалоб либо обращений, не носящих одинаковый характер",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
+          "role_fragment": "описательная норма",
+          "role_class": "noise",
           "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
@@ -243,11 +243,11 @@
           "sphere_code": "ecology",
           "subsphere": "(не указано)",
           "short_title": "Наличие трех и более подтвержденных жалоб либо обращений, не носящих одинаковый характер",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
+          "role_fragment": "описательная норма",
+          "role_class": "noise",
           "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": false
         },

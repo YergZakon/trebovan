@@ -13,8 +13,8 @@
     "total_cards": 12,
     "required": 8,
     "optional": 4,
-    "concrete": 10,
-    "noise": 1
+    "concrete": 9,
+    "noise": 2
   },
   "cards": [
     {
@@ -22,11 +22,11 @@
       "sphere_code": "land",
       "subsphere": "Земельный надзор / критерии риска",
       "short_title": "Использование земли не по целевому назначению — 100 баллов риска",
-      "role_fragment": "обязанность бизнеса",
-      "role_class": "core",
+      "role_fragment": "описательная норма",
+      "role_class": "noise",
       "requirement_type": "запрет",
-      "specificity": "concrete",
-      "mandatory_level": "mandatory",
+      "specificity": null,
+      "mandatory_level": null,
       "timing": "постоянно",
       "frequency": "continuous",
       "evidence_required": "акт государственного земельного контроля; правоустанавливающий документ с указанием целевого назначения",

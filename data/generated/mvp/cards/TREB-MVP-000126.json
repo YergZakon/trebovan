@@ -21,12 +21,12 @@
   "classification": {
     "requirement_type": "процесс",
     "requirement_subtype": null,
-    "role_fragment": "обязанность бизнеса",
-    "role_class": "core",
+    "role_fragment": "описательная норма",
+    "role_class": "noise",
     "regulatory_regime": "land_npa_extracted",
     "life_cycle_stage": "operation",
-    "mandatory_level": "mandatory",
-    "specificity": "concrete"
+    "mandatory_level": null,
+    "specificity": null
   },
   "execution": {
     "timing": null,
@@ -98,6 +98,15 @@
       "check_status": "unchecked"
     },
     {
+      "field": "role_fragment",
+      "value": "описательная норма",
+      "source": "rule",
+      "method": "regex_risk_criteria_v1",
+      "confidence": 0.92,
+      "explanation": "Это критерий оценки рисков (грубое/значительное/незначительное нарушение, факты, жалобы) — основание для назначения проверки или применения степени риска. Не порождает обязанности бизнеса; используется надзорным органом.",
+      "check_status": "unchecked"
+    },
+    {
       "field": "duplicate_alert",
       "value": "DUP-AI-LAN-000126",
       "source": "rule",
@@ -137,6 +146,6 @@
     "model_confidence": 0.7,
     "expert_status": "unchecked",
     "created_at": "2026-04-29T22:57:15.807Z",
-    "updated_at": "2026-04-29T22:57:15.807Z"
+    "updated_at": "2026-04-30T02:41:07.187Z"
   }
 }
