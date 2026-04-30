@@ -1,29 +1,29 @@
 {
   "sphere_code": "ecology",
   "sphere_name": "Экология и природопользование",
-  "total_cards": 334,
+  "total_cards": 429,
   "role_class_counts": {
-    "core": 315,
+    "core": 409,
     "procedural": 12,
-    "noise": 7,
+    "noise": 8,
     "disputed": 0,
     "uncategorized": 0
   },
   "specificity_counts": {
-    "concrete": 325,
+    "concrete": 419,
     "framework": 2,
     "referential": 0,
     "principle": 0,
-    "none": 7
+    "none": 8
   },
-  "business_route_count": 313,
+  "business_route_count": 407,
   "role_counts": {
     "процедурная обязанность бизнеса": 12,
-    "обязанность бизнеса": 198,
-    "запрет": 24,
-    "условие допуска": 15,
-    "описательная норма": 7,
-    "документ для заявления": 78
+    "обязанность бизнеса": 274,
+    "запрет": 32,
+    "условие допуска": 18,
+    "описательная норма": 8,
+    "документ для заявления": 85
   },
   "subspheres_in_data": [
     {
@@ -1114,11 +1114,11 @@
           "sphere_code": "ecology",
           "subsphere": "(не указано)",
           "short_title": "Факты о нарушениях экологического законодательства от оператора расширенных обязательств производителей (им…",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
+          "role_fragment": "описательная норма",
+          "role_class": "noise",
           "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
@@ -1178,7 +1178,7 @@
     },
     {
       "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
-      "count": 53,
+      "count": 81,
       "cards": [
         {
           "card_code": "TREB-MVP-000178",
@@ -1737,7 +1737,7 @@
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
           "card_code": "TREB-MVP-000593",
@@ -1868,12 +1868,376 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000845",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Роторную печь можно открывать только при температуре не выше 100°С",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000846",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Установлен минимальный размер санузла с ванной",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000850",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Фритюр можно использовать максимум 12 часов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000858",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Норматив хранения охлажденной рыбы - от 0 до -2°С не более 2 суток",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000859",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Максимальная температура плавления жиров - 55 градусов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000868",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Обязательная механизация установки мотков проволоки весом более 20 кг",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000869",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимальная высота помещений: постоянные места - 2100 мм, временные - 1850 мм",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000874",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Температурное ограничение +4°С для измельчения и посола мяса птицы",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000875",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "После кварцевания требуется проветривание минимум 15 минут",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000877",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Стерилизованные консервы хранятся при 0-20°С и влажности до 75%",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000881",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Многоразовая спецодежда должна обрабатываться дезинфицирующими растворами",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000885",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Варка колбас завершается при достижении внутри батона +70-72°С",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000888",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Ограничение объема хранения аммиачной селитры в одном складе",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000898",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Собственник обязан самостоятельно проводить производственный контроль",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000899",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Соблюдение ПДУ лазерного излучения",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000900",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимум 3 комплекта белья на одно спальное место",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000901",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Тару для молочной кислоты необходимо мыть перед использованием",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000904",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Токсины требуют дополнительной красной маркировки",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000911",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Требуется предупреждающая маркировка посылки",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000912",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрещено размещать детские молочные кухни в подвалах",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000913",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Обязательное использование СИЗ при работе с секционным материалом",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000914",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "В общежитиях 60% жилых комнат должны иметь нормативную инсоляцию",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000916",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрет повторного использования пиявок",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000918",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Суммарные квоты облучения не должны превышать установленный предел дозы для населения",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000920",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрещено смешивать россыпь с чистым чаем без очистки",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000921",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрет использовать серную кислоту в вакуум-эксикаторах",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000922",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Обязательная ежедневная дезинфекция поверхностей в туалетах",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000924",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Дезинфекция помещений проводится методом распыления",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
         }
       ]
     },
     {
       "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
-      "count": 23,
+      "count": 42,
       "cards": [
         {
           "card_code": "TREB-MVP-000379",
@@ -2173,6 +2537,467 @@
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000848",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ мини-газохранилищ - 100 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000851",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ малых газохранилищ - 300 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000853",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 1000 м для производства пектинов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000854",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ газохранилищ среднего объема - 500 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000855",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ промывочных станций - 1000 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000860",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 1000 м для асбестового производства",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000861",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 1000 м для костеобжигательных и костемольных производств",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000862",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "Химические производства IV класса должны иметь СЗЗ 100 м",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000863",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "Химические производства I класса должны иметь СЗЗ 1000 м",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000865",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "Химические производства II класса должны иметь СЗЗ 500 м",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000870",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "Химические производства III класса должны иметь СЗЗ 300 м",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000872",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 1000 м для вытапливания жира морских животных",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000878",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 50 м для малых мельниц до 0,5 т/час",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000880",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ очистных сооружений закрытого типа - 50 метров от жилья",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000882",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ полей фильтрации большой мощности - 1000 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000883",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 500 м для добычи поваренной соли",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000886",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 300 м для сыродельных производств с копчением",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000892",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ 500 м для производства технического сала",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000893",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к санит",
+          "short_title": "СЗЗ очистных сооружений открытого типа - минимум 100 метров от жилья",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+      "count": 16,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000346",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Обязательное использование бактерицидных облучателей в определенных цехах",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000354",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Температурный режим хранения замороженной продукции 4±2°С",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000380",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимальное расстояние между штангами для охлажденного мяса - 500 мм",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000382",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимальное расстояние между штангами для копченостей и рыбы - 400 мм",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000392",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимальный объем суточной пробы составляет 200 грамм",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000591",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрет на шумный завоз продуктов в жилых зданиях с 22:00 до 09:00",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000592",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Минимальная высота выбросов вентиляции - 2 метра над кровлей",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000601",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Объекты питания не должны оказывать вредное воздействие на людей",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000602",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрещено размещать объекты питания на загрязненных земельных участках",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000628",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Суточные пробы хранятся минимум 48 часов при температуре +2...+6°C",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000895",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрет на яйца из хозяйств с сальмонеллезом",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000897",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Для пищевых отходов обязательны закрывающиеся маркированные емкости",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000903",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Запрет повторного использования одноразовой посуды",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000915",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Бортовое питание должно разогреваться только в специальной печи",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000917",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Отходы вывозятся спецтранспортом по мере заполнения контейнеров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000923",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Ежедневная обработка деревянных колод солью",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
         }
       ]
     },
@@ -2313,14 +3138,53 @@
       ]
     },
     {
-      "name": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
+      "name": "О торговом мореплавании",
       "count": 10,
       "cards": [
         {
-          "card_code": "TREB-MVP-000346",
+          "card_code": "TREB-MVP-000576",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Обязательное использование бактерицидных облучателей в определенных цехах",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Обязанность предоставить информацию об устранении нарушений с подтверждающими материалами",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000582",
+          "sphere_code": "ecology",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Субъект контроля обязан предоставить информацию об устранении нарушений до истечения срока",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000587",
+          "sphere_code": "ecology",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судно должно иметь свидетельство о страховании ответственности",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000590",
+          "sphere_code": "ecology",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судовладелец должен ознакомить экипаж с их правами, обязанностями и устройством судна",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",
@@ -2330,62 +3194,23 @@
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000354",
+          "card_code": "TREB-MVP-000594",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Температурный режим хранения замороженной продукции 4±2°С",
-          "role_fragment": "обязанность бизнеса",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "На судне должны быть оригиналы всех документов, кроме свидетельства о собственности",
+          "role_fragment": "документ для заявления",
           "role_class": "core",
-          "requirement_type": "норматив",
+          "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000380",
+          "card_code": "TREB-MVP-000607",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Минимальное расстояние между штангами для охлажденного мяса - 500 мм",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000382",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Минимальное расстояние между штангами для копченостей и рыбы - 400 мм",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000392",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Минимальный объем суточной пробы составляет 200 грамм",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000591",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Запрет на шумный завоз продуктов в жилых зданиях с 22:00 до 09:00",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Запрещено плавание судов в запретных районах",
           "role_fragment": "запрет",
           "role_class": "core",
           "requirement_type": "запрет",
@@ -2395,52 +3220,52 @@
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000592",
+          "card_code": "TREB-MVP-000884",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Минимальная высота выбросов вентиляции - 2 метра над кровлей",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Судно должно иметь свидетельство о страховании ответственности",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000905",
+          "sphere_code": "ecology",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Фрахтовщик должен обеспечить мореходность судна к передаче",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "норматив",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000601",
+          "card_code": "TREB-MVP-000906",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Объекты питания не должны оказывать вредное воздействие на людей",
-          "role_fragment": "запрет",
-          "role_class": "core",
-          "requirement_type": "запрет",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000602",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Запрещено размещать объекты питания на загрязненных земельных участках",
-          "role_fragment": "запрет",
-          "role_class": "core",
-          "requirement_type": "запрет",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000628",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Cанитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Суточные пробы хранятся минимум 48 часов при температуре +2...+6°C",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Перевозчик обязан подать судно в срок, указанный в чартере",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "норматив",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000919",
+          "sphere_code": "ecology",
+          "subsphere": "О торговом мореплавании",
+          "short_title": "Отправитель обязан информировать об особых условиях обращения с грузом",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -2559,82 +3384,360 @@
       ]
     },
     {
-      "name": "О торговом мореплавании",
+      "name": "Услуга: Выдача разрешения на пользование животным миром",
+      "count": 8,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000932",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000933",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000934",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000935",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000936",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000937",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000938",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000939",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на пользование животным миром",
+          "short_title": "на использование видов животных в воспроизводственных целях: электронная копия обосновывающих материалов из…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+      "count": 7,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000356",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "При модернизации объекта требуется корректировка плана и перерасчет обеспечения",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000364",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "Требуется разработать планы перепрофилирования для зданий, не включенных в ликвидацию",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000375",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "Операторы полигонов должны отчитываться об отчислениях в ликвидационный фонд до 31 марта",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "отчётность",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000571",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "Включить текущие затраты на мониторинг в финансовое обеспечение",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000603",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "При наличии опасных веществ требуется определить дополнительные работы для безопасного обращения",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000852",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "Оператор обязан подготовить план контроля качества к первому заседанию",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000871",
+          "sphere_code": "ecology",
+          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
+          "short_title": "Полигоны ТБО должны проводить газовый мониторинг",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
       "count": 6,
       "cards": [
         {
-          "card_code": "TREB-MVP-000576",
+          "card_code": "TREB-MVP-000188",
           "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "Обязанность предоставить информацию об устранении нарушений с подтверждающими материалами",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000582",
-          "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "Субъект контроля обязан предоставить информацию об устранении нарушений до истечения срока",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000587",
-          "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "Судно должно иметь свидетельство о страховании ответственности",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000590",
-          "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "Судовладелец должен ознакомить экипаж с их правами, обязанностями и устройством судна",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000594",
-          "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "На судне должны быть оригиналы всех документов, кроме свидетельства о собственности",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000607",
-          "sphere_code": "ecology",
-          "subsphere": "О торговом мореплавании",
-          "short_title": "Запрещено плавание судов в запретных районах",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Запрет контакта азида натрия и щелочных металлов с водой",
           "role_fragment": "запрет",
           "role_class": "core",
           "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000625",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Требуется отдельное помещение для хранения радиоактивных отходов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000849",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Опасные микроорганизмы требуют акта упаковки",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000857",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Требуется акт при уничтожении опасных штаммов",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000864",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Лаборатория обязана выделить отдельное помещение для дезактивации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000890",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+          "short_title": "Курьер должен иметь доверенность и удостоверение личности",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+      "count": 5,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000177",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "В воде бассейна не должно быть патогенных микроорганизмов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000181",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Температура в помещении солярия должна быть 18-24 градуса",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000182",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Воздух в зале бассейна должен быть теплее воды на 1-2 градуса",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000185",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "В воде бассейна не должно быть паразитов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000894",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+          "short_title": "Норматив притока воздуха в бассейне - минимум 80 м³/час на пловца",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -2714,69 +3817,56 @@
       ]
     },
     {
-      "name": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-      "count": 5,
+      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
+      "count": 4,
       "cards": [
         {
-          "card_code": "TREB-MVP-000356",
+          "card_code": "TREB-MVP-000378",
           "sphere_code": "ecology",
-          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-          "short_title": "При модернизации объекта требуется корректировка плана и перерасчет обеспечения",
-          "role_fragment": "условие допуска",
-          "role_class": "core",
-          "requirement_type": "условие",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000364",
-          "sphere_code": "ecology",
-          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-          "short_title": "Требуется разработать планы перепрофилирования для зданий, не включенных в ликвидацию",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000375",
-          "sphere_code": "ecology",
-          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-          "short_title": "Операторы полигонов должны отчитываться об отчислениях в ликвидационный фонд до 31 марта",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
+          "short_title": "Минимальная площадь рабочего места продавца должна быть 2 квадратных метра",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "отчётность",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000571",
-          "sphere_code": "ecology",
-          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-          "short_title": "Включить текущие затраты на мониторинг в финансовое обеспечение",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
+          "requirement_type": "норматив",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000603",
+          "card_code": "TREB-MVP-000393",
           "sphere_code": "ecology",
-          "subsphere": "О внесении изменений в приказ Министра экологии геологии и природных ресурсов Ре",
-          "short_title": "При наличии опасных веществ требуется определить дополнительные работы для безопасного обращения",
-          "role_fragment": "условие допуска",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
+          "short_title": "Минимальная площадь пассажирского салона - 0,5 м² на человека",
+          "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "условие",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000856",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
+          "short_title": "Максимальный уровень СВЧ-излучения в кабине - 500 мкВт/см²",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000887",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
+          "short_title": "Норма воды - не менее 25 литров на место в сутки",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -2785,56 +3875,114 @@
       ]
     },
     {
-      "name": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
+      "name": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
       "count": 4,
       "cards": [
         {
-          "card_code": "TREB-MVP-000177",
+          "card_code": "TREB-MVP-000584",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "В воде бассейна не должно быть патогенных микроорганизмов",
-          "role_fragment": "обязанность бизнеса",
+          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
+          "short_title": "Требование паспортизации опасных отходов при транзите",
+          "role_fragment": "документ для заявления",
           "role_class": "core",
-          "requirement_type": "процесс",
+          "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
-          "card_code": "TREB-MVP-000181",
+          "card_code": "TREB-MVP-000588",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Температура в помещении солярия должна быть 18-24 градуса",
-          "role_fragment": "обязанность бизнеса",
+          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
+          "short_title": "Требование наличия плана действий при ЧС для транзита опасных отходов",
+          "role_fragment": "документ для заявления",
           "role_class": "core",
-          "requirement_type": "процесс",
+          "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
-          "card_code": "TREB-MVP-000182",
+          "card_code": "TREB-MVP-000619",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "Воздух в зале бассейна должен быть теплее воды на 1-2 градуса",
-          "role_fragment": "обязанность бизнеса",
+          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
+          "short_title": "Требование паспортизации опасных отходов при транзите",
+          "role_fragment": "документ для заявления",
           "role_class": "core",
-          "requirement_type": "процесс",
+          "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": false
+          "has_duplicate_alert": true
         },
         {
-          "card_code": "TREB-MVP-000185",
+          "card_code": "TREB-MVP-000889",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении санитарных правил Санитарно-эпидемиологические требования к объек",
-          "short_title": "В воде бассейна не должно быть паразитов",
+          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
+          "short_title": "Требование наличия плана действий при ЧС для транзита опасных отходов",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача разрешения на вырубку деревьев",
+      "count": 4,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000645",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
+          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "процесс",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000646",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
+          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000647",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
+          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": true
+        },
+        {
+          "card_code": "TREB-MVP-000931",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
+          "short_title": "электронная копия правоустанавливающего документа на земельный участок (в случае отсутствия регистрации в г…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -2933,6 +4081,51 @@
       ]
     },
     {
+      "name": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
+      "count": 3,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000190",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
+          "short_title": "При температуре выше 25°C пробы на SO2 требуют охлаждения",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000394",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
+          "short_title": "Минимальное расстояние скважин мониторинга от тела отходов - 20 метров",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000907",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
+          "short_title": "Операторы полигонов обязаны привлекать только аккредитованные лаборатории для проведения анализов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
       "name": "О внутреннем водном транспорте",
       "count": 3,
       "cards": [
@@ -2978,27 +4171,14 @@
       ]
     },
     {
-      "name": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
+      "name": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
       "count": 3,
       "cards": [
         {
-          "card_code": "TREB-MVP-000584",
+          "card_code": "TREB-MVP-000358",
           "sphere_code": "ecology",
-          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
-          "short_title": "Требование паспортизации опасных отходов при транзите",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        },
-        {
-          "card_code": "TREB-MVP-000588",
-          "sphere_code": "ecology",
-          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
-          "short_title": "Требование наличия плана действий при ЧС для транзита опасных отходов",
+          "subsphere": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
+          "short_title": "Обязательно использование приборов учета и ведение журналов",
           "role_fragment": "документ для заявления",
           "role_class": "core",
           "requirement_type": "документ",
@@ -3008,62 +4188,165 @@
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000619",
+          "card_code": "TREB-MVP-000362",
           "sphere_code": "ecology",
-          "subsphere": "О внесении изменения в приказ исполняющего обязанности Министра экологии геологи",
-          "short_title": "Требование паспортизации опасных отходов при транзите",
+          "subsphere": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
+          "short_title": "При невозможности соблюдения нормативов требуется согласовать план мероприятий",
           "role_fragment": "документ для заявления",
           "role_class": "core",
           "requirement_type": "документ",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": true
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000876",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
+          "short_title": "Максимальная температура сбрасываемых вод - 30 градусов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
         }
       ]
     },
     {
-      "name": "Услуга: Выдача разрешения на вырубку деревьев",
+      "name": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
       "count": 3,
       "cards": [
         {
-          "card_code": "TREB-MVP-000645",
+          "card_code": "TREB-MVP-000359",
           "sphere_code": "ecology",
-          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
-          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
+          "subsphere": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
+          "short_title": "При добыче более 3 млн м³ попутного газа обязательно применение двух методов учета",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "финансовое обязательство",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": true
+          "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000646",
+          "card_code": "TREB-MVP-000360",
           "sphere_code": "ecology",
-          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
-          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
+          "subsphere": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
+          "short_title": "Оператор должен использовать фактические данные по расходу топлива и содержанию углерода для расчетов",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "финансовое обязательство",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": true
+          "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000647",
+          "card_code": "TREB-MVP-000902",
           "sphere_code": "ecology",
-          "subsphere": "Услуга: Выдача разрешения на вырубку деревьев",
-          "short_title": "договор с организацией (специализированной) на компенсационное озеленение",
+          "subsphere": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
+          "short_title": "Округление в тоннах производится до трех знаков после запятой",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
-          "requirement_type": "финансовое обязательство",
+          "requirement_type": "процесс",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
-          "has_duplicate_alert": true
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Разрешение на специальное водопользование",
+      "count": 3,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000423",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Разрешение на специальное водопользование",
+          "short_title": "сведения о зарегистрированных правах (обременениях) на недвижимое имущество и его технических характеристик…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000649",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Разрешение на специальное водопользование",
+          "short_title": "электронная копия документа, содержащего сведения о наличии рыбозащитного и (или) рыбопропускного устройства",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000925",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Разрешение на специальное водопользование",
+          "short_title": "электронная копия документа, содержащего сведения о наличии приборов для измерения уровня воды в скважинах …",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача комплексного экологического разрешения",
+      "count": 3,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000641",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача комплексного экологического разрешения",
+          "short_title": "утверждения нового заключения по наилучшим доступным техникам в связи с принятием нового справочника по наи…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "разрешение",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000642",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача комплексного экологического разрешения",
+          "short_title": "пункта 22 настоящих Правил. 25. При внесении оператором существенных изменений в намечаемую или осуществляе…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000929",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача комплексного экологического разрешения",
+          "short_title": "в течение трех месяцев с даты утверждения нового заключения по наилучшим доступным техникам по соответствую…",
+          "role_fragment": "документ для заявления",
+          "role_class": "core",
+          "requirement_type": "разрешение",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
         }
       ]
     },
@@ -3196,14 +4479,46 @@
       ]
     },
     {
-      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
+      "name": "О ЗДОРОВЬЕ НАРОДА И СИСТЕМЕ ЗДРАВООХРАНЕНИЯ",
       "count": 2,
       "cards": [
         {
-          "card_code": "TREB-MVP-000188",
+          "card_code": "TREB-MVP-000183",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
-          "short_title": "Запрет контакта азида натрия и щелочных металлов с водой",
+          "subsphere": "О ЗДОРОВЬЕ НАРОДА И СИСТЕМЕ ЗДРАВООХРАНЕНИЯ",
+          "short_title": "Собственники медицинских отходов должны обеспечить достоверность отчетности",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000867",
+          "sphere_code": "ecology",
+          "subsphere": "О ЗДОРОВЬЕ НАРОДА И СИСТЕМЕ ЗДРАВООХРАНЕНИЯ",
+          "short_title": "Нельзя рекламировать услуги несертифицированных специалистов",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к орган",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000187",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к орган",
+          "short_title": "Запрещено использовать бактерицидные камеры для стерилизации",
           "role_fragment": "запрет",
           "role_class": "core",
           "requirement_type": "запрет",
@@ -3213,42 +4528,10 @@
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000625",
+          "card_code": "TREB-MVP-000866",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к лабор",
-          "short_title": "Требуется отдельное помещение для хранения радиоактивных отходов",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": true
-        }
-      ]
-    },
-    {
-      "name": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
-      "count": 2,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000190",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
-          "short_title": "При температуре выше 25°C пробы на SO2 требуют охлаждения",
-          "role_fragment": "условие допуска",
-          "role_class": "core",
-          "requirement_type": "условие",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000394",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методики по проведению газового мониторинга при эксплуатации поли",
-          "short_title": "Минимальное расстояние скважин мониторинга от тела отходов - 20 метров",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к орган",
+          "short_title": "Стеллажи должны отстоять от пола минимум на 15 см",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "норматив",
@@ -3324,46 +4607,14 @@
       ]
     },
     {
-      "name": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
+      "name": "Об утверждении Правил ведения регистра выбросов и переноса загрязнителей",
       "count": 2,
       "cards": [
         {
-          "card_code": "TREB-MVP-000358",
+          "card_code": "TREB-MVP-000357",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
-          "short_title": "Обязательно использование приборов учета и ведение журналов",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000362",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методики определения нормативов эмиссий в окружающую среду",
-          "short_title": "При невозможности соблюдения нормативов требуется согласовать план мероприятий",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
-          "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
-      "name": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
-      "count": 2,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000359",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
-          "short_title": "При добыче более 3 млн м³ попутного газа обязательно применение двух методов учета",
+          "subsphere": "Об утверждении Правил ведения регистра выбросов и переноса загрязнителей",
+          "short_title": "Операторы должны представлять отчетность в Регистр до 1 апреля ежегодно",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",
@@ -3373,10 +4624,10 @@
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000360",
+          "card_code": "TREB-MVP-000873",
           "sphere_code": "ecology",
-          "subsphere": "Об утверждении Методик по расчету выбросов и поглощения парниковых газов",
-          "short_title": "Оператор должен использовать фактические данные по расходу топлива и содержанию углерода для расчетов",
+          "subsphere": "Об утверждении Правил ведения регистра выбросов и переноса загрязнителей",
+          "short_title": "Операторы должны отчитываться о количестве перенесенных за пределы объекта отходов",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",
@@ -3420,38 +4671,6 @@
       ]
     },
     {
-      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
-      "count": 2,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000378",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
-          "short_title": "Минимальная площадь рабочего места продавца должна быть 2 квадратных метра",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000393",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к транс",
-          "short_title": "Минимальная площадь пассажирского салона - 0,5 м² на человека",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
       "name": "Услуга: Согласование размещения предприятий и других сооружений, а также условий произво",
       "count": 2,
       "cards": [
@@ -3484,38 +4703,6 @@
       ]
     },
     {
-      "name": "Услуга: Разрешение на специальное водопользование",
-      "count": 2,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000423",
-          "sphere_code": "ecology",
-          "subsphere": "Услуга: Разрешение на специальное водопользование",
-          "short_title": "сведения о зарегистрированных правах (обременениях) на недвижимое имущество и его технических характеристик…",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        },
-        {
-          "card_code": "TREB-MVP-000649",
-          "sphere_code": "ecology",
-          "subsphere": "Услуга: Разрешение на специальное водопользование",
-          "short_title": "электронная копия документа, содержащего сведения о наличии рыбозащитного и (или) рыбопропускного устройства",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
       "name": "Об утверждении Правил разработки программы предотвращения крупных экологических",
       "count": 2,
       "cards": [
@@ -3540,6 +4727,38 @@
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об особо охраняемых природных территориях",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000589",
+          "sphere_code": "ecology",
+          "subsphere": "Об особо охраняемых природных территориях",
+          "short_title": "Запрещено захоронение радиоактивных и промышленных отходов в охранных зонах",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000910",
+          "sphere_code": "ecology",
+          "subsphere": "Об особо охраняемых природных территориях",
+          "short_title": "Запрещены рубки главного пользования в буферной зоне",
+          "role_fragment": "запрет",
+          "role_class": "core",
+          "requirement_type": "запрет",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -3612,27 +4831,59 @@
       ]
     },
     {
-      "name": "Услуга: Выдача комплексного экологического разрешения",
+      "name": "Об утверждении Перечня отдельных видов отходов которые утрачивают статус отходов",
       "count": 2,
       "cards": [
         {
-          "card_code": "TREB-MVP-000641",
+          "card_code": "TREB-MVP-000908",
           "sphere_code": "ecology",
-          "subsphere": "Услуга: Выдача комплексного экологического разрешения",
-          "short_title": "утверждения нового заключения по наилучшим доступным техникам в связи с принятием нового справочника по наи…",
-          "role_fragment": "документ для заявления",
+          "subsphere": "Об утверждении Перечня отдельных видов отходов которые утрачивают статус отходов",
+          "short_title": "Условие классификации отходов как неопасных",
+          "role_fragment": "условие допуска",
           "role_class": "core",
-          "requirement_type": "разрешение",
+          "requirement_type": "условие",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
           "has_duplicate_alert": false
         },
         {
-          "card_code": "TREB-MVP-000642",
+          "card_code": "TREB-MVP-000909",
           "sphere_code": "ecology",
-          "subsphere": "Услуга: Выдача комплексного экологического разрешения",
-          "short_title": "пункта 22 настоящих Правил. 25. При внесении оператором существенных изменений в намечаемую или осуществляе…",
+          "subsphere": "Об утверждении Перечня отдельных видов отходов которые утрачивают статус отходов",
+          "short_title": "Норматив максимального содержания примесей в отходах",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Аттестация организаций на право проведения работ в области безопасности плотин",
+      "count": 2,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000926",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Аттестация организаций на право проведения работ в области безопасности плотин",
+          "short_title": "электронная копия документа, подтверждающего квалификацию сотрудников аттестуемой организации, согласно фор…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "персонал",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        },
+        {
+          "card_code": "TREB-MVP-000928",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Аттестация организаций на право проведения работ в области безопасности плотин",
+          "short_title": "электронная копия документа, подтверждающего ввод в эксплуатацию гидротехнического сооружения, согласно фор…",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "норматив",
@@ -4594,44 +5845,6 @@
       ]
     },
     {
-      "name": "О ЗДОРОВЬЕ НАРОДА И СИСТЕМЕ ЗДРАВООХРАНЕНИЯ",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000183",
-          "sphere_code": "ecology",
-          "subsphere": "О ЗДОРОВЬЕ НАРОДА И СИСТЕМЕ ЗДРАВООХРАНЕНИЯ",
-          "short_title": "Собственники медицинских отходов должны обеспечить достоверность отчетности",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
-      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к орган",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000187",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к орган",
-          "short_title": "Запрещено использовать бактерицидные камеры для стерилизации",
-          "role_fragment": "запрет",
-          "role_class": "core",
-          "requirement_type": "запрет",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
       "name": "Услуга: Выдача разрешения на использование ликвидационного фонда",
       "count": 1,
       "cards": [
@@ -4678,25 +5891,6 @@
           "sphere_code": "ecology",
           "subsphere": "Об утверждении Правил обращения со стойкими органическими загрязнителями и отход",
           "short_title": "Обязанность ежегодно отчитываться об изменениях статуса ПХД-оборудования",
-          "role_fragment": "обязанность бизнеса",
-          "role_class": "core",
-          "requirement_type": "процесс",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
-      "name": "Об утверждении Правил ведения регистра выбросов и переноса загрязнителей",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000357",
-          "sphere_code": "ecology",
-          "subsphere": "Об утверждении Правил ведения регистра выбросов и переноса загрязнителей",
-          "short_title": "Операторы должны представлять отчетность в Регистр до 1 апреля ежегодно",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",
@@ -4795,25 +5989,6 @@
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "норматив",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
-          "confidence": 0.7,
-          "has_duplicate_alert": false
-        }
-      ]
-    },
-    {
-      "name": "Об особо охраняемых природных территориях",
-      "count": 1,
-      "cards": [
-        {
-          "card_code": "TREB-MVP-000589",
-          "sphere_code": "ecology",
-          "subsphere": "Об особо охраняемых природных территориях",
-          "short_title": "Запрещено захоронение радиоактивных и промышленных отходов в охранных зонах",
-          "role_fragment": "запрет",
-          "role_class": "core",
-          "requirement_type": "запрет",
           "mandatory_level": "mandatory",
           "specificity": "concrete",
           "confidence": 0.7,
@@ -4982,6 +6157,120 @@
           "sphere_code": "ecology",
           "subsphere": "Услуга: Согласование удельных норм водопотребления и водоотведения",
           "short_title": "электронная копия расчета удельных норм водопотребления и водоотведения",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к здани",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000847",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к здани",
+          "short_title": "Обязательная ежегодная инвентаризация пестицидов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении формы отчета по инвентаризации отходов и инструкции по ее заполне",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000879",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении формы отчета по инвентаризации отходов и инструкции по ее заполне",
+          "short_title": "При наличии сортировочного сооружения указывается его мощность",
+          "role_fragment": "условие допуска",
+          "role_class": "core",
+          "requirement_type": "условие",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к сбору",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000891",
+          "sphere_code": "ecology",
+          "subsphere": "Об утверждении Санитарных правил Санитарно-эпидемиологические требования к сбору",
+          "short_title": "Установлен температурный режим обезвреживания опасных медотходов",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "норматив",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "О некоторых вопросах оказания государственных услуг в сфере санитарно-эпидемиоло",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000896",
+          "sphere_code": "ecology",
+          "subsphere": "О некоторых вопросах оказания государственных услуг в сфере санитарно-эпидемиоло",
+          "short_title": "Продукция, определенная решениями ЕАЭС, подлежит обязательной государственной регистрации",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "процесс",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Выдача разрешения на осуществления деятельности по сбору (заготовке), хранению, ",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000927",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Выдача разрешения на осуществления деятельности по сбору (заготовке), хранению, ",
+          "short_title": "сведения, подтверждающие оплату в бюджет разрешительного сбора за право занятия отдельными видами деятельно…",
+          "role_fragment": "обязанность бизнеса",
+          "role_class": "core",
+          "requirement_type": "финансовое обязательство",
+          "mandatory_level": "mandatory",
+          "specificity": "concrete",
+          "confidence": 0.7,
+          "has_duplicate_alert": false
+        }
+      ]
+    },
+    {
+      "name": "Услуга: Согласование мест строительства объектов, влияющих на состояние и воспроизводств",
+      "count": 1,
+      "cards": [
+        {
+          "card_code": "TREB-MVP-000930",
+          "sphere_code": "ecology",
+          "subsphere": "Услуга: Согласование мест строительства объектов, влияющих на состояние и воспроизводств",
+          "short_title": "установление недостоверности документов, представленных услугополучателем для получения государственной усл…",
           "role_fragment": "обязанность бизнеса",
           "role_class": "core",
           "requirement_type": "процесс",

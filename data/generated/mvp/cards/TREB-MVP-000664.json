@@ -100,11 +100,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-000726",
+      "value": "DUP-AI-TRA-001055",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 0.871,
-      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-000670, TREB-MVP-000673, TREB-MVP-000711, TREB-MVP-000712. Средняя текстовая similarity (Jaccard 3-грамм): 0.87. Группа: DUP-AI-TRA-000726. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.893,
+      "explanation": "ИИ-детектор обнаружил 8 похожих карточек в сфере transport: TREB-MVP-001000, TREB-MVP-001001, TREB-MVP-001003, TREB-MVP-001004, TREB-MVP-000670.... Средняя текстовая similarity (Jaccard 3-грамм): 0.89. Группа: DUP-AI-TRA-001055. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -120,9 +120,9 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-000726",
+    "group_code": "DUP-AI-TRA-001055",
     "duplicate_type": "text_ai",
-    "avg_similarity": 0.871,
+    "avg_similarity": 0.893,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
@@ -144,6 +144,26 @@
         "card_code": "TREB-MVP-000670",
         "sphere_code": "transport",
         "short_title": "Разница по высоте между продольными осями автосцепок не более 100 мм. в грузовом поезде."
+      },
+      {
+        "card_code": "TREB-MVP-001004",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 100 мм. в грузовом поезде."
+      },
+      {
+        "card_code": "TREB-MVP-001003",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 100 мм. в грузовом поезде."
+      },
+      {
+        "card_code": "TREB-MVP-001001",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 100 мм. в грузовом поезде."
+      },
+      {
+        "card_code": "TREB-MVP-001000",
+        "sphere_code": "transport",
+        "short_title": "Установление разницы по высоте между продольными осями автосцепок не более 100 мм. в грузовом поезде."
       }
     ]
   },

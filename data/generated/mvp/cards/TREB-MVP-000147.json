@@ -108,11 +108,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-LAN-000147",
+      "value": "DUP-AI-LAN-000148",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
       "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-000148. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000147. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-000148. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000148. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -128,7 +128,7 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-LAN-000147",
+    "group_code": "DUP-AI-LAN-000148",
     "duplicate_type": "text_ai",
     "avg_similarity": 1,
     "detected_method": "jaccard_3gram_v1",

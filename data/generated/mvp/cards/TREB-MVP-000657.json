@@ -120,17 +120,17 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
+        "card_code": "TREB-MVP-000656",
+        "sphere_code": "transport",
+        "short_title": "Наличие удостоверения допуска к осуществлению международных автомобильных перевозок"
+      },
+      {
         "card_code": "TREB-MVP-000661",
         "sphere_code": "transport",
         "short_title": "Отсутствие удостоверения допуска к осуществлению международных автомобильных перевозок"
       },
       {
         "card_code": "TREB-MVP-000658",
-        "sphere_code": "transport",
-        "short_title": "Наличие удостоверения допуска к осуществлению международных автомобильных перевозок"
-      },
-      {
-        "card_code": "TREB-MVP-000656",
         "sphere_code": "transport",
         "short_title": "Наличие удостоверения допуска к осуществлению международных автомобильных перевозок"
       }

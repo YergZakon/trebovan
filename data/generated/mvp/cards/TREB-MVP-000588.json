@@ -94,6 +94,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=DOC, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-ECO-000650",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере ecology: TREB-MVP-000889. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-ECO-000650. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -107,7 +116,19 @@
       "ml_category": "DOC"
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-ECO-000650",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000889",
+        "sphere_code": "ecology",
+        "short_title": "Требование наличия плана действий при ЧС для транзита опасных отходов"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch6-auto",

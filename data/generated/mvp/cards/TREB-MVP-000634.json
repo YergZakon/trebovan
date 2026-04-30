@@ -94,11 +94,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-ECO-000698",
+      "value": "DUP-AI-ECO-000696",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
       "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере ecology: TREB-MVP-000636, TREB-MVP-000637, TREB-MVP-000635. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-ECO-000698. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере ecology: TREB-MVP-000635, TREB-MVP-000636, TREB-MVP-000637. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-ECO-000696. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -114,7 +114,7 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-ECO-000698",
+    "group_code": "DUP-AI-ECO-000696",
     "duplicate_type": "text_ai",
     "avg_similarity": 1,
     "detected_method": "jaccard_3gram_v1",

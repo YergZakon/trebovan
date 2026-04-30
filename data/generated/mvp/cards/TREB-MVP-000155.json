@@ -134,12 +134,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000158",
+        "card_code": "TREB-MVP-000156",
         "sphere_code": "land",
         "short_title": "Соблюдение срока направления копии решения местного исполнительного органа, земельно-кадастрового плана и т…"
       },
       {
-        "card_code": "TREB-MVP-000156",
+        "card_code": "TREB-MVP-000158",
         "sphere_code": "land",
         "short_title": "Соблюдение срока направления копии решения местного исполнительного органа, земельно-кадастрового плана и т…"
       }

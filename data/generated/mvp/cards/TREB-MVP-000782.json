@@ -91,6 +91,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из services (ml_category=—, req_category=CERTIFICATE_LICENSE). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001085",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 4 похожих карточек в сфере transport: TREB-MVP-001030, TREB-MVP-001031, TREB-MVP-001032, TREB-MVP-001033. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001085. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -104,7 +113,34 @@
       "ml_category": null
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001085",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001033",
+        "sphere_code": "transport",
+        "short_title": "электронная копия сертификата экземпляра воздушного судна с указанием применимых модификаций и ремонтов"
+      },
+      {
+        "card_code": "TREB-MVP-001032",
+        "sphere_code": "transport",
+        "short_title": "электронная копия сертификата экземпляра воздушного судна с указанием применимых модификаций и ремонтов"
+      },
+      {
+        "card_code": "TREB-MVP-001031",
+        "sphere_code": "transport",
+        "short_title": "электронная копия сертификата экземпляра воздушного судна с указанием применимых модификаций и ремонтов"
+      },
+      {
+        "card_code": "TREB-MVP-001030",
+        "sphere_code": "transport",
+        "short_title": "электронная копия сертификата экземпляра воздушного судна с указанием применимых модификаций и ремонтов"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch6-auto",

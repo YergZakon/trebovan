@@ -108,11 +108,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-LAN-000259",
+      "value": "DUP-AI-LAN-000260",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
       "confidence": 0.867,
-      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере land: TREB-MVP-000240, TREB-MVP-000243. Средняя текстовая similarity (Jaccard 3-грамм): 0.87. Группа: DUP-AI-LAN-000259. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере land: TREB-MVP-000240, TREB-MVP-000243. Средняя текстовая similarity (Jaccard 3-грамм): 0.87. Группа: DUP-AI-LAN-000260. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -128,20 +128,20 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-LAN-000259",
+    "group_code": "DUP-AI-LAN-000260",
     "duplicate_type": "text_ai",
     "avg_similarity": 0.867,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000243",
-        "sphere_code": "land",
-        "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка (один месяц)"
-      },
-      {
         "card_code": "TREB-MVP-000240",
         "sphere_code": "land",
         "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка"
+      },
+      {
+        "card_code": "TREB-MVP-000243",
+        "sphere_code": "land",
+        "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка (один месяц)"
       }
     ]
   },

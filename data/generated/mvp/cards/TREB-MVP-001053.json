@@ -1,0 +1,142 @@
+{
+  "card_code": "TREB-MVP-001053",
+  "sphere": {
+    "code": "land",
+    "name": "Земля и землепользование"
+  },
+  "subsphere": "Земельный кодекс РК",
+  "titles": {
+    "short": "Обязанность прекратить работы и уведомить госорган при обнаружении историко-культурных объектов.",
+    "canonical": "Обязанность прекратить работы и уведомить госорган при обнаружении историко-культурных объектов.",
+    "legal": "В случае обнаружения объектов, имеющих историческую ценность, землепользователи обязаны приостановить ведение работ и сообщить уполномоченному органу по охране историко-культурного наследия",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любой субъект (ФЛ/ЮЛ/ИП)",
+    "action": "приостановить",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "land_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Земельный кодекс РК",
+      "article_ref": "Ст. 127, п. 1",
+      "url": null,
+      "fragment_text": "В случае обнаружения объектов, имеющих историческую ценность, землепользователи обязаны приостановить ведение работ и сообщить уполномоченному органу по охране историко-культурного наследия",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "land_use_type",
+            "value": [
+              "agricultural",
+              "settlement",
+              "industrial",
+              "protected"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch7.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-LAN-000519",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-000839. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000519. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7344,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "В случае обнаружения объектов, имеющих историческую ценность, землепользователи обязаны приостановить ведение работ и сообщить уполномоченному органу по охране историко-культурного наследия",
+      "npa_title": "Земельный кодекс РК",
+      "article_ref": "Ст. 127, п. 1",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-LAN-000519",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000839",
+        "sphere_code": "land",
+        "short_title": "Обязанность прекратить работы и уведомить госорган при обнаружении историко-культурных объектов."
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch7-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T03:51:40.212Z",
+    "updated_at": "2026-04-30T03:51:40.212Z"
+  }
+}

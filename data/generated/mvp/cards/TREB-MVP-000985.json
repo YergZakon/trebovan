@@ -1,0 +1,116 @@
+{
+  "card_code": "TREB-MVP-000985",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "О внутреннем водном транспорте",
+  "titles": {
+    "short": "Капитан обязан потребовать замену лоцмана при обязательной проводке, если сомневается в его рекомендациях",
+    "canonical": "Капитан обязан потребовать замену лоцмана при обязательной проводке, если сомневается в его рекомендациях",
+    "legal": "Капитан судна обязан потребовать замену лоцмана, если лоцманская проводка судна является обязательной и капитан отказался от услуг лоцмана в случае возникновения сомнений в правильности его рекомендаций",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "потребовать",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_ml_dataset",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 20 п. 4",
+      "url": null,
+      "fragment_text": "Капитан судна обязан потребовать замену лоцмана, если лоцманская проводка судна является обязательной и капитан отказался от услуг лоцмана в случае возникновения сомнений в правильности его рекомендаций",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "eq",
+            "axis": "transport_subtype",
+            "value": "maritime"
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch7.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 7485,
+      "source_layer": "ml_dataset",
+      "source_file": "ml_dataset_2026-04-27.csv",
+      "text_preview": "Капитан судна обязан потребовать замену лоцмана, если лоцманская проводка судна является обязательной и капитан отказался от услуг лоцмана в случае возникновения сомнений в правильности его рекомендац",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 20 п. 4",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch7-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T03:55:07.792Z",
+    "updated_at": "2026-04-30T03:55:07.792Z"
+  }
+}

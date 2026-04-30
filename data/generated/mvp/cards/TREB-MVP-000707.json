@@ -97,6 +97,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Документы и записи). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001062",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.905,
+      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере transport: TREB-MVP-001007, TREB-MVP-001009. Средняя текстовая similarity (Jaccard 3-грамм): 0.91. Группа: DUP-AI-TRA-001062. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -110,7 +119,24 @@
       "ml_category": null
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001062",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.905,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001009",
+        "sphere_code": "transport",
+        "short_title": "Отсутствие на базе-стоянке журнала учета выхода маломерных судов и их возвращения в произвольной форме."
+      },
+      {
+        "card_code": "TREB-MVP-001007",
+        "sphere_code": "transport",
+        "short_title": "Отсутствие на базе-стоянке журнала учета выхода маломерных судов и их возвращения в произвольной форме"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch6-auto",

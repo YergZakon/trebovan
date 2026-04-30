@@ -120,12 +120,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000402",
+        "card_code": "TREB-MVP-000401",
         "sphere_code": "ecology",
         "short_title": "Идентификация сельскохозяйственных животных и оформление на них ветеринарных паспортов"
       },
       {
-        "card_code": "TREB-MVP-000401",
+        "card_code": "TREB-MVP-000402",
         "sphere_code": "ecology",
         "short_title": "Идентификация сельскохозяйственных животных и оформление на них ветеринарных паспортов"
       }

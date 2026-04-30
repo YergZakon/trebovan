@@ -10,93 +10,13 @@
   "is_published": true,
   "display_order": 40,
   "stats": {
-    "total_cards": 16,
-    "required": 11,
+    "total_cards": 12,
+    "required": 7,
     "optional": 5,
     "concrete": 12,
-    "noise": 4
+    "noise": 0
   },
   "cards": [
-    {
-      "card_code": "TREB-MVP-000160",
-      "sphere_code": "land",
-      "subsphere": "(не указано)",
-      "short_title": "Предоставление и изменение целевого назначения земельных участков или права аренды земельных участков в соо…",
-      "role_fragment": "действие государственного органа",
-      "role_class": "noise",
-      "requirement_type": "отчётность",
-      "specificity": null,
-      "mandatory_level": null,
-      "timing": null,
-      "frequency": "periodic_year",
-      "evidence_required": null,
-      "consequences": null,
-      "life_cycle_stage": "operation",
-      "confidence": 0.7,
-      "is_required": true,
-      "ordering": 10,
-      "notes": "Целевое назначение участка должно соответствовать строительству."
-    },
-    {
-      "card_code": "TREB-MVP-000164",
-      "sphere_code": "land",
-      "subsphere": "(не указано)",
-      "short_title": "Предоставление и изменение целевого назначения земельных участков или права аренды земельных участков в соо…",
-      "role_fragment": "действие государственного органа",
-      "role_class": "noise",
-      "requirement_type": "отчётность",
-      "specificity": null,
-      "mandatory_level": null,
-      "timing": null,
-      "frequency": "periodic_year",
-      "evidence_required": null,
-      "consequences": null,
-      "life_cycle_stage": "operation",
-      "confidence": 0.7,
-      "is_required": true,
-      "ordering": 20,
-      "notes": "Целевое назначение участка должно соответствовать строительству."
-    },
-    {
-      "card_code": "TREB-MVP-000239",
-      "sphere_code": "land",
-      "subsphere": "(не указано)",
-      "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка",
-      "role_fragment": "действие государственного органа",
-      "role_class": "noise",
-      "requirement_type": "процесс",
-      "specificity": null,
-      "mandatory_level": null,
-      "timing": null,
-      "frequency": "continuous",
-      "evidence_required": null,
-      "consequences": null,
-      "life_cycle_stage": "operation",
-      "confidence": 0.7,
-      "is_required": true,
-      "ordering": 30,
-      "notes": "Целевое назначение участка должно соответствовать строительству."
-    },
-    {
-      "card_code": "TREB-MVP-000240",
-      "sphere_code": "land",
-      "subsphere": "(не указано)",
-      "short_title": "Соблюдение срока рассмотрения заявления об изменении целевого назначения земельного участка",
-      "role_fragment": "действие государственного органа",
-      "role_class": "noise",
-      "requirement_type": "процесс",
-      "specificity": null,
-      "mandatory_level": null,
-      "timing": null,
-      "frequency": "continuous",
-      "evidence_required": null,
-      "consequences": null,
-      "life_cycle_stage": "operation",
-      "confidence": 0.7,
-      "is_required": true,
-      "ordering": 40,
-      "notes": "Целевое назначение участка должно соответствовать строительству."
-    },
     {
       "card_code": "TREB-MVP-000104",
       "sphere_code": "land",
@@ -114,7 +34,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.93,
       "is_required": true,
-      "ordering": 50,
+      "ordering": 10,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -134,7 +54,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 60,
+      "ordering": 20,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -154,7 +74,7 @@
       "life_cycle_stage": "operation;expansion",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 70,
+      "ordering": 30,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -174,7 +94,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 80,
+      "ordering": 40,
       "notes": "Если получаете участок в аренду — типовые требования."
     },
     {
@@ -194,7 +114,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.93,
       "is_required": true,
-      "ordering": 90,
+      "ordering": 50,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -214,7 +134,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 100,
+      "ordering": 60,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -234,7 +154,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": true,
-      "ordering": 110,
+      "ordering": 70,
       "notes": "Минимальная санитарно-защитная зона."
     },
     {
@@ -254,7 +174,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.93,
       "is_required": false,
-      "ordering": 120,
+      "ordering": 80,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -274,7 +194,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 130,
+      "ordering": 90,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -294,7 +214,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 140,
+      "ordering": 100,
       "notes": "Применимо если строительство связано с эмиссиями."
     },
     {
@@ -314,7 +234,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.93,
       "is_required": false,
-      "ordering": 150,
+      "ordering": 110,
       "notes": "Если объект влияет на водные ресурсы."
     },
     {
@@ -334,7 +254,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 160,
+      "ordering": 120,
       "notes": "Если объект влияет на водные ресурсы."
     }
   ]

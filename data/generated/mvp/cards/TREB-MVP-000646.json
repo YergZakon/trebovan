@@ -120,12 +120,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000647",
+        "card_code": "TREB-MVP-000645",
         "sphere_code": "ecology",
         "short_title": "договор с организацией (специализированной) на компенсационное озеленение"
       },
       {
-        "card_code": "TREB-MVP-000645",
+        "card_code": "TREB-MVP-000647",
         "sphere_code": "ecology",
         "short_title": "договор с организацией (специализированной) на компенсационное озеленение"
       }

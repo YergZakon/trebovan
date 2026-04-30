@@ -9,10 +9,10 @@
   "is_published": true,
   "display_order": 20,
   "stats": {
-    "total_cards": 12,
-    "required": 4,
+    "total_cards": 14,
+    "required": 6,
     "optional": 8,
-    "concrete": 12,
+    "concrete": 14,
     "noise": 0
   },
   "cards": [
@@ -77,6 +77,26 @@
       "notes": "Применимо к автомобильным перевозкам грузов."
     },
     {
+      "card_code": "TREB-MVP-000967",
+      "sphere_code": "transport",
+      "subsphere": "Об утверждении Методики расчета тарифов на оказание услуг по перевозке пассажиро",
+      "short_title": "Ежегодная норма амортизации автотранспорта составляет 15%",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "норматив",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "periodic_year",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 40,
+      "notes": "Применимо к автомобильным перевозкам грузов."
+    },
+    {
       "card_code": "TREB-MVP-000080",
       "sphere_code": "transport",
       "subsphere": "Внутренний водный транспорт / измерения массы",
@@ -93,7 +113,27 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": true,
-      "ordering": 40,
+      "ordering": 50,
+      "notes": "Весовое оборудование подлежит метрологическому контролю."
+    },
+    {
+      "card_code": "TREB-MVP-000942",
+      "sphere_code": "transport",
+      "subsphere": "О внутреннем водном транспорте",
+      "short_title": "Весовое оборудование должно проходить метрологический контроль",
+      "role_fragment": "обязанность бизнеса",
+      "role_class": "core",
+      "requirement_type": "норматив",
+      "specificity": "concrete",
+      "mandatory_level": "mandatory",
+      "timing": null,
+      "frequency": "periodic_year",
+      "evidence_required": null,
+      "consequences": null,
+      "life_cycle_stage": "operation",
+      "confidence": 0.7,
+      "is_required": true,
+      "ordering": 60,
       "notes": "Весовое оборудование подлежит метрологическому контролю."
     },
     {
@@ -113,7 +153,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 50,
+      "ordering": 70,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -133,7 +173,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 60,
+      "ordering": 80,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -153,7 +193,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 70,
+      "ordering": 90,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -173,7 +213,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 80,
+      "ordering": 100,
       "notes": "Применимо если перевозите опасные грузы (классы 1, 6, 7)."
     },
     {
@@ -193,7 +233,7 @@
       "life_cycle_stage": "pre_launch",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 90,
+      "ordering": 110,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -213,7 +253,7 @@
       "life_cycle_stage": "pre_launch;operation",
       "confidence": 0.95,
       "is_required": false,
-      "ordering": 100,
+      "ordering": 120,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -233,7 +273,7 @@
       "life_cycle_stage": "operation",
       "confidence": 0.7,
       "is_required": false,
-      "ordering": 110,
+      "ordering": 130,
       "notes": "Финансовое обеспечение ответственности перевозчика."
     },
     {
@@ -253,7 +293,7 @@
       "life_cycle_stage": "inspection;operation",
       "confidence": 0.92,
       "is_required": false,
-      "ordering": 120,
+      "ordering": 140,
       "notes": "Применимо при проверках и предписаниях."
     }
   ]

@@ -134,12 +134,12 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000789",
+        "card_code": "TREB-MVP-000787",
         "sphere_code": "land",
         "short_title": "Накопление, обработка и ведение банка данных о земельных участках и их субъектах, а также другой земельно-к…"
       },
       {
-        "card_code": "TREB-MVP-000787",
+        "card_code": "TREB-MVP-000789",
         "sphere_code": "land",
         "short_title": "Накопление, обработка и ведение банка данных о земельных участках и их субъектах, а также другой земельно-к…"
       }

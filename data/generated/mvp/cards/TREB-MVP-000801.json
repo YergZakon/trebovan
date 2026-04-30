@@ -98,11 +98,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-LAN-000543",
+      "value": "DUP-AI-LAN-000293",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
       "confidence": 0.804,
-      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере land: TREB-MVP-000273, TREB-MVP-000274. Средняя текстовая similarity (Jaccard 3-грамм): 0.80. Группа: DUP-AI-LAN-000543. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере land: TREB-MVP-000273, TREB-MVP-000274. Средняя текстовая similarity (Jaccard 3-грамм): 0.80. Группа: DUP-AI-LAN-000293. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -118,20 +118,20 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-LAN-000543",
+    "group_code": "DUP-AI-LAN-000293",
     "duplicate_type": "text_ai",
     "avg_similarity": 0.804,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000274",
-        "sphere_code": "land",
-        "short_title": "Соблюдение согласующими органами срока предоставления соответствующего заключения о возможности предоставле…"
-      },
-      {
         "card_code": "TREB-MVP-000273",
         "sphere_code": "land",
         "short_title": "Соблюдения согласующими органами срока предоставления соответствующего заключения о возможности предоставле…"
+      },
+      {
+        "card_code": "TREB-MVP-000274",
+        "sphere_code": "land",
+        "short_title": "Соблюдение согласующими органами срока предоставления соответствующего заключения о возможности предоставле…"
       }
     ]
   },
