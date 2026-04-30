@@ -94,11 +94,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-001054",
+      "value": "DUP-AI-TRA-001752",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 0.6,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-000999. Средняя текстовая similarity (Jaccard 3-грамм): 0.60. Группа: DUP-AI-TRA-001054. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.733,
+      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере transport: TREB-MVP-001710, TREB-MVP-000999. Средняя текстовая similarity (Jaccard 3-грамм): 0.73. Группа: DUP-AI-TRA-001752. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -114,13 +114,18 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-001054",
+    "group_code": "DUP-AI-TRA-001752",
     "duplicate_type": "text_ai",
-    "avg_similarity": 0.6,
+    "avg_similarity": 0.733,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
         "card_code": "TREB-MVP-000999",
+        "sphere_code": "transport",
+        "short_title": "Обязательные реквизиты договора тайм-чартера"
+      },
+      {
+        "card_code": "TREB-MVP-001710",
         "sphere_code": "transport",
         "short_title": "Обязательные реквизиты договора тайм-чартера"
       }

@@ -2,13 +2,13 @@
   {
     "code": "ecology",
     "name": "Экология и природопользование",
-    "total_cards": 588,
-    "core": 563,
+    "total_cards": 758,
+    "core": 733,
     "procedural": 17,
     "noise": 8,
-    "business_route": 561,
+    "business_route": 731,
     "specificity": {
-      "concrete": 578,
+      "concrete": 748,
       "framework": 2,
       "referential": 0,
       "principle": 0,
@@ -18,29 +18,29 @@
   {
     "code": "transport",
     "name": "Транспорт",
-    "total_cards": 543,
-    "core": 536,
+    "total_cards": 693,
+    "core": 684,
     "procedural": 5,
-    "noise": 2,
-    "business_route": 531,
+    "noise": 4,
+    "business_route": 679,
     "specificity": {
-      "concrete": 536,
+      "concrete": 684,
       "framework": 3,
       "referential": 1,
       "principle": 1,
-      "none": 2
+      "none": 4
     }
   },
   {
     "code": "land",
     "name": "Земля и землепользование",
-    "total_cards": 354,
-    "core": 246,
+    "total_cards": 396,
+    "core": 279,
     "procedural": 2,
-    "noise": 106,
-    "business_route": 246,
+    "noise": 115,
+    "business_route": 279,
     "specificity": {
-      "concrete": 248,
+      "concrete": 290,
       "framework": 0,
       "referential": 0,
       "principle": 0,

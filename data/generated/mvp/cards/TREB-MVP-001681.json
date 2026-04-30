@@ -1,0 +1,141 @@
+{
+  "card_code": "TREB-MVP-001681",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "О внутреннем водном транспорте",
+  "titles": {
+    "short": "Учебные организации обязаны предоставлять списки выпускников",
+    "canonical": "Организации, открывшие курсы по подготовке судоводителей маломерных судов, обязаны направлять в местный исполнительный орган списки лиц, успешно прошедших обучение по программе подготовки судоводителей маломерных судов",
+    "legal": "Организации, открывшие курсы по подготовке судоводителей маломерных судов, обязаны направлять в местный исполнительный орган списки лиц, успешно прошедших обучение по программе подготовки судоводителей маломерных судов",
+    "business": null
+  },
+  "structure": {
+    "subject": "Юридическое лицо",
+    "action": "направлять",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "описательная",
+    "requirement_subtype": null,
+    "role_fragment": "действие государственного органа",
+    "role_class": "noise",
+    "regulatory_regime": "transport_npa_extracted",
+    "life_cycle_stage": "operation",
+    "mandatory_level": null,
+    "specificity": null
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 15-4 п. 6",
+      "url": null,
+      "fragment_text": "Организации, открывшие курсы по подготовке судоводителей маломерных судов, обязаны направлять в местный исполнительный орган списки лиц, успешно прошедших обучение по программе подготовки судоводителей маломерных судов",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "не_применимо: действие госоргана\n",
+      "json": {
+        "all_of": [],
+        "any_of": [],
+        "exceptions": [],
+        "scope_note": "процедура госоргана, не порождает обязанности бизнеса"
+      },
+      "notes": "Не включается в маршрут предпринимателя"
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch9.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "role_fragment",
+      "value": "действие государственного органа",
+      "source": "rule",
+      "method": "regex_organ_pattern",
+      "confidence": 0.85,
+      "explanation": "Текст содержит признаки процедуры госоргана (МИО, комитет, формирование перечня). Не порождает обязанности бизнеса. Помечено как noise.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001723",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001343. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001723. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 11967,
+      "source_layer": "npa_extracted",
+      "source_file": "requirements_transport.json",
+      "text_preview": "Организации, открывшие курсы по подготовке судоводителей маломерных судов, обязаны направлять в местный исполнительный орган списки лиц, успешно прошедших обучение по программе подготовки судоводителе",
+      "npa_title": "О внутреннем водном транспорте",
+      "article_ref": "ст. 15-4 п. 6",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001723",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001343",
+        "sphere_code": "transport",
+        "short_title": "Учебные организации обязаны предоставлять списки выпускников"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch9-auto",
+    "model_confidence": 0.85,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T09:21:01.151Z",
+    "updated_at": "2026-04-30T09:21:01.151Z"
+  }
+}

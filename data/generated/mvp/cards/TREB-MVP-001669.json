@@ -1,0 +1,153 @@
+{
+  "card_code": "TREB-MVP-001669",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "О торговом мореплавании",
+  "titles": {
+    "short": "Обязанность устранить нарушения в сроки, указанные в предписании",
+    "canonical": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушений",
+    "legal": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушений",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любой субъект (ФЛ/ЮЛ/ИП)",
+    "action": "устранить",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "процесс",
+    "requirement_subtype": null,
+    "role_fragment": "обязанность бизнеса",
+    "role_class": "core",
+    "regulatory_regime": "transport_npa_extracted",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "О торговом мореплавании",
+      "article_ref": "ст. 8-6 п. 9",
+      "url": null,
+      "fragment_text": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушений",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "medium",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch9.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001711",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 0.839,
+      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере transport: TREB-MVP-001708, TREB-MVP-001337, TREB-MVP-001348. Средняя текстовая similarity (Jaccard 3-грамм): 0.84. Группа: DUP-AI-TRA-001711. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 12071,
+      "source_layer": "npa_extracted",
+      "source_file": "requirements_transport.json",
+      "text_preview": "Субъект контроля и надзора обязан устранить выявленные нарушения требований, являющиеся основанием для применения меры оперативного реагирования, в сроки, указанные в предписании об устранении нарушен",
+      "npa_title": "О торговом мореплавании",
+      "article_ref": "ст. 8-6 п. 9",
+      "ml_category": "OBL"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001711",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 0.839,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001348",
+        "sphere_code": "transport",
+        "short_title": "Субъект обязан устранить нарушения в сроки, указанные в предписании"
+      },
+      {
+        "card_code": "TREB-MVP-001337",
+        "sphere_code": "transport",
+        "short_title": "Обязанность устранить нарушения в сроки, указанные в предписании"
+      },
+      {
+        "card_code": "TREB-MVP-001708",
+        "sphere_code": "transport",
+        "short_title": "Субъект обязан устранить нарушения в сроки, указанные в предписании"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch9-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T09:21:01.151Z",
+    "updated_at": "2026-04-30T09:21:01.151Z"
+  }
+}

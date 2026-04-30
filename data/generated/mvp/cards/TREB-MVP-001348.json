@@ -100,11 +100,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-001391",
+      "value": "DUP-AI-TRA-001711",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 0.759,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001337. Средняя текстовая similarity (Jaccard 3-грамм): 0.76. Группа: DUP-AI-TRA-001391. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.839,
+      "explanation": "ИИ-детектор обнаружил 3 похожих карточек в сфере transport: TREB-MVP-001669, TREB-MVP-001708, TREB-MVP-001337. Средняя текстовая similarity (Jaccard 3-грамм): 0.84. Группа: DUP-AI-TRA-001711. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -120,13 +120,23 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-001391",
+    "group_code": "DUP-AI-TRA-001711",
     "duplicate_type": "text_ai",
-    "avg_similarity": 0.759,
+    "avg_similarity": 0.839,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
         "card_code": "TREB-MVP-001337",
+        "sphere_code": "transport",
+        "short_title": "Обязанность устранить нарушения в сроки, указанные в предписании"
+      },
+      {
+        "card_code": "TREB-MVP-001708",
+        "sphere_code": "transport",
+        "short_title": "Субъект обязан устранить нарушения в сроки, указанные в предписании"
+      },
+      {
+        "card_code": "TREB-MVP-001669",
         "sphere_code": "transport",
         "short_title": "Обязанность устранить нарушения в сроки, указанные в предписании"
       }

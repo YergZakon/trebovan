@@ -89,21 +89,21 @@
   },
   "field_metadata": [
     {
-      "field": "duplicate_alert",
-      "value": "DUP-AI-LAN-000887",
-      "source": "rule",
-      "method": "jaccard_3gram>=0.55",
-      "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-001087. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000887. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
-      "check_status": "unchecked"
-    },
-    {
       "field": "auto_generation",
       "value": "batch4 шаблон",
       "source": "rule",
       "method": "generate_batch7.py",
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=ZAP, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-LAN-000887",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере land: TREB-MVP-001087. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-LAN-000887. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],

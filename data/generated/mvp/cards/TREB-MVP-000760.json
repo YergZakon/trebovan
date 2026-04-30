@@ -120,22 +120,22 @@
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
-        "card_code": "TREB-MVP-000759",
-        "sphere_code": "transport",
-        "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
-      },
-      {
-        "card_code": "TREB-MVP-000758",
-        "sphere_code": "transport",
-        "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
-      },
-      {
         "card_code": "TREB-MVP-000507",
         "sphere_code": "transport",
         "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
       },
       {
         "card_code": "TREB-MVP-000506",
+        "sphere_code": "transport",
+        "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000759",
+        "sphere_code": "transport",
+        "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
+      },
+      {
+        "card_code": "TREB-MVP-000758",
         "sphere_code": "transport",
         "short_title": "копия договора об аренде и приемо-сдаточного акта, если воздушное судно арендуется"
       }

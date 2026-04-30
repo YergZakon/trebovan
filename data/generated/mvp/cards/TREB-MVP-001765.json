@@ -1,0 +1,122 @@
+{
+  "card_code": "TREB-MVP-001765",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "(не указано)",
+  "titles": {
+    "short": "Отсутствие на каждой единице подвижного состава технического паспорта, содержащий технические и эксплуатаци…",
+    "canonical": "Отсутствие на каждой единице подвижного состава технического паспорта, содержащий технические и эксплуатационные характеристики",
+    "legal": "Отсутствие на каждой единице подвижного состава технического паспорта, содержащий технические и эксплуатационные характеристики",
+    "business": null
+  },
+  "structure": {
+    "subject": "Субъект, к которому применяется норма",
+    "action": "—",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "документ для заявления",
+    "role_class": "core",
+    "regulatory_regime": "transport_надзор_Комитет автомобильного транспо",
+    "life_cycle_stage": "operation",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "(не указано)",
+      "article_ref": null,
+      "url": null,
+      "fragment_text": "Отсутствие на каждой единице подвижного состава технического паспорта, содержащий технические и эксплуатационные характеристики",
+      "relation_status": "косвенная_связь",
+      "confidence": 0.7
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch9.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из rot_checklist (ml_category=—, req_category=Документы и записи). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 2714,
+      "source_layer": "rot_checklist",
+      "source_file": "data_requirements.csv.gz",
+      "text_preview": "Отсутствие на каждой единице подвижного состава технического паспорта, содержащий технические и эксплуатационные характеристики",
+      "npa_title": null,
+      "article_ref": null,
+      "ml_category": null
+    }
+  ],
+  "duplicate_alert": null,
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch9-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T09:21:01.151Z",
+    "updated_at": "2026-04-30T09:21:01.151Z"
+  }
+}

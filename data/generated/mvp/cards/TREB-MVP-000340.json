@@ -91,6 +91,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из ml_dataset (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-ECO-000340",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере ecology: TREB-MVP-001569. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-ECO-000340. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -104,7 +113,19 @@
       "ml_category": "OBL"
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-ECO-000340",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001569",
+        "sphere_code": "ecology",
+        "short_title": "Обязателен постоянный контроль и снижение доз при превышении 2 мЗв/год"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch5-auto",

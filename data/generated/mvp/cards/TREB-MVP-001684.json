@@ -1,0 +1,143 @@
+{
+  "card_code": "TREB-MVP-001684",
+  "sphere": {
+    "code": "transport",
+    "name": "Транспорт"
+  },
+  "subsphere": "Об утверждении Правил вынесения заключения на трансграничную перевозку опасных о",
+  "titles": {
+    "short": "Заявители обязаны представить пакет документов для получения согласия на ввоз отходов",
+    "canonical": "Для получения согласия компетентного органа государства, на территорию которого ввозятся отходы, физическим и юридическим лицам необходимо представить документы согласно перечню, предусмотренный пунктом 6 настоящих Правил",
+    "legal": "Для получения согласия компетентного органа государства, на территорию которого ввозятся отходы, физическим и юридическим лицам необходимо представить документы согласно перечню, предусмотренный пунктом 6 настоящих Правил",
+    "business": null
+  },
+  "structure": {
+    "subject": "Любой субъект (ФЛ/ЮЛ/ИП)",
+    "action": "представить",
+    "object": "—",
+    "condition": null,
+    "exception": null
+  },
+  "classification": {
+    "requirement_type": "документ",
+    "requirement_subtype": null,
+    "role_fragment": "документ для заявления",
+    "role_class": "core",
+    "regulatory_regime": "transport_npa_extracted",
+    "life_cycle_stage": "registration;pre_launch",
+    "mandatory_level": "mandatory",
+    "specificity": "concrete"
+  },
+  "execution": {
+    "timing": null,
+    "frequency": "continuous",
+    "evidence_required": null,
+    "evidence_form": null,
+    "consequences": null,
+    "can_be_online": false,
+    "related_service_url": null
+  },
+  "npa_links": [
+    {
+      "title": "Об утверждении Правил вынесения заключения на трансграничную перевозку опасных о",
+      "article_ref": "п. 4",
+      "url": null,
+      "fragment_text": "Для получения согласия компетентного органа государства, на территорию которого ввозятся отходы, физическим и юридическим лицам необходимо представить документы согласно перечню, предусмотренный пунктом 6 настоящих Правил",
+      "relation_status": "прямая_связь",
+      "confidence": 0.9
+    }
+  ],
+  "okved_links": [],
+  "applicability_rules": [
+    {
+      "yaml": "автогенерация — упрощённое правило, требует уточнения\n",
+      "json": {
+        "all_of": [
+          {
+            "op": "in",
+            "axis": "transport_subtype",
+            "value": [
+              "maritime",
+              "inland_waterway",
+              "automobile",
+              "railway",
+              "aviation"
+            ]
+          }
+        ],
+        "any_of": [],
+        "exceptions": []
+      },
+      "notes": "Авто-сгенерированное правило. Эксперт должен уточнить условия."
+    }
+  ],
+  "burden": {
+    "is_periodic": false,
+    "frequency_per_year": null,
+    "num_documents": 1,
+    "num_authorities": 1,
+    "num_actions": 1,
+    "estimated_cost_kzt": null,
+    "waiting_days": null,
+    "validity_days": null,
+    "fine_risk": "medium",
+    "suspension_risk": "low",
+    "refusal_risk": "low",
+    "needs_external_spec": false,
+    "needs_equipment": false,
+    "needs_premises": false,
+    "burden_index": null
+  },
+  "field_metadata": [
+    {
+      "field": "auto_generation",
+      "value": "batch4 шаблон",
+      "source": "rule",
+      "method": "generate_batch9.py",
+      "confidence": 0.7,
+      "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=DOC, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
+      "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001048",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-000993. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001048. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
+    }
+  ],
+  "sources": [
+    {
+      "fragment_id": 12211,
+      "source_layer": "npa_extracted",
+      "source_file": "requirements_transport.json",
+      "text_preview": "Для получения согласия компетентного органа государства, на территорию которого ввозятся отходы, физическим и юридическим лицам необходимо представить документы согласно перечню, предусмотренный пункт",
+      "npa_title": "Об утверждении Правил вынесения заключения на трансграничную перевозку опасных о",
+      "article_ref": "п. 4",
+      "ml_category": "DOC"
+    }
+  ],
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001048",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-000993",
+        "sphere_code": "transport",
+        "short_title": "Заявители обязаны представить пакет документов для получения согласия на ввоз отходов"
+      }
+    ]
+  },
+  "meta": {
+    "generated_by": "claude-opus-4-7",
+    "prompt_version": "v1-batch9-auto",
+    "model_confidence": 0.7,
+    "expert_status": "unchecked",
+    "created_at": "2026-04-30T09:21:01.151Z",
+    "updated_at": "2026-04-30T09:21:01.151Z"
+  }
+}

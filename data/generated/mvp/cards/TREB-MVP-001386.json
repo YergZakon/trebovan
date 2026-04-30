@@ -100,11 +100,11 @@
     },
     {
       "field": "duplicate_alert",
-      "value": "DUP-AI-TRA-001440",
+      "value": "DUP-AI-TRA-001839",
       "source": "rule",
       "method": "jaccard_3gram>=0.55",
-      "confidence": 1,
-      "explanation": "ИИ-детектор обнаружил 2 похожих карточек в сфере transport: TREB-MVP-001398, TREB-MVP-001399. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001440. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "confidence": 0.809,
+      "explanation": "ИИ-детектор обнаружил 7 похожих карточек в сфере transport: TREB-MVP-001797, TREB-MVP-001798, TREB-MVP-001799, TREB-MVP-001802, TREB-MVP-001803.... Средняя текстовая similarity (Jaccard 3-грамм): 0.81. Группа: DUP-AI-TRA-001839. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
       "check_status": "unchecked"
     }
   ],
@@ -120,9 +120,9 @@
     }
   ],
   "duplicate_alert": {
-    "group_code": "DUP-AI-TRA-001440",
+    "group_code": "DUP-AI-TRA-001839",
     "duplicate_type": "text_ai",
-    "avg_similarity": 1,
+    "avg_similarity": 0.809,
     "detected_method": "jaccard_3gram_v1",
     "peers": [
       {
@@ -134,6 +134,31 @@
         "card_code": "TREB-MVP-001398",
         "sphere_code": "transport",
         "short_title": "Несвоевременное прохождение подвижного состава и СПС планово-предупредительных видов ремонта и технического…"
+      },
+      {
+        "card_code": "TREB-MVP-001803",
+        "sphere_code": "transport",
+        "short_title": "Обеспечение своевременного прохождения подвижного состава и СПС планово-предупредительных видов ремонта и т…"
+      },
+      {
+        "card_code": "TREB-MVP-001802",
+        "sphere_code": "transport",
+        "short_title": "Обеспечение своевременного прохождения подвижного состава и СПС планово-предупредительных видов ремонта и т…"
+      },
+      {
+        "card_code": "TREB-MVP-001799",
+        "sphere_code": "transport",
+        "short_title": "Обеспечение своевременного прохождения подвижного состава и СПС планово-предупредительных видов ремонта и т…"
+      },
+      {
+        "card_code": "TREB-MVP-001798",
+        "sphere_code": "transport",
+        "short_title": "Обеспечение своевременного прохождения подвижного состава и СПС планово-предупредительных видов ремонта и т…"
+      },
+      {
+        "card_code": "TREB-MVP-001797",
+        "sphere_code": "transport",
+        "short_title": "Обеспечение своевременного прохождения подвижного состава и СПС планово-предупредительных видов ремонта и т…"
       }
     ]
   },

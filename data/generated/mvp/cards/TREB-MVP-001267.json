@@ -91,6 +91,15 @@
       "confidence": 0.7,
       "explanation": "Карточка сгенерирована автоматически из npa_extracted (ml_category=OBL, req_category=—). Требует ручного ревью эксперта на этапе валидации.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001321",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001737. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001321. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -104,7 +113,19 @@
       "ml_category": "OBL"
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001321",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001737",
+        "sphere_code": "transport",
+        "short_title": "Капитан и владелец судна должны заботиться о предотвращении экологического ущерба"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch8-auto",

@@ -95,6 +95,15 @@
       "confidence": 0.85,
       "explanation": "Текст содержит признаки процедуры госоргана (МИО, комитет, формирование перечня). Не порождает обязанности бизнеса. Помечено как noise.",
       "check_status": "unchecked"
+    },
+    {
+      "field": "duplicate_alert",
+      "value": "DUP-AI-TRA-001723",
+      "source": "rule",
+      "method": "jaccard_3gram>=0.55",
+      "confidence": 1,
+      "explanation": "ИИ-детектор обнаружил 1 похожих карточек в сфере transport: TREB-MVP-001681. Средняя текстовая similarity (Jaccard 3-грамм): 1.00. Группа: DUP-AI-TRA-001723. ВНИМАНИЕ: дедупликация не выполнена — карточки сохранены, требуется ручная проверка эксперта.",
+      "check_status": "unchecked"
     }
   ],
   "sources": [
@@ -108,7 +117,19 @@
       "ml_category": "OBL"
     }
   ],
-  "duplicate_alert": null,
+  "duplicate_alert": {
+    "group_code": "DUP-AI-TRA-001723",
+    "duplicate_type": "text_ai",
+    "avg_similarity": 1,
+    "detected_method": "jaccard_3gram_v1",
+    "peers": [
+      {
+        "card_code": "TREB-MVP-001681",
+        "sphere_code": "transport",
+        "short_title": "Учебные организации обязаны предоставлять списки выпускников"
+      }
+    ]
+  },
   "meta": {
     "generated_by": "claude-opus-4-7",
     "prompt_version": "v1-batch8-auto",
