@@ -3,28 +3,28 @@
   "sphere_name": "Земля и землепользование",
   "total_cards": 245,
   "role_class_counts": {
-    "core": 195,
+    "core": 193,
     "procedural": 2,
-    "noise": 48,
+    "noise": 50,
     "disputed": 0,
     "uncategorized": 0
   },
   "specificity_counts": {
-    "concrete": 197,
+    "concrete": 195,
     "framework": 0,
     "referential": 0,
     "principle": 0,
-    "none": 48
+    "none": 50
   },
-  "business_route_count": 195,
+  "business_route_count": 193,
   "role_counts": {
     "запрет": 22,
     "обязанность бизнеса": 137,
     "описательная норма": 11,
     "условие допуска": 9,
     "процедурная обязанность бизнеса": 2,
-    "документ для заявления": 27,
-    "действие государственного органа": 37
+    "документ для заявления": 25,
+    "действие государственного органа": 39
   },
   "subspheres_in_data": [
     {
@@ -296,11 +296,11 @@
           "sphere_code": "land",
           "subsphere": "(не указано)",
           "short_title": "Ведение автоматизированной информационной системы государственного земельного кадастра",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
           "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": true
         },
@@ -309,11 +309,11 @@
           "sphere_code": "land",
           "subsphere": "(не указано)",
           "short_title": "Ведение автоматизированной информационной системы государственного земельного кадастра",
-          "role_fragment": "документ для заявления",
-          "role_class": "core",
+          "role_fragment": "действие государственного органа",
+          "role_class": "noise",
           "requirement_type": "документ",
-          "mandatory_level": "mandatory",
-          "specificity": "concrete",
+          "mandatory_level": null,
+          "specificity": null,
           "confidence": 0.7,
           "has_duplicate_alert": true
         },

@@ -35,16 +35,16 @@
     "code": "land",
     "name": "Земля и землепользование",
     "total_cards": 245,
-    "core": 195,
+    "core": 193,
     "procedural": 2,
-    "noise": 48,
-    "business_route": 195,
+    "noise": 50,
+    "business_route": 193,
     "specificity": {
-      "concrete": 197,
+      "concrete": 195,
       "framework": 0,
       "referential": 0,
       "principle": 0,
-      "none": 48
+      "none": 50
     }
   }
 ]
